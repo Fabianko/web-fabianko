@@ -1,16 +1,29 @@
-<div class="container-fluid">
-  <div class="row text-center">
-    <div class="col-sm-4">
-      <h3>Opción 1</h3>
-      <p>Lorem ipsum dolor..</p>
+<div class="container-fluid" >
+  <div class="row" style="margin-top:20px">
+    <div class="col-md-4 " align="center">
+        <div class="card" >
+          <img src="assets/img/no-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card notice</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          </div>
+          <button type="button" class="btn btn-success btn-xs" (click)="onClick($event)">
+            <i class="fa fa-check"></i>
+            GOOD NEWS
+          </button>
+          <button type="button" class="btn btn-warning btn-xs" (click)="onClick($event)">
+              <i class="fa fa-question"></i>
+
+              I DON'T KNOW
+
+          </button>
+          <button type="button" class="btn btn-danger btn-xs" (click)="onClick($event)">
+            <i class="fa fa-times"></i>
+            BAD NEWS
+          </button>
+        </div>
     </div>
-    <div class="col-sm-4">
-      <h3>Opción 2</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Opción 3</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
+
   </div>
 </div>
