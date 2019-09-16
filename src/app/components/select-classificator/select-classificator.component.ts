@@ -12,4 +12,7 @@ export class SelectClassificatorComponent implements OnInit {
   ngOnInit() {
   }
 
+  public onClick(e) {
+    console.log(e)
+  }
 }
