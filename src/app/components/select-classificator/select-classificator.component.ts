@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-select-classificator',
+  templateUrl: './select-classificator.component.html',
+  styleUrls: ['./select-classificator.component.less']
+})
+export class SelectClassificatorComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
