@@ -6,16 +6,17 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" (click)="selectOption('')">test 1 <span class="sr-only">(current)</span></a>
+        <a class="nav-link" (click)="selectOption('NEWS')">News </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">test 2</a>
+        <a class="nav-link" (click)="selectOption('IMAGES')">Images</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">test 3</a>
+        <a class="nav-link"(click)="selectOption('CACA')">CACA</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<app-select-classificator></app-select-classificator>
+
+<app-select-classificator [type]="variableType"></app-select-classificator>

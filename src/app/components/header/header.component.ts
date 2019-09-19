@@ -12,7 +12,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
   public selectOption(option: string) {
-
+    this.variableType = option;
   }
+
+  public variableType: string = "NEWS";
 
 }
