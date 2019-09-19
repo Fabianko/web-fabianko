@@ -1,4 +1,5 @@
 import { Component, OnInit  } from '@angular/core';
+import { NgxXml2jsonService } from 'ngx-xml2json';
 
 @Component({
   selector: 'app-news-object',
@@ -7,7 +8,7 @@ import { Component, OnInit  } from '@angular/core';
 })
 export class NewsObjectComponent implements OnInit {
   public newsXML;
-  constructor() { }
+  constructor(private ngxXml2jsonService: NgxXml2jsonService) { }
 
   ngOnInit() {
     this.readNewsByRSS();
@@ -26,8 +27,12 @@ export class NewsObjectComponent implements OnInit {
      //ejecuta primero antes del send
     setTimeout(
       ()=> {
-        console.log(xhr.responseText);
+        //console.log(xhr.responseText);
         //parsear XML to JSON en JS
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(xhr.responseText, 'text/xml');
+        const obj = this.ngxXml2jsonService.xmlToJson(xml);
+        console.log(obj);
 
       },1000
     );
