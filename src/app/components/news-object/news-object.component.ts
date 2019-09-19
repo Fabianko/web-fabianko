@@ -28,9 +28,6 @@ export class NewsObjectComponent implements OnInit {
       ()=> {
         console.log(xhr.responseText);
         //parsear XML to JSON en JS
-        var parser = require('xml2json');
-        var json = parser.toJson(xhr.responseText);
-           return json;
 
       },1000
     );
