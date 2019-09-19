@@ -12,7 +12,12 @@ export class NewsObjectComponent implements OnInit {
   ngOnInit() {
     this.readNewsByRSS();
   }
-//Realiza la invocacion al servcion
+
+
+  public onClick(e) {
+    console.log(e);
+  }
+
   private readNewsByRSS() {
     let xhr = new XMLHttpRequest();
     let url = 'http://www.cooperativa.cl/noticias/site/tax/port/all/rss_5_6_7_1.xml';

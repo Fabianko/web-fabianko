@@ -13,5 +13,7 @@ export class ImageObjectComponent implements OnInit {
   }
 
 
-
+  public onClick(e) {
+    console.log(e);
+  }
 }

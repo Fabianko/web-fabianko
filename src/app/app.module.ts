@@ -1,4 +1,6 @@
+import { ImageObjectComponent } from './components/image-object/image-object.component';
 import { NewsObjectComponent } from './components/news-object/news-object.component';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -14,7 +16,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     AppComponent,
     HeaderComponent,
     SelectClassificatorComponent,
-    NewsObjectComponent
+    NewsObjectComponent,
+    ImageObjectComponent
   ],
   imports: [
     AngularFontAwesomeModule,
