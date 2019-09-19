@@ -13,6 +13,10 @@ export class NewsObjectComponent implements OnInit {
     this.readNewsByRSS();
   }
 
+  public onClick(e) {
+    console.log(e);
+  }
+
   private readNewsByRSS() {
     console.log("hola amor!!");
   }
