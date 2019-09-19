@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 
 @Component({
   selector: 'app-news-object',
@@ -6,15 +6,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news-object.component.less']
 })
 export class NewsObjectComponent implements OnInit {
-
+  public newsXML;
   constructor() { }
 
   ngOnInit() {
     this.readNewsByRSS();
   }
-
+//Realiza la invocacion al servcion
   private readNewsByRSS() {
-    console.log("hola amor!!");
+    let xhr = new XMLHttpRequest();
+    let url = 'http://www.cooperativa.cl/noticias/site/tax/port/all/rss_5_6_7_1.xml';
+     xhr.open('GET', url); // llama al url
+     xhr.send();
+     //ejecuta primero antes del send
+    setTimeout(
+      ()=> {
+        console.log(xhr.responseText);
+        //parsear XML to JSON en JS
+        var parser = require('xml2json');
+        var json = parser.toJson(xhr.responseText);
+           return json;
+
+      },1000
+    );
+
+
+
   }
 
 }
