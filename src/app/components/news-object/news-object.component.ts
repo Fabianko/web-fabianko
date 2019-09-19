@@ -7,7 +7,7 @@ import { NgxXml2jsonService } from 'ngx-xml2json';
   styleUrls: ['./news-object.component.less']
 })
 export class NewsObjectComponent implements OnInit {
-  public newsXML;
+  public newsJson={};
   constructor(private ngxXml2jsonService: NgxXml2jsonService) { }
 
   ngOnInit() {
@@ -31,9 +31,20 @@ export class NewsObjectComponent implements OnInit {
         //parsear XML to JSON en JS
         const parser = new DOMParser();
         const xml = parser.parseFromString(xhr.responseText, 'text/xml');
-        const obj = this.ngxXml2jsonService.xmlToJson(xml);
-        console.log(obj);
+        const obj:any = this.ngxXml2jsonService.xmlToJson(xml);
 
+        //this.newsJson['fuentes'] = obj['rss']['channel']['description'];
+        //this.newsJson ['noticias'] = obj ['rss']['channel']['item'] ;
+        let i = 0;
+        i = Math.floor(Math.random() * 10);
+        this.newsJson['fuente'] = obj.rss.channel.description;
+        this.newsJson ['noticias'] = obj.rss.channel.item[i];
+        if (this.newsJson['noticias']['prontus_fotolibre'] && typeof this.newsJson['noticias']['prontus_fotolibre'] === 'string') {
+          this.newsJson['imgNoticia'] = this.newsJson['noticias']['prontus_fotolibre'];
+          console.log(this.newsJson['imgNoticia']);
+        }
+
+        console.log(this.newsJson);
       },1000
     );
 

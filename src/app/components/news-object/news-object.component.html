@@ -1,8 +1,8 @@
-<div class="card" >
-    <img src="assets/img/no-image.jpg" class="card-img-top" alt="...">
+<div class="card" *ngIf="newsJson && newsJson.noticias">
+    <img [src]="newsJson.imgNoticia  ?'http://www.'+ newsJson.fuente+ newsJson.imgNoticia  : 'assets/img/no-image.jpg'" class="card-img-top" alt="...">
     <div class="card-body" >
-      <h5 class="card-title">Card notice</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title"> {{newsJson.noticias.title}} - {{newsJson.fuente}}</h5>
+      <p class="card-text">{{newsJson.noticias.description}}</p>
 
     </div>
     <button type="button" class="btn btn-success btn-xs" (click)="onClick($event)">
