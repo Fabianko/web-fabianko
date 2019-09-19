@@ -10,8 +10,11 @@ export class NewsObjectComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.readNewsByRSS();
   }
 
-
+  private readNewsByRSS() {
+    console.log("hola amor!!");
+  }
 
 }

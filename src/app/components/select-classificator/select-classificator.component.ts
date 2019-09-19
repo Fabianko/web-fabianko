@@ -11,6 +11,7 @@ export class SelectClassificatorComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.type);
   }
 
   public onClick(e) {
