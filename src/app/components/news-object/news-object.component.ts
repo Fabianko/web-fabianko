@@ -7,7 +7,7 @@ import { NgxXml2jsonService } from 'ngx-xml2json';
   styleUrls: ['./news-object.component.less']
 })
 export class NewsObjectComponent implements OnInit {
-  public newsJson={};
+  public newsJson: any = {};
   constructor(private ngxXml2jsonService: NgxXml2jsonService) { }
 
   ngOnInit() {
