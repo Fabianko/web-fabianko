@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./image-object.component.less']
 })
 export class ImageObjectComponent implements OnInit {
-
+  public number = 1;
   constructor() { }
 
   ngOnInit() {
+    this.number = Math.floor(Math.random() * 10);
   }
 
 

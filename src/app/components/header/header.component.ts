@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { SelectClassificatorComponent } from './../select-classificator/select-classificator.component';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.less']
 })
 export class HeaderComponent implements OnInit {
-
   constructor() { }
+  public variableType: string = 'NEWS';
+  @ViewChild('selectClassificator',{static:false}) public selectClassificator: SelectClassificatorComponent;
+
 
   ngOnInit() {
   }
@@ -15,10 +18,19 @@ export class HeaderComponent implements OnInit {
     this.variableType = undefined;
     setTimeout(() => {
       this.variableType = option;
+      // this.selectClassificator.ngOnInit();
     }, 0);
 
   }
 
-  public variableType: string = "NEWS";
+  public nextObject() {
+    const temp = this.variableType;
+    this.variableType = undefined;
+    setTimeout(() => {
+      this.variableType = temp;
+      // this.selectClassificator.ngOnInit();
+    }, 0);
+  }
+
 
 }

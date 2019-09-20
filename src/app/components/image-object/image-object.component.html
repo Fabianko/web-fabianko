@@ -1,15 +1,12 @@
 <div class="card" >
-    <img src="https://picsum.photos/600/300?random=1" >
-
+    <img [src]="'https://picsum.photos/600/300?random='+number.toString()" >
     <button type="button" class="btn btn-success btn-xs" (click)="onClick($event)">
       <i class="fa fa-check"></i>
       GOOD IMAGE
     </button>
     <button type="button" class="btn btn-warning btn-xs" (click)="onClick($event)">
-        <i class="fa fa-question"></i>
-
-        I DON'T KNOW
-
+      <i class="fa fa-question"></i>
+      I DON'T KNOW
     </button>
     <button type="button" class="btn btn-danger btn-xs" (click)="onClick($event)">
       <i class="fa fa-times"></i>

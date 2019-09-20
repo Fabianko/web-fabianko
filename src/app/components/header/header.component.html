@@ -11,7 +11,7 @@
       <li class="nav-item">
         <a class="nav-link" (click)="selectOption('IMAGES')">Images</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" *ngIf="false">
         <a class="nav-link"(click)="selectOption('CACA')">CACA</a>
       </li>
     </ul>
@@ -19,6 +19,9 @@
 </nav>
 
 <div *ngIf="variableType">
-  <app-select-classificator [type]="variableType"></app-select-classificator>
+  <app-select-classificator #selectClassificator [type]="variableType"></app-select-classificator>
+  <button type="button" class="btn btn-primary btn-circle fixedbutton" (click)="nextObject()">
+    <i class="fa fa-arrow-right"></i>
+  </button>
 </div>
 
