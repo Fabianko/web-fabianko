@@ -13,7 +13,7 @@ export class NewsObjectComponent implements OnInit {
   ngOnInit() {
     this.readNewsByRSS();
   }
-
+  public allNews = [];
 
   public onClick(e) {
     console.log(e);
@@ -48,6 +48,7 @@ export class NewsObjectComponent implements OnInit {
         i = Math.floor(Math.random() * 10);
         console.log(obj);
         this.newsJson['fuente'] = obj.rss.channel.description;
+        this.allNews = obj.rss.channel.item;
         this.newsJson ['noticias'] = obj.rss.channel.item[i];
         if (this.newsJson['noticias']['prontus_fotolibre'] && typeof this.newsJson['noticias']['prontus_fotolibre'] === 'string') {
           this.newsJson['imgNoticia'] = this.newsJson['noticias']['prontus_fotolibre'];

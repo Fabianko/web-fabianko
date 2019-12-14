@@ -13,7 +13,9 @@ export class HeaderComponent implements OnInit {
 
 
   ngOnInit() {
+
   }
+
   public selectOption(option: string) {
     this.variableType = undefined;
     setTimeout(() => {
@@ -23,14 +25,8 @@ export class HeaderComponent implements OnInit {
 
   }
 
-  public nextObject() {
-    const temp = this.variableType;
-    this.variableType = undefined;
-    setTimeout(() => {
-      this.variableType = temp;
-      // this.selectClassificator.ngOnInit();
-    }, 0);
-  }
+
+
 
 
 }
