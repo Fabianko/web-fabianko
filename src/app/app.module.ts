@@ -10,6 +10,25 @@ import { HeaderComponent } from './components/header/header.component';
 import { SelectClassificatorComponent } from './components/select-classificator/select-classificator.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { CvEspComponent } from './cv-esp/cv-esp.component';
+import { CvEngComponent } from './cv-eng/cv-eng.component';
+import { RouterModule, Routes } from '@angular/router';
+import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
+
+
+
+
+const routes: Routes = [
+  { path: '',
+    redirectTo: '/welcome',
+    pathMatch: 'full'
+  },
+  { path: 'welcome', component: WelcomeHomeComponent },
+  {path:'test-news', component: HeaderComponent},
+  { path: 'cv-esp', component: CvEspComponent },
+  { path: 'cv-eng', component: CvEngComponent }
+];
+
 
 @NgModule({
   declarations: [
@@ -17,13 +36,21 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     HeaderComponent,
     SelectClassificatorComponent,
     NewsObjectComponent,
-    ImageObjectComponent
+    ImageObjectComponent,
+    CvEspComponent,
+    CvEngComponent,
+    WelcomeHomeComponent
   ],
   imports: [
     AngularFontAwesomeModule,
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule.forRoot(
+      routes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
   ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
