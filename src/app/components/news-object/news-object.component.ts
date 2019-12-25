@@ -13,7 +13,10 @@ export class NewsObjectComponent implements OnInit {
   ngOnInit() {
     this.readNewsByRSS();
   }
+
   public allNews = [];
+
+  public reloadNews: boolean = true;
 
   public onClick(e) {
     console.log(e);
@@ -57,9 +60,19 @@ export class NewsObjectComponent implements OnInit {
         console.log(this.newsJson);
       }, 1000
     );
+  }
 
 
-
+  public nextObject() {
+    this.reloadNews = true;
+    let i = 0;
+    i = Math.floor(Math.random() * 10);
+    this.newsJson ['noticias'] = this.allNews[i];
+    if (this.newsJson['noticias']['prontus_fotolibre'] && typeof this.newsJson['noticias']['prontus_fotolibre'] === 'string') {
+      this.newsJson['imgNoticia'] = this.newsJson['noticias']['prontus_fotolibre'];
+      console.log(this.newsJson['imgNoticia']);
+    }
+    this.reloadNews = false;
   }
 
 }
