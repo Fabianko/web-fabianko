@@ -29,4 +29,6 @@ export class WelcomeHomeComponent implements OnInit {
       },3000
     );
   }
+
+
 }
