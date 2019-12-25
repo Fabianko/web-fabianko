@@ -12,8 +12,9 @@
               </a>
             </span>
           </h6>
-          <p class="card-text">{{i.description}}</p>
 
+          <p class="card-text">{{i.description}}</p>
+          <p class="text-right"> {{i.pubDate? (i.pubDate |date:'dd/MM/yyyy HH:mm') :"" }}</p>
         </div>
         <button type="button" class="btn btn-success btn-xs" (click)="onClick($event)">
           <i class="fa fa-check"></i>
