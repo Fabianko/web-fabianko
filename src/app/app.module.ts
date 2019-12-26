@@ -10,8 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SelectClassificatorComponent } from './components/select-classificator/select-classificator.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { CvEspComponent } from './cv-esp/cv-esp.component';
-import { CvEngComponent } from './cv-eng/cv-eng.component';
+import { CvEspComponent } from './cv/cv-esp.component';
 import { RouterModule, Routes } from '@angular/router';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 
@@ -25,8 +24,7 @@ const routes: Routes = [
   },
   { path: 'welcome', component: WelcomeHomeComponent },
   {path:'test-news', component: HeaderComponent},
-  { path: 'cv-esp', component: CvEspComponent },
-  { path: 'cv-eng', component: CvEngComponent }
+  { path: 'cv', component: CvEspComponent },
 ];
 
 
@@ -38,7 +36,6 @@ const routes: Routes = [
     NewsObjectComponent,
     ImageObjectComponent,
     CvEspComponent,
-    CvEngComponent,
     WelcomeHomeComponent
   ],
   imports: [

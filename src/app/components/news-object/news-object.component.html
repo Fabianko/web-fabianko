@@ -2,7 +2,7 @@
   <ng-container *ngFor="let i of newsJson.noticias">
     <div class="col-md-6" style="margin-top:20px;">
       <div class="card">
-        <img [src]="i.prontus_fotolibre && i.prontus_fotolibre!=objectEmpty ?'http://www.' + newsJson.fuente + i.prontus_fotolibre : 'assets/img/no-image.jpg'"
+        <img [src]="i.prontus_fotolibre && i.prontus_fotolibre.toString().includes('noticias') ?'http://www.' + newsJson.fuente + i.prontus_fotolibre : 'assets/img/no-image.jpg'"
         class="card-img-top" alt="...">
         <div class="card-body" >
           <h6 class="card-title"> {{i.title}}
