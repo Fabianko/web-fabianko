@@ -13,6 +13,10 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { CvEspComponent } from './cv/cv-esp.component';
 import { RouterModule, Routes } from '@angular/router';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
+import {StudiesComponent} from './cv/studies/studies.component';
+import {StudyComponent} from './cv/studies/study/study.component';
+import {ProfessionalExperienceComponent} from './cv/ professional-experience/ professional-experience.component'
+import {ProfessionalSkillsComponent} from './cv/professional-skills/ professional-skills.component'
 
 
 
@@ -30,6 +34,10 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
+    StudyComponent,
+    ProfessionalExperienceComponent,
+    ProfessionalSkillsComponent,
+    StudiesComponent,
     AppComponent,
     HeaderComponent,
     SelectClassificatorComponent,
