@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import {StudiesComponent} from './studies/studies.component';
+import dataEsp from './cv-esp.json';
+import dataEng from './cv-eng.json';
+
+
+import { cvClassDto } from './dtos/cvClassDto.js';
 @Component({
   selector: 'app-cv-esp',
   templateUrl: './cv-esp.component.html',
@@ -8,19 +12,33 @@ import {StudiesComponent} from './studies/studies.component';
 export class CvEspComponent implements OnInit {
 
   constructor() { }
-  public cv:cvClass;
-  public cvEsp:cvClass = {
-    lateral1:"SOBRE MI",
-    lateral1Text:'Mi objetivo profesional es enfocarme en la gestión, investigación y desarrollo de proyectos en todos los tamaños, logrando a través de la innovación y el trabajo de equipos cumplir con los objetivos, la calidad y las expectativas esperadas por las personas, para esto no me impongo limitaciones respecto a las actividades a desarrollar en el ámbito profesional y el trabajo en equipo.',
+  public country: string = "ES";
+  public cv:cvClassDto;
 
-  }
 
   ngOnInit() {
-    this.cv = this.cvEsp;
+    this.setCVCountry();
   }
 
+  public setCVCountry() {
+    if (this.country == "ES") {
+      console.log("data",dataEsp.default);
+      this.cv = dataEsp.default;
+    }
+    else {
+      this.cv = dataEng.default;
+    }
+  }
+  public changeLenguage() {
+    if (this.country == "ES") {
+      this.country = "EN";
+    }
+    else {
+      this.country = "ES";
+    }
+    this.setCVCountry();
+  }
+
+
 }
-export class cvClass{
-  lateral1: string;
-  lateral1Text: string;
-}
+
