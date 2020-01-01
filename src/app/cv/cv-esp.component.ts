@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import dataEsp from './cv-esp.json';
-import dataEng from './cv-eng.json';
+import * as dataEsp from './cv-esp.json';
+import * as dataEng from './cv-eng.json';
 
 
 import { cvClassDto } from './dtos/cvClassDto.js';
@@ -22,11 +22,13 @@ export class CvEspComponent implements OnInit {
 
   public setCVCountry() {
     if (this.country == "ES") {
-      console.log("data",dataEsp.default);
-      this.cv = dataEsp.default;
+      console.log("dataEsp",dataEsp['default']);
+      this.cv = dataEsp['default'];
+
     }
     else {
-      this.cv = dataEng.default;
+      console.log("dataEng",dataEng['default']);
+      this.cv = dataEng['default'];
     }
   }
   public changeLenguage() {
@@ -39,6 +41,15 @@ export class CvEspComponent implements OnInit {
     this.setCVCountry();
   }
 
+  public isOpenTitle1= true;
+  public openTitle1() {
+    this.isOpenTitle1 = !this.isOpenTitle1;
+  }
+
+  public isOpenTitle2= false;
+  public openTitle2() {
+    this.isOpenTitle2 = !this.isOpenTitle2;
+  }
 
 }
 

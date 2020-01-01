@@ -1,14 +1,19 @@
 {
-  "lateral1":"SOBRE MI",
-  "lateral1Text":"Mi objetivo profesional es enfocarme en la gestión, investigación y desarrollo de proyectos en todos los tamaños, logrando a través de la innovación y el trabajo de equipos cumplir con los objetivos, la calidad y las expectativas esperadas por las personas, para esto no me impongo limitaciones respecto a las actividades a desarrollar en el ámbito profesional y el trabajo en equipo.",
+  "lateral1":"ABOUT ME",
+  "lateral2":"CONTACT",
+  "lateral3":"FOLLOW ME",
+  "profession":"COMPUTER ENGINEER",
+  "title1":"STUDIES",
+  "title2":"EXPERIENCE",
+  "lateral1Text":"My professional objective is to focus on the management, research and development of projects in all sizes, achieving through innovation and teamwork to meet the objectives, quality and expectations expected by people, for this I do not impose limitations regarding the activities to be developed in the professional field and teamwork.",
   "experiences":[
   ],
   "studiesList":[
     {
       "date":"2015 - 2016",
-      "title":"Magíster en ingeniería informática",
+      "title":"Master in Computer Engineering",
       "origin": "Universidad de Santiago de Chile",
-      "description":"Tesis: Método de modelamiento dinámico de tópicos para la red social Twitter Fue centrada en el pre-procesamiento de los Tweets generados en la red social Twitter, donde se busca la generación de tópicos de forma dinámica en el tiempo, permitiendo un análisis predictivo y global respecto a diversos indicadores calculables utilizando procesamiento de lenguaje natural. Profesor Guía: Dra. Carolina Bonacic. Diploma de excelencia academica por el rendimiento en el programa de magíster ",
+      "description":"Tesis: Método de modelamiento dinámico de tópicos para la red social Twitter, Fue centrada en el pre-procesamiento de los Tweets generados en la red social Twitter, donde se busca la generación de tópicos de forma dinámica en el tiempo, permitiendo un análisis predictivo y global respecto a diversos indicadores calculables utilizando procesamiento de lenguaje natural. Profesor Guía: Dra. Carolina Bonacic. Diploma de excelencia academica por el rendimiento en el programa de magíster ",
       "isOpen": false
     },
     {

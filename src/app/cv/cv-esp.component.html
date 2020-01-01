@@ -1,7 +1,7 @@
 <div class="row background-cv">
   <div class="col-md-2">
     <button class="btn btn-info btn-country" (click)="changeLenguage()">
-      <i class="flag flag-es"></i>
+      <i class="fa fa-repeat"></i>
       {{country=='ES'?'ENGLISH':'ESPAÑOL'}}
     </button>
   </div>
@@ -19,14 +19,14 @@
           </p>
           <hr>
 
-          <h3 class="text-center text-white">CONTACTO</h3>
+          <h3 class="text-center text-white">{{cv.lateral2}}</h3>
           <p class="text-justify text-white text-lateral">
             <i class="fa fa-envelope"></i>
             fabian.arismendi@usach.cl
           </p>
           <hr>
 
-          <h3 class="text-center text-white">SÍGUEME EN</h3>
+          <h3 class="text-center text-white">{{cv.lateral3}}</h3>
           <p class="text-justify text-white text-lateral">
             <a href="https://github.com/Fabianko">
               <i class="fa fa-2x fa-github"></i>
@@ -54,22 +54,28 @@
           <span class="text-blue1">FABIÁN ANDRÉS </span>
           <span class="text-blue2">ARISMENDI FERRADA</span>
         </h1>
-        <h3 class="text-right text-blue1">INGENIERO CIVIL INFORMÁTICO</h3>
+        <h3 class="text-right text-blue1">{{cv.profession}}</h3>
         <hr>
-        <h4 class="text-blue2">
-          <i class="fa fa-plus"> </i>
-          ESTUDIOS
+        <h4 class="text-blue2 cursorHand" (click)="openTitle1()">
+          <i class="fa {{isOpenTitle1?'fa-plus':'fa-minus'}}"> </i>
+          {{cv.title1}}
         </h4>
-        <studies [studiesList]="cv.studiesList"></studies>
+        <ng-container *ngIf="isOpenTitle1">
+          <studies [studiesList]="cv.studiesList"></studies>
+        </ng-container>
+
         <!-- ESTUDIOS PROFESIONALES-->
         <hr>
 
         <!-- Experiencia profesional-->
-        <h4 class="text-blue2">
-          <i class="fa fa-plus"> </i>
-          EXPERIENCIA
+        <h4 class="text-blue2 cursorHand" (click)="openTitle2()">
+          <i class="fa {{isOpenTitle2?'fa-plus':'fa-minus'}}"> </i>
+          {{cv.title2}}
         </h4>
-        <professional-experience [experiences]="cv.experiences" ></professional-experience>
+        <ng-container *ngIf="isOpenTitle2">
+          <professional-experience [experiences]="cv.experiences" ></professional-experience>
+        </ng-container>
+
         <hr>
 
 
