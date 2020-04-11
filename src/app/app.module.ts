@@ -35,6 +35,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
+    SkillsComponent,
     ExperienceComponent,
     StudyComponent,
     ProfessionalExperienceComponent,
