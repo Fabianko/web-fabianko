@@ -9,7 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { SelectClassificatorComponent } from './components/select-classificator/select-classificator.component';
 
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { CvEspComponent } from './cv/cv-esp.component';
 import { RouterModule, Routes } from '@angular/router';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
@@ -19,15 +18,14 @@ import {ProfessionalExperienceComponent} from './cv/professional-experience/prof
 import {ProfessionalSkillsComponent} from './cv/professional-skills/professional-skills.component'
 import {SkillsComponent} from './cv/professional-skills/skill/skills.component';
 import {ExperienceComponent} from './cv/professional-experience/experience/experience.component';
-
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const routes: Routes = [
   { path: '',
-    redirectTo: '/welcome',
+    redirectTo: '/helloworld',
     pathMatch: 'full'
   },
-  { path: 'welcome', component: WelcomeHomeComponent },
+  { path: 'helloworld', component: WelcomeHomeComponent },
   {path:'test-news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent },
 ];
@@ -50,13 +48,13 @@ const routes: Routes = [
     WelcomeHomeComponent
   ],
   imports: [
-    AngularFontAwesomeModule,
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(
       routes,
       { enableTracing: true } // <-- debugging purposes only
-    )
+    ),
+    FontAwesomeModule
   ],
   exports: [RouterModule],
   providers: [],

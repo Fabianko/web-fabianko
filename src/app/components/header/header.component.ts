@@ -9,7 +9,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 export class HeaderComponent implements OnInit {
   constructor() { }
   public variableType: string = 'NEWS';
-  @ViewChild('selectClassificator',{static:false}) public selectClassificator: SelectClassificatorComponent;
+  @ViewChild('selectClassificator') public selectClassificator: SelectClassificatorComponent;
 
 
   ngOnInit() {
