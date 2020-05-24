@@ -5,6 +5,7 @@ export class ProfessionalExperienceDto{
   description: string;
   tags: tag[];
   isOpen: boolean;
+  isOpenAni: boolean;
 }
 
 export class tag {

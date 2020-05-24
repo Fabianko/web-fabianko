@@ -4,4 +4,5 @@ export class StudyDto {
   description: string;
   date:string;
   isOpen: boolean;
+  isOpenAni: boolean;
 }
