@@ -29,6 +29,10 @@ const routes: Routes = [
   { path: 'helloworld', component: WelcomeHomeComponent },
   {path:'test-news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent },
+  { path: '**',
+    redirectTo: '/helloworld',
+    pathMatch: 'full'
+  }
 ];
 
 
