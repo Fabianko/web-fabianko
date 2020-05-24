@@ -46,7 +46,7 @@ export class CvEspComponent implements OnInit {
     this.isOpenTitle1 = !this.isOpenTitle1;
   }
 
-  public isOpenTitle2= false;
+  public isOpenTitle2= true;
   public openTitle2() {
     this.isOpenTitle2 = !this.isOpenTitle2;
   }

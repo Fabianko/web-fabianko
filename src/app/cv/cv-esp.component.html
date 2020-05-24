@@ -1,8 +1,12 @@
 <div class="row background-cv">
   <div class="col-md-2">
-    <button class="btn btn-info btn-country" (click)="changeLenguage()">
-      <i class="fa fa-repeat"></i>
+    <button class="btn btn-info btn-lenguage" (click)="changeLenguage()">
+      <i class="fa fa-retweet"></i>
       {{country=='ES'?'ENGLISH':'ESPAÑOL'}}
+    </button>
+    <button class="btn btn-info btn-back" routerLink="/helloworld">
+      <i class="fa fa-backward"></i>
+      {{country=='ES'?'BACK':'VOLVER'}}
     </button>
   </div>
   <div class="col-md-8 background-card" style="margin-top:30px;">
