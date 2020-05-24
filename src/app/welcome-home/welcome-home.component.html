@@ -9,15 +9,27 @@
       </div>
       <div class="col-md-4"></div>
       <div class="col-md-4">
-        <button #btnCv type="button" [routerLink]="['/cv']" class="btn btn-dark ">
+        <button #btnCv type="button" [routerLink]="['/cv']" class="btn btn-dark btn-entrance-down">
           Curriculum
-        </button> | 
-        <button #btnCN type="button" [routerLink]="['/test-news']" class="btn btn-dark ">
-          clasificación de noticias
+        </button>
+        <button #btnCN type="button" [routerLink]="['/test-news']" class="btn btn-dark btn-entrance-down">
+          Clasificación de noticias
+        </button>
+        <button #btnCN type="button" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
+          Base de datos - usach
+        </button>
+        <button #btnCN type="button" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
+          Procesamiento de lenguaje natural
+        </button>
+        <button #btnCN type="button" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
+          Scrum
+        </button>
+        <button #btnCN type="button" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
+          Modelos de tópicos
         </button>
       </div>
     </div>
-    <p class="position-linkedin no-margin">
+    <p class="position-linkedin no-margin btn-entrance-up">
       <span class="txt-size-btn" >
         <a class="btn btn-info btn-linkedin " href="https://www.linkedin.com/in/fabi%C3%A1n-arismendi-ferrada-83206534/">
           <i class="fa fa-linkedin"></i>
@@ -26,7 +38,7 @@
       </span>
     </p>
     <button 
-      class="btn btn-circle btn-xs btn-success position-button"
+      class="btn btn-circle btn-xs btn-success position-button btn-entrance-right"
       (click)="changeImg()">
       <i class="fa fa-retweet"></i>
     </button>

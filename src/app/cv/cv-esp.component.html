@@ -1,8 +1,12 @@
 <div class="row background-cv">
   <div class="col-md-2">
-    <button class="btn btn-info btn-country" (click)="changeLenguage()">
-      <i class="fa fa-repeat"></i>
+    <button class="btn btn-info btn-lenguage" (click)="changeLenguage()">
+      <i class="flag-icon flag-icon-{{country=='ES'?'us':'es'}}"></i>
       {{country=='ES'?'ENGLISH':'ESPAÑOL'}}
+    </button>
+    <button class="btn btn-info btn-back" routerLink="/helloworld">
+      <i class="fa fa-backward"></i>
+      {{country=='ES'?'VOLVER':'BACK'}}
     </button>
   </div>
   <div class="col-md-8 background-card" style="margin-top:30px;">
@@ -20,27 +24,27 @@
           <hr>
 
           <h3 class="text-center text-white">{{cv.lateral2}}</h3>
-          <p class="text-justify text-white text-lateral">
-            <i class="fa fa-envelope"></i>
-            fabian.arismendi@usach.cl
+          <p class="text-center text-white text-lateral">
+            <i class="fa fa-envelope"></i> - 
+            <a class="link-color" href="mailto: fabian.arismendi@usach.cl">fabian.arismendi@usach.cl</a>
           </p>
           <hr>
 
           <h3 class="text-center text-white">{{cv.lateral3}}</h3>
-          <p class="text-justify text-white text-lateral">
-            <a href="https://github.com/Fabianko">
+          <p class="text-center text-white text-lateral">
+            <a class="link-color" href="https://github.com/Fabianko">
               <i class="fa fa-2x fa-github"></i>
               @Fabianko
             </a>
           </p>
-          <p class="text-justify text-white text-lateral">
-            <a href="https://www.linkedin.com/in/fabián-arismendi-ferrada-83206534/">
+          <p class="text-center text-white text-lateral">
+            <a class="link-color" href="https://www.linkedin.com/in/fabián-arismendi-ferrada-83206534/">
               <i class="fa fa-2x fa-linkedin"></i>
               @Fabianko
             </a>
           </p>
-          <p class="text-justify text-white text-lateral">
-            <a href="https://twitter.com/F_Arismendi">
+          <p class="text-center text-white text-lateral">
+            <a class="link-color" href="https://twitter.com/F_Arismendi">
               <i class="fa fa-2x fa-twitter"></i>
               @F_Arismendi
             </a>
@@ -54,7 +58,14 @@
           <span class="text-blue1">FABIÁN ANDRÉS </span>
           <span class="text-blue2">ARISMENDI FERRADA</span>
         </h1>
-        <h3 class="text-right text-blue1">{{cv.profession}}</h3>
+        <h3 class="text-right text-blue1">
+          {{cv.profession}}
+          <img 
+            src="/assets/img/logo-usach.png"
+            alt="usachita"
+            class="usachita"
+            >
+        </h3>
         <hr>
         <h4 class="text-blue2 cursorHand" (click)="openTitle1()">
           <i class="fa {{isOpenTitle1?'fa-plus':'fa-minus'}}"> </i>

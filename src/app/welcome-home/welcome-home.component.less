@@ -44,9 +44,24 @@
 }
 .h1-mrk{
   font-size: 60px;
+  padding-bottom: 10px;
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg); 
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -sand-transform: rotate(-2deg);
+  transform: rotate(-2deg);
 }
 .p-title-mrk{
   font-size: 20px;
+  padding-bottom: 5px;
+  /*
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg); 
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -sand-transform: rotate(-5deg);
+  transform: rotate(-5deg);*/
 }
 .padding-card{
   padding: @paddingCard;
@@ -88,4 +103,28 @@
 .style-mrk{
   color: #e3e6e3;
   font-family: monospace;
+  animation: flipInY;
+  animation-duration: 2s;
+}
+
+.btn-entrance-down{
+  animation: backInDown;
+  animation-duration: 1s; 
+}
+.btn-entrance-right{
+  animation: backInRight;
+  animation-duration: 1s; 
+}
+.btn-entrance-left{
+  animation: backInLeft;
+  animation-duration: 1s; 
+}
+.btn-entrance-up{
+  animation: backInUp;
+  animation-duration: 1s; 
+}
+
+.btn-dark{
+  margin-left: 5px;
+  margin-bottom: 5px;
 }

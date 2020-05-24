@@ -20,6 +20,7 @@ import {SkillsComponent} from './cv/professional-skills/skill/skills.component';
 import {ExperienceComponent} from './cv/professional-experience/experience/experience.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+
 const routes: Routes = [
   { path: '',
     redirectTo: '/helloworld',
