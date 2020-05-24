@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class WelcomeHomeComponent implements OnInit {
   public listSnow = [];
   public titleFinal = "Bienvenido forastero";
+
+  public backgroundImg = '1';
   public title = "";
   constructor() { }
 
@@ -29,6 +31,17 @@ export class WelcomeHomeComponent implements OnInit {
       },3000
     );
   }
+
+  public changeImg() {
+    if (this.backgroundImg == '1') {
+      this.backgroundImg = '2';
+    }
+    else {
+      this.backgroundImg = '1';
+    }
+  } 
+
+  
 
 
 }

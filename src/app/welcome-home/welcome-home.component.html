@@ -1,44 +1,36 @@
-<div class="col-12 color-red padding-basic">
-  <p class="title no-margin">{{titleFinal}}</p>
-</div>
-
-<div class="row padding-card">
-  <div class="col-2 no-padding">
-
-  </div>
-  <div class="col-4">
-      <img src="/assets/img/20190517_231123_opt2.jpg" alt="" class="image-container">
-  </div>
-  <div class="col-4">
-    <div class="col-12 padding-card card">
-      <h1 class="no-margin">Bienvenido a mi sitio web</h1>
-      <p>
-        Si te interesa puedes ver mis proyectos:
-      </p>
-      <div class="list-group">
-        <button #btnCv type="button" [routerLink]="['/cv']" class="list-group-item list-group-item-action ">
+<div class="background-mrk-{{backgroundImg}}">
+  <div class="background-mrk">
+    <div class="row padding-card">
+      <div class="col-md-4">
+        <h1 class="no-margin style-mrk h1-mrk">Bienvenido </h1>
+        <p class="style-mrk p-title-mrk">
+          Si te interesa puedes ver mis proyectos:
+        </p>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <button #btnCv type="button" [routerLink]="['/cv']" class="btn btn-dark ">
           Curriculum
-        </button>
-        <button #btnCN type="button" [routerLink]="['/test-news']" class="list-group-item list-group-item-action">
+        </button> | 
+        <button #btnCN type="button" [routerLink]="['/test-news']" class="btn btn-dark ">
           clasificación de noticias
         </button>
-
       </div>
     </div>
-    <div class="col-12 padding-basic card" style="margin-top:30px;">
-      <p class="text-right no-margin">
-        <span class="txt-size-btn" >
-          <a class="btn btn-info btn-linkedin " href="https://www.linkedin.com/in/fabi%C3%A1n-arismendi-ferrada-83206534/">
-            <i class="fa fa-linkedin"></i>
-
-          </a>
-          /Fabián Arismendi Ferrada
-        </span>
-      </p>
-    </div>
-  </div>
-  <div class="col-2">
-    <!--margen derecha-->
-
+    <p class="position-linkedin no-margin">
+      <span class="txt-size-btn" >
+        <a class="btn btn-info btn-linkedin " href="https://www.linkedin.com/in/fabi%C3%A1n-arismendi-ferrada-83206534/">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        / Fabián Arismendi Ferrada
+      </span>
+    </p>
+    <button 
+      class="btn btn-circle btn-xs btn-success position-button"
+      (click)="changeImg()">
+      <i class="fa fa-retweet"></i>
+    </button>
   </div>
 </div>
+
+
