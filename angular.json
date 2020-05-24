@@ -22,7 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -50,7 +50,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -150,7 +149,7 @@
             "main": "projects/cv-esp/src/main.ts",
             "polyfills": "projects/cv-esp/src/polyfills.ts",
             "tsConfig": "projects/cv-esp/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "projects/cv-esp/src/favicon.ico",
               "projects/cv-esp/src/assets"
@@ -173,7 +172,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -254,5 +252,8 @@
       }
     }
   },
-  "defaultProject": "app-home-mrk"
+  "defaultProject": "app-home-mrk",
+  "cli": {
+    "analytics": false
+  }
 }
