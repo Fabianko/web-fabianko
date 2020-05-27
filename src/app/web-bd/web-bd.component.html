@@ -1,17 +1,18 @@
 <div class="row">
   <div class="col-md-2"></div>
   <div class="col-md-8 card">
-    <div class="row space-title">
-      <div class="col-md-8">
-        <h1 class="text-center title-bd">Base de datos - USACH</h1>
-      </div>
-      <div class="col-md-4 text-center">
-        <img 
+    <div class="row ">
+        <h1 class=" title-bd">
+          <span class="">
+            <img 
             src="/assets/img/logo-usach.png"
             alt="usachita"
             class="usachita"
             >
-      </div>
+          </span>
+          Base de datos
+          
+        </h1>
     </div>
     <div class="row space-title">
       <ng-container *ngFor="let item of dataBd">
@@ -32,3 +33,7 @@
     / Fabián Arismendi Ferrada
   </span>
 </p>
+<button class="btn btn-info btn-back" routerLink="/helloworld">
+  <i class="fa fa-backward"></i>
+  VOLVER
+</button>
