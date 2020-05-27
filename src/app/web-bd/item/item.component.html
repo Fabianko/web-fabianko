@@ -1,0 +1,34 @@
+
+<div class="row" style="margin-bottom: 10px;">
+  <div class="col-md-1"></div>
+  <div class="col-md-10 btn-item">
+    <p class="no-margin expTitle cursorHand" (click)="openExp()">
+      <i class="fa {{item.isOpen?'fa-minus':'fa-plus'}} i-item"></i>
+      {{item.name}}
+    </p>
+
+    <p class="no-margin expDescription {{item.isOpenAni?'open-ani':'close-ani'}}" *ngIf="item.isOpen">
+      <ng-container *ngFor="let tag of item.files">
+        <hr class="hr-top">
+        <div class="row">
+          
+          <div class="col-md-8">
+            <a href="{{tag.url}}" class="btn btn-info btn-tag" target="_blank">
+              {{tag.name}} 
+            </a>
+          </div>
+          <div class="col-md-4 pull-right">
+            <p class="text-right" style="margin-top:10px;">
+              actualizado: {{tag.date}}
+            </p>
+          </div>
+          
+        </div>
+        <hr class="hr-bottom">
+        
+      </ng-container>
+    </p>
+    
+  </div>
+  <div class="col-md-1"></div>
+</div>

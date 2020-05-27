@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome-home.component.less']
 })
 export class WelcomeHomeComponent implements OnInit {
-  public listSnow = [];
+
   public titleFinal = "Bienvenido forastero";
 
   public backgroundImg = '1';
@@ -14,12 +14,10 @@ export class WelcomeHomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.listSnow = [...Array(100).keys()];
     //this.createTitle();
   }
   public createTitle() {
     for (const character of this.titleFinal) {
-
       setTimeout(()=> {
         this.title = this.title + character;
       },2000)

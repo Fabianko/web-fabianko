@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import * as dataEsp from './cv-esp.json';
-import * as dataEng from './cv-eng.json';
+import * as dataEsp from '../../assets/api/cv/cv-esp.json';
+import * as dataEng from '../../assets/api/cv/cv-eng.json';
 
 
 import { cvClassDto } from './dtos/cvClassDto.js';
