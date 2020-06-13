@@ -1,13 +1,13 @@
-<div class="row">
-  <div class="col-md-2">
-    <p class="text-right">Angular 8</p>
+<div class="row" *ngIf="skill">
+  <div class="col-md-4">
+    <p class="text-right title-skill">{{skill.name}}</p>
   </div>
-  <div class="col-md-10">
+  <div class="col-md-8">
     <div class="progress">
       <div class="progress-bar bg-blue1"
         role="progressbar"
-        style="width: 75%"
-        aria-valuenow="75"
+        style="width: {{skill.value}}%"
+        aria-valuenow="{{skill.value}}"
         aria-valuemin="0"
         aria-valuemax="100"></div>
     </div>

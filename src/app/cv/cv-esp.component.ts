@@ -41,14 +41,19 @@ export class CvEspComponent implements OnInit {
     this.setCVCountry();
   }
 
-  public isOpenTitle1= true;
+  public isOpenTitle1 = true;
   public openTitle1() {
     this.isOpenTitle1 = !this.isOpenTitle1;
   }
 
-  public isOpenTitle2= true;
+  public isOpenTitle2 = true;
   public openTitle2() {
     this.isOpenTitle2 = !this.isOpenTitle2;
+  }
+
+  public isOpenTitle3 = true;
+  public openTitle3() {
+    this.isOpenTitle3 = !this.isOpenTitle3;
   }
 
 }

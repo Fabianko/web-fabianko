@@ -15,8 +15,8 @@ import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import {StudiesComponent} from './cv/studies/studies.component';
 import {StudyComponent} from './cv/studies/study/study.component';
-import {ProfessionalExperienceComponent} from './cv/professional-experience/professional-experience.component'
-import {ProfessionalSkillsComponent} from './cv/professional-skills/professional-skills.component'
+import {ProfessionalExperienceComponent} from './cv/professional-experience/professional-experience.component';
+import {ProfessionalSkillsComponent} from './cv/professional-skills/professional-skills.component';
 import {SkillsComponent} from './cv/professional-skills/skill/skills.component';
 import {ExperienceComponent} from './cv/professional-experience/experience/experience.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';

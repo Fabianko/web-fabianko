@@ -49,6 +49,13 @@
               @F_Arismendi
             </a>
           </p>
+          <p class="text-center text-white text-lateral">
+            
+              Last Update:
+             {{cv.lastUpdate}}
+            
+          </p>
+
 
         </div>
 
@@ -89,15 +96,14 @@
 
         <hr>
 
-
-
-        <!--Habilidades profesionales
-        <h4 class="text-blue2">
-          <i class="fa fa-plus"> </i>
-          HABILIDADES PROFESIONALES
+        <h4 class="text-blue2 cursorHand" (click)="openTitle3()">
+          <i class="fa {{isOpenTitle3?'fa-plus':'fa-minus'}}"> </i>
+          {{cv.title3}}
         </h4>
-        <professional-skills></professional-skills>
-        -->
+        <ng-container *ngIf="isOpenTitle3">
+          <professional-skills [skills]="cv.skills"></professional-skills>
+        </ng-container>
+
       </div>
     </div>
   </div>

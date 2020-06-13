@@ -7,8 +7,11 @@ import { NgxXml2jsonService } from 'ngx-xml2json';
   styleUrls: ['./news-object.component.less']
 })
 export class NewsObjectComponent implements OnInit {
+
   public newsJson: any = {};
+
   public objectEmpty = {};
+
   constructor(private ngxXml2jsonService: NgxXml2jsonService) { }
 
   ngOnInit() {
@@ -25,21 +28,28 @@ export class NewsObjectComponent implements OnInit {
 
   private readNewsByRSS() {
     let xhr = new XMLHttpRequest();
+    let xhr2 = new XMLHttpRequest();
     let url = 'https://www.cooperativa.cl/noticias/site/tax/port/all/rss____1.xml';
+    let url2 = 'https://www.xataka.com/index.xml';
 
     xhr.open('GET', url, true); // llama al url
+    xhr2.open('GET',url2, true);
+    
     //xhr.setRequestHeader('Content-Type', 'application/xml');
     //xhr.setRequestHeader('Access-Control-Allow-Origin', 'http://www.cooperativa.cl');
 
     xhr.send();
+    xhr2.send();
+
     //ejecuta primero antes del send
     setTimeout(
-      ()=> {
-
+      () => {
         if (xhr.responseText === '') {
           console.log(xhr);
+          console.log(xhr2);
           return;
         }
+        console.log(xhr2);
         //console.log(xhr.responseText);
         //parsear XML to JSON en JS
         const parser = new DOMParser();
@@ -55,15 +65,16 @@ export class NewsObjectComponent implements OnInit {
         this.allNews = obj.rss.channel.item;
         this.newsJson['noticias'] = obj.rss.channel.item;
 
-        /*if (this.newsJson['noticias']['prontus_fotolibre'] && typeof this.newsJson['noticias']['prontus_fotolibre'] === 'string') {
+        /*
+        if (this.newsJson['noticias']['prontus_fotolibre'] && typeof this.newsJson['noticias']['prontus_fotolibre'] === 'string') {
           this.newsJson['imgNoticia'] = this.newsJson['noticias']['prontus_fotolibre'];
           console.log(this.newsJson['imgNoticia']);
-        }*/
+        }
+        */
         console.log(this.newsJson);
       }, 1000
     );
   }
-
 
   public nextObject() {
     this.reloadNews = true;
@@ -76,5 +87,4 @@ export class NewsObjectComponent implements OnInit {
     }
     this.reloadNews = false;
   }
-
 }

@@ -5,6 +5,8 @@
   "profession":"INGENIERO CIVIL INFORMÁTICO",
   "title1":"ESTUDIOS",
   "title2":"EXPERIENCIA",
+  "title3":"HABILIDADES",
+  "lastUpdate":"12-06-2020",
   "lateral1Text":"Mi objetivo profesional es enfocarme en la gestión, investigación y desarrollo de proyectos en todos los tamaños, logrando a través de la innovación y el trabajo de equipos cumplir con los objetivos, la calidad y las expectativas esperadas por las personas, para esto no me impongo limitaciones respecto a las actividades a desarrollar en el ámbito profesional y el trabajo en equipo.",
   "experiences":[
     {
@@ -216,6 +218,155 @@
       "tags": [
 
       ]
+    }
+  ],
+  "skills":[
+    {
+      "name":"SQL",
+      "link":"",
+      "value":100
+    },
+    {
+      "name":"Angular 9",
+      "link":"",
+      "value":80
+    },
+    {
+      "name":"Typescript",
+      "link":"",
+      "value":100
+    },
+    {
+      "name":"Linux || Ubuntu server",
+      "link":"",
+      "value":90
+    },
+    {
+      "name":"AWS (S3,EC2,RDS,etc.)",
+      "link":"",
+      "value":70
+    },
+    {
+      "name":"Python",
+      "link":"",
+      "value":90
+    },
+    {
+      "name":"PLN",
+      "link":"",
+      "value":80
+    },
+    {
+      "name":"SCRUM",
+      "link":"",
+      "value":100
+    }
+    ,
+    {
+      "name":"UX/UI || Figma || draw.io ",
+      "link":"",
+      "value":70
+    },
+    {
+      "name":"DENO",
+      "link":"",
+      "value":20
+    },
+    {
+      "name":"NODEJS",
+      "link":"",
+      "value":50
+    },
+    {
+      "name":"Postgresql",
+      "link":"",
+      "value":90
+    },
+    {
+      "name":"Mysql",
+      "link":"",
+      "value":80
+    },
+    {
+      "name":"JIRA + BITBUCKET + SLACK",
+      "link":"",
+      "value":100
+    },
+    {
+      "name":"GIT + GITFLOW",
+      "link":"",
+      "value":100
+    },
+    {
+      "name":"HTML5 + CSS3 + JS",
+      "link":"",
+      "value":100
+    },
+    {
+      "name":"Ruby On Rails",
+      "link":"",
+      "value":70
+    },
+    {
+      "name":"JAVA + Spring Framework",
+      "link":"",
+      "value":60
+    },
+    {
+      "name":"Dockers",
+      "link":"",
+      "value":50
+    },
+    {
+      "name":"MongoDB",
+      "link":"",
+      "value":60
+    },
+    {
+      "name":"Selenium || beautifulsoup || scrapy",
+      "link":"",
+      "value":90
+    }
+    ,
+    {
+      "name":"Material design || Bootstrap 4",
+      "link":"",
+      "value":100
+    },
+    {
+      "name":"ReactJs || React Native || redux",
+      "link":"",
+      "value":40
+    },
+    {
+      "name":"VueJs",
+      "link":"",
+      "value":40
+    },
+    {
+      "name":"Excel || Word || PowerPoint",
+      "link":"",
+      "value":50
+    },
+    {
+      "name":"Latex + Overleaf",
+      "link":"",
+      "value":70
+    },
+    {
+      "name":"R || GNU Octave",
+      "link":"",
+      "value":50
+    },
+    {
+      "name":"Rust",
+      "link":"",
+      "value":10
+    },
+    {
+      "name":"Rust",
+      "link":"",
+      "value":10
     }
   ]
 
