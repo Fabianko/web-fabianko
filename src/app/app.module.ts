@@ -12,13 +12,15 @@ import { SelectClassificatorComponent } from './components/select-classificator/
 import { CvEspComponent } from './cv/cv-esp.component';
 import { RouterModule, Routes } from '@angular/router';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
+import { WebBdComponent } from './web-bd/web-bd.component';
 import {StudiesComponent} from './cv/studies/studies.component';
 import {StudyComponent} from './cv/studies/study/study.component';
-import {ProfessionalExperienceComponent} from './cv/professional-experience/professional-experience.component'
-import {ProfessionalSkillsComponent} from './cv/professional-skills/professional-skills.component'
+import {ProfessionalExperienceComponent} from './cv/professional-experience/professional-experience.component';
+import {ProfessionalSkillsComponent} from './cv/professional-skills/professional-skills.component';
 import {SkillsComponent} from './cv/professional-skills/skill/skills.component';
 import {ExperienceComponent} from './cv/professional-experience/experience/experience.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {ItemComponent} from './web-bd/item/item.component'
 
 
 const routes: Routes = [
@@ -26,9 +28,14 @@ const routes: Routes = [
     redirectTo: '/helloworld',
     pathMatch: 'full'
   },
+  { path: 'web-bd', component: WebBdComponent },
   { path: 'helloworld', component: WelcomeHomeComponent },
   {path:'test-news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent },
+  { path: '**',
+    redirectTo: '/helloworld',
+    pathMatch: 'full'
+  }
 ];
 
 
@@ -46,7 +53,9 @@ const routes: Routes = [
     NewsObjectComponent,
     ImageObjectComponent,
     CvEspComponent,
-    WelcomeHomeComponent
+    WelcomeHomeComponent,
+    WebBdComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,

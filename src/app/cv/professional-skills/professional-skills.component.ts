@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { skillDto} from '../dtos/skillDto'
 
 @Component({
   selector: 'professional-skills',
@@ -6,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./professional-skills.component.less']
 })
 export class ProfessionalSkillsComponent implements OnInit {
-
+  @Input() skills:skillDto[];
   constructor() { }
 
 
   ngOnInit() {
+    if (this.skills) {
+      this.skills.sort((a,b) => {return b.value - a.value});
+    }
   }
 
 }

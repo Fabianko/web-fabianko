@@ -1,0 +1,108 @@
+[
+    {
+        "name":"Unidad 1 : Introducción a las bases de datos",
+        "files":[
+            {
+                "name":"Clase 1 - introducción a las bases de datos",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"Programa del curso",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            }
+        ]
+    },
+    {
+        "name":"Unidad 2: Modelamiento de bases de datos",
+        "files":[
+            {
+                "name":"archivo 3",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"archivo 4",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            }
+        ]
+    },
+    {
+        "name":"Unidad 3: Normalización de bases de datos",
+        "files":[
+            {
+                "name":"archivo 3",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"archivo 4",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            }
+        ]
+    },
+    {
+        "name":"Unidad 4: Algebra relacional",
+        "files":[
+            {
+                "name":"archivo 3",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"archivo 4",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            }
+        ]
+    },
+    {
+        "name":"Unidad 5: Lenguaje de consultas estructurado (SQL)",
+        "files":[
+            {
+                "name":"archivo 3",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"archivo 4",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            }
+        ]
+    }
+    ,
+    {
+        "name":"Unidad 6: Seguridad en bases de datos",
+        "files":[
+            {
+                "name":"archivo 3",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"archivo 4",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            }
+        ]
+    },
+    {
+        "name":"Unidad 7: Bases de datos modernas",
+        "files":[
+            {
+                "name":"archivo 3",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"archivo 4",
+                "url":"http://www.google.com",
+                "date":"26/05/2020"
+            }
+        ]
+    }
+]

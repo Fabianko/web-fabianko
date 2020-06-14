@@ -4,14 +4,14 @@
     <p class="text-right styleDate">{{studyDto.date}}</p>
   </div>
   <div class="col-md-10">
-    <p class="studyTitle no-margin" (click)="openStudy()">
+    <p class="studyTitle no-margin cursorHand" (click)="openStudy()">
       <i class="fa {{studyDto.isOpen?'fa-minus':'fa-plus'}}"></i>
       {{studyDto.title}}
       <span
         class="studyOrigin">{{studyDto.origin}}
       </span>
     </p>
-    <p class="styleDescription" *ngIf="studyDto.isOpen">
+    <p class="styleDescription {{studyDto.isOpenAni?'open-ani':'close-ani'}}" *ngIf="studyDto.isOpen" >
       {{studyDto.description}}
     </p>
   </div>

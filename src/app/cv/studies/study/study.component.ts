@@ -15,11 +15,13 @@ export class StudyComponent implements OnInit {
   }
   public openStudy() {
     if (this.studyDto.isOpen ) {
-      this.studyDto.isOpen = false;
+      this.studyDto.isOpenAni = false;
+      setTimeout(()=>{this.studyDto.isOpen = false;},500)
     }
     else {
       this.studyDto.isOpen = true;
+      this.studyDto.isOpenAni = true;
+      
     }
-
   }
 }
