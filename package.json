@@ -1,6 +1,6 @@
 {
   "name": "app-home-mrk",
-  "version": "0.0.3-dev",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
