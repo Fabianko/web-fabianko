@@ -20,8 +20,8 @@ import {ProfessionalSkillsComponent} from './cv/professional-skills/professional
 import {SkillsComponent} from './cv/professional-skills/skill/skills.component';
 import {ExperienceComponent} from './cv/professional-experience/experience/experience.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import {ItemComponent} from './web-bd/item/item.component'
-
+import {ItemComponent} from './web-bd/item/item.component';
+import {GameComponent} from './game2048/game2048.component';
 
 const routes: Routes = [
   { path: '',
@@ -32,6 +32,7 @@ const routes: Routes = [
   { path: 'helloworld', component: WelcomeHomeComponent },
   {path:'test-news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent },
+  { path: '2048', component: GameComponent },
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'
@@ -41,6 +42,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
+    GameComponent,
     SkillsComponent,
     ExperienceComponent,
     StudyComponent,
