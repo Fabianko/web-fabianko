@@ -223,7 +223,7 @@
   "skills":[
     {
       "name":"SQL",
-      "link":"",
+      "link":"https://en.wikipedia.org/wiki/SQL",
       "value":100
     },
     {
@@ -363,6 +363,7 @@
       "link":"",
       "value":10
     }
-  ]
+  ],
+  "certificates":[]
 
 }

@@ -4,13 +4,23 @@
         "files":[
             {
                 "name":"Clase 1 - introducción a las bases de datos",
-                "url":"http://www.google.com",
+                "url":"https://drive.google.com/file/d/1hdRdVtxM5AN_j3nHDnp46iLbY9o-z_im/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
-                "name":"Programa del curso",
+                "name":"Timeline dbms",
+                "url":"https://www.timetoast.com/timelines/dbms",
+                "date":"05/08/2020"
+            },
+            {
+                "name":"Fundamentals of Relational Data Organization - 11/1981 Byte Magazine",
                 "url":"http://www.google.com",
-                "date":"26/05/2020"
+                "date":"28/07/2020"
+            },
+            {
+                "name":"A Preliminary Framework for Entity-Relationship Models - Dr. Peter Chen",
+                "url":"http://bit.csc.lsu.edu/~chen/pdf/framework.pdf",
+                "date":"05/08/2020"
             }
         ]
     },
