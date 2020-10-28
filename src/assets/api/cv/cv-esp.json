@@ -11,9 +11,23 @@
   "experiences":[
     {
       "business": "AVLA SEGUROS DE CRÉDITO Y GARANTÍA S.A.",
-      "position": "Jefe de proyectos y desarrollo de software",
-      "date": "Abril 2017 - a la fecha",
-      "description": "Encargado del desarrollo de software en la unificación de sistemas para la expansión de la empresa, mejorando y optimizando el proceso productivo general de la empresa, como en la creación de garantías financieras, seguros de garantía y crédito, mutuos de crédito e hipotecarios para empresas a nivel latino americano, tecnologías utilizadas: angular2, spring de java y base de datos oracle en AWS",
+      "positions": [
+          {
+            "name"  : "Líder Analytics",
+            "date": "febrero 2020 - PRESENTE",
+            "description": "Creación de modelos de score de siniestralidad y suscripción de riesgo permitiendo automatizar el 60% de las evaluaciones de riesgo de forma automática, Lider de equipo de 2 data science y 1 data engineer en Chile y Perú."
+          },
+          {
+            "name"  : "Líder Técnico",
+            "date": "septiembre 2018 - mayo 2020",
+            "description": "Desarrollado de sistema Artemisa para gestión de pólizas de seguro de crédito para Chile y Perú, desarrollado en Angular 6  y Spring, postgres en AWS con kubernetes. Apoyando en la gestión de miles de operaciones diarias para la cartera completa de clientes, Líder del equipo Frontend con 8 desarrolladores."
+          },
+          {
+            "name"  : "Desarrollador Senior",
+            "date": "abril 2017 - septiembre 2018",
+            "description": "Desarrollo sistema para producto Garantías Financieras (SAGR) Chile que gestiona desde el equipo comercial hasta la generación de documentos, desarrollado en Angular 4, spring, postgres en dockers AWS. El sistema permite reducir un 30% los tiempos de operación manual., Parte del equipo de 4 personas, trabajando en frontend con angular."
+          }
+      ],
       "tags": [
         {
           "name":"ANGULAR 4+",
@@ -31,10 +45,39 @@
       "isOpen":false
     },
     {
+      "business": "Universidad de Santiago de Chile, facultad de ingeniería",
+      "positions": [
+          {
+              "name"  : "Profesor por horas",
+              "date": "agosto 2014 - PRESENTE",
+              "description": "Actualmente realizo clases de Diseño de base de datos, Taller de base de datos, Introducción a la programación con python y tengo varios tesistas, Anteriormente Lógica, Ingeniería de sistemas, Estructuras de computadores."
+          }
+      ],
+      "tags": [
+        {
+          "name":"bitacora",
+          "link":"https://www.informatica.usach.cl/profesor_hora/fabian-andres-arismendi-ferrada/"
+        },
+        {
+          "name":"diinf",
+          "link":"https://www.informatica.usach.cl"
+        },
+        {
+          "name":"base de datos",
+          "link":"https://en.wikipedia.org/wiki/Database"
+        }
+      ],
+      "isOpen":false
+    },
+    {
       "business": "Orand S.A.",
-      "position": "Ingeniero de desarrollo e investigación",
-      "date": "Agosto 2016 - Abril 2017",
-      "description": "Encargado del desarrollo, gestión, implementación y puesta en producción de módulos para la visualización de búsquedas en Impresee js, python y java, generación de reportes automáticos para clientes empresas, creación de clasificadores de correos electrónicos utilizando diferentes características con diferentes técnicas de procesamiento de texto, desarrollo base en Java, python y ruby on rails.",
+      "positions": [
+          {
+              "name"  : "Ingeniero de desarrollo e investigación",
+              "date": "agosto 2016 - abril 2017",
+              "description": "Desarrollo de sistema para priorización y clasificación de emails utilizando PLN con java y angular 2 para BBVA y Banco de Chile, Creación de web scraping de sodimac, homy, ripley y falabella para alimentar el buscador de Impresse utilizando python."
+          }
+      ],
       "tags": [
         {
           "name":"Orand sa",
@@ -69,9 +112,13 @@
     },
     {
       "business": "Imbalabs",
-      "position": "Investigación y desarrollo",
-      "date": "Septiembre 2015 - Noviembre 2016",
-      "description": "Encargado de procesamiento de texto, modelamiento de tópicos, procesos de clasificación de texto y análisis del comportamiento de los mensajes en Twitter, especialidad en pre-procesamiento de los mensajes para obtener la mayor información posible en el idioma español, desarrollo con herramientas en python ",
+      "positions": [
+          {
+              "name"  : "Investigación y desarrollo",
+              "date": "Septiembre 2015 - Noviembre 2016",
+              "description": "Encargado de procesamiento de texto, modelamiento de tópicos, procesos de clasificación de texto y análisis del comportamiento de los mensajes en Twitter, especialidad en pre-procesamiento de los mensajes para obtener la mayor información posible en el idioma español, desarrollo con herramientas en python "
+          }
+      ],
       "tags": [
         {
           "name":"Text Classification",
@@ -95,9 +142,13 @@
     },
     {
       "business": "Etech Communities, proyecto copagamer y gamerapp",
-      "position": "Ingeniero de desarrollo",
-      "date": "Marzo 2015 - Noviembre 2016",
-      "description": "Encargado del desarrollo, gestión, implementación y puesta en producción de sistema GCIFS que soluciona el problema de generación de contenido (noticias) bajo demanda de usuarios por medio de escucha continua en redes sociales y portales de noticias de videojuegos. Sistema desarrollado en Ruby on Rails 4 en arquitectura AWS y base de datos postgresql",
+      "positions": [
+          {
+              "name"  : "Ingeniero de desarrollo",
+              "date": "marzo 2015 - agosto 2016",
+              "description": "Encargado del desarrollo, gestión, implementación y puesta en producción de sistema GCIFS que soluciona el problema de generación de contenido (noticias) bajo demanda de usuarios por medio de escucha continua en redes sociales y portales de noticias de videojuegos. Sistema desarrollado en Ruby on Rails 4 en arquitectura AWS y base de datos postgresql"
+          }
+      ],
       "tags": [
         {
           "name":"GAMERAPP",
@@ -123,31 +174,14 @@
       "isOpen":false
     },
     {
-      "business": "Universidad de Santiago de Chile, facultad de ingeniería",
-      "position": "Profesor por horas",
-      "date": "Agosto 2014 - a la fecha",
-      "description": "Varios cursos de laboratorio de Fundamentos de computación y programación, asignatura impartida para todos los estudiantes de ingeniería plan común, Ingeniería de sistemas para el departamento de ingeniería informática e ingeniería ambiental y la asignatura de Lógica y teoría de la computación para alumnos de 4to año de carrera en ingeniería civil informática, Base de datos para alumnos de ingeniería civil informática vespertino, Profesor corrector de tesis de pregrado.",
-      "tags": [
-        {
-          "name":"bitacora",
-          "link":"https://www.informatica.usach.cl/profesor_hora/fabian-andres-arismendi-ferrada/"
-        },
-        {
-          "name":"dinff",
-          "link":"https://www.informatica.usach.cl"
-        },
-        {
-          "name":"base de datos",
-          "link":"https://en.wikipedia.org/wiki/Database"
-        }
+      "business": "CITIAPS",
+      "positions": [
+          {
+              "name"  : "Ayudante de investigación",
+              "date": "agosto 2014 - agosto 2016",
+              "description": "poyo en Fondef D09I1185, Observatorios Escalables de la Web en Tiempo Real, Aportando en herramientas para clasificación de documentos y modelos de tópicos en la red social Twitter utilizando Python."
+           }
       ],
-      "isOpen":false
-    },
-    {
-      "business": "Universidad de Santiago de Chile, Centro de innovación en aplicaciones sociales",
-      "position": "Ayudante de investigación",
-      "date": "Agosto 2014 - Enero 2016",
-      "description": "FONDEF (D09I1185) Proyecto: Observatorios Escalables de la Web en Tiempo Real, Aportando en herramientas para clasificación de documentos y modelos de tópicos en la red social Twitter.",
       "tags": [
         {
           "name":"CITIAPS",
@@ -165,9 +199,13 @@
       "isOpen":false
     },{
       "business": "Universidad de Central de Chile",
-      "position": "Profesor por horas",
-      "date": "Agosto 2014 - Enero 2015",
-      "description": "Laboratorio deSistemas de informaciónpara alumnos de 4to año de ingeniería civil industria con modelamientode procesos y negocios en Bizagi para mejorar o solucionar procesos con sistemas de información.",
+      "positions": [
+          {
+              "name"  : "Profesor por horas",
+              "date": "Agosto 2014 - Enero 2015",
+              "description": "Laboratorio deSistemas de informaciónpara alumnos de 4to año de ingeniería civil industria con modelamientode procesos y negocios en Bizagi para mejorar o solucionar procesos con sistemas de información."
+          }
+      ],
       "tags": [
         {
           "name":"Ucentral",
@@ -178,12 +216,16 @@
     },
     {
       "business": "Universidad de Santiago de Chile",
-      "position": "Ayudante en cátedra y laboratorio",
-      "date": "Marzo 2011 - Agosto 2015",
-      "description": "Para las asignaturas deFundamentos de la programación(2/2011),Estructuras discretas(1/2012 al 2/2013),Lógicay teoría de la computación(2/2012),Fundamentos de la computación y la programación(2/2013),Fundamentosde base de datos(2/2013 al 1/2015), Electivo profesionalTaller de emprendimiento(1/2014).",
+      "positions": [
+          {
+              "name"  : "Ayudante en cátedra y laboratorio",
+              "date": "Marzo 2011 - Agosto 2015",
+              "description": "Para las asignaturas deFundamentos de la programación(2/2011),Estructuras discretas(1/2012 al 2/2013),Lógicay teoría de la computación(2/2012),Fundamentos de la computación y la programación(2/2013),Fundamentosde base de datos(2/2013 al 1/2015), Electivo profesionalTaller de emprendimiento(1/2014)."
+          }
+      ],
       "tags": [
         {
-          "name":"dinff",
+          "name":"diinf",
           "link":"https://www.informatica.usach.cl"
         }
       ],
@@ -192,32 +234,26 @@
   ],
   "studiesList":[
     {
-      "date":"2015 - 2016",
+      "date":"agosto  2014 - diciembre 2015",
       "title":"Magíster en ingeniería informática",
       "origin": "Universidad de Santiago de Chile",
       "description":"Tesis: Método de modelamiento dinámico de tópicos para la red social Twitter Fue centrada en el pre-procesamiento de los Tweets generados en la red social Twitter, donde se busca la generación de tópicos de forma dinámica en el tiempo, permitiendo un análisis predictivo y global respecto a diversos indicadores calculables utilizando procesamiento de lenguaje natural. Profesor Guía: Dra. Carolina Bonacic. Diploma de excelencia academica por el rendimiento en el programa de magíster ",
-      "isOpen": false,
-      "tags": [
-      ]
+      "isOpen": false
+
     },
     {
-      "date":"2009 - 2016",
+      "date":"enero  2009 - diciembre 2015",
       "title":"Ingeniería civil informática",
       "origin": "Universidad de Santiago de Chile",
       "description":"Memoria, se me permite presentar la tesis de magíster como memoria de ingeniería civil informática dado la complejidad del tema y la parte de programación necesaria para el preprocesamiento de texto. Diploma de titulación oportuna por terminar la carrera en los 6 años correspondientes",
-      "isOpen": false,
-      "tags": [
-      ]
+      "isOpen": false
     },
     {
-      "date":"2009 - 2014",
+      "date":"enero  2009 - diciembre 2013",
       "title":"Licenciado en Ciencias de la Ingeniería",
       "origin": "Universidad de Santiago de Chile",
       "description":"Este titulo es entregado al 4 año cursado completo de la carrera que tiene un equivalente en conocimientos con cualquier licenciatura entregada por las universidades de Chile.",
-      "isOpen": false,
-      "tags": [
-
-      ]
+      "isOpen": false
     }
   ],
   "skills":[
@@ -227,7 +263,7 @@
       "value":100
     },
     {
-      "name":"Angular 9",
+      "name":"Angular 10",
       "link":"",
       "value":80
     },
