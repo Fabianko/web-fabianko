@@ -1,19 +1,24 @@
 
 <div class="row" style="margin-bottom: 10px;">
-  <div class="col-md-2">
-    <p class="text-right expDate">{{experienceDto.date}}</p>
-  </div>
-  <div class="col-md-10">
+  <div class="col-md-12" style='margin-left: 30px;'>
     <p class="no-margin expTitle cursorHand" (click)="openExp()">
       <i class="fa {{experienceDto.isOpen?'fa-minus':'fa-plus'}}"></i>
       {{experienceDto.business}}
     </p>
-    <p class="no-margin expOrigin" (click)="openExp()">
-      {{experienceDto.position}}
-    </p>
-    <p class="no-margin expDescription {{experienceDto.isOpenAni?'open-ani':'close-ani'}}" *ngIf="experienceDto.isOpen">
-      {{experienceDto.description}}
-    </p>
+    <div *ngFor="let pos of experienceDto.positions">
+      <p class="postName cursorHand " (click)="openExp()">
+        <b>{{pos.name}}</b>
+        <span class="expOrigin">
+          - {{pos.date}}
+        </span>
+      </p>
+      <p class=" expDescription {{experienceDto.isOpenAni?'open-ani':'close-ani'}}" *ngIf="experienceDto.isOpen">
+        {{pos.description}}
+      </p>
+
+    </div>
+
+
     <ng-container *ngFor="let tag of experienceDto.tags">
       <a href="{{tag.link}}" class="btn btn-info btn-tag" target="_blank">
         {{tag.name}}

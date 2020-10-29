@@ -25,7 +25,7 @@
 
           <h3 class="text-center text-white">{{cv.lateral2}}</h3>
           <p class="text-center text-white text-lateral">
-            <i class="fa fa-envelope"></i> - 
+            <i class="fa fa-envelope"></i> -
             <a class="link-color" href="mailto: fabian.arismendi@usach.cl">fabian.arismendi@usach.cl</a>
           </p>
           <hr>
@@ -50,10 +50,10 @@
             </a>
           </p>
           <p class="text-center text-white text-lateral">
-            
+
               Last Update:
              {{cv.lastUpdate}}
-            
+
           </p>
 
 
@@ -67,23 +67,14 @@
         </h1>
         <h3 class="text-right text-blue1">
           {{cv.profession}}
-          <img 
+          <img
             src="/assets/img/logo-usach.png"
             alt="usachita"
             class="usachita"
             >
         </h3>
         <hr>
-        <h4 class="text-blue2 cursorHand" (click)="openTitle1()">
-          <i class="fa {{isOpenTitle1?'fa-plus':'fa-minus'}}"> </i>
-          {{cv.title1}}
-        </h4>
-        <ng-container *ngIf="isOpenTitle1">
-          <studies [studiesList]="cv.studiesList"></studies>
-        </ng-container>
 
-        <!-- ESTUDIOS PROFESIONALES-->
-        <hr>
 
         <!-- Experiencia profesional-->
         <h4 class="text-blue2 cursorHand" (click)="openTitle2()">
@@ -94,6 +85,16 @@
           <professional-experience [experiences]="cv.experiences" ></professional-experience>
         </ng-container>
 
+        <hr>
+        <h4 class="text-blue2 cursorHand" (click)="openTitle1()">
+          <i class="fa {{isOpenTitle1?'fa-plus':'fa-minus'}}"> </i>
+          {{cv.title1}}
+        </h4>
+        <ng-container *ngIf="isOpenTitle1">
+          <studies [studiesList]="cv.studiesList"></studies>
+        </ng-container>
+
+        <!-- ESTUDIOS PROFESIONALES-->
         <hr>
 
         <h4 class="text-blue2 cursorHand" (click)="openTitle3()">
