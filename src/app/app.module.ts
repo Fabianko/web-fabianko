@@ -22,6 +22,9 @@ import {ExperienceComponent} from './cv/professional-experience/experience/exper
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {ItemComponent} from './web-bd/item/item.component';
 import {GameComponent} from './game2048/game2048.component';
+import {Game2048Component} from './game2048/game2048/game2048.component';
+
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 const routes: Routes = [
   { path: '',
@@ -57,11 +60,14 @@ const routes: Routes = [
     CvEspComponent,
     WelcomeHomeComponent,
     WebBdComponent,
-    ItemComponent
+    ItemComponent,
+    Game2048Component
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(
       routes,
       { enableTracing: false } // <-- debugging purposes only
