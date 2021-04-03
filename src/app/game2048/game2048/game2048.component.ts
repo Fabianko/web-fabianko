@@ -30,7 +30,7 @@ export class Game2048Component implements OnInit {
     4,
     [
       Validators.min(3),
-      Validators.max(15),
+      Validators.max(8),
       Validators.pattern('[0-9]*')
     ],[]);
 
