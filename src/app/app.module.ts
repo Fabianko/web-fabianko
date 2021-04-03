@@ -23,8 +23,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {ItemComponent} from './web-bd/item/item.component';
 import {GameComponent} from './game2048/game2048.component';
 import {Game2048Component} from './game2048/game2048/game2048.component';
+import {PokemonGameComponent} from './pokemonGame/pokemonGame.component';
+import {ApiPokemonService} from './pokemonGame/api-pokemon.service';
+import { DifficultGameOptionsComponent } from './pokemonGame/difficult-game-options/difficult-game-options.component';
+import { PokemonToDiscoveryComponent } from './pokemonGame/pokemon-to-discovery/pokemon-to-discovery.component';
+import { DiscoveryPanelComponent } from './pokemonGame/discovery-panel/discovery-panel.component';
 
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
 
 const routes: Routes = [
   { path: '',
@@ -36,6 +42,7 @@ const routes: Routes = [
   {path:'test-news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent },
   { path: '2048', component: GameComponent },
+  { path: 'pokemonGame', component: PokemonGameComponent },
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'
@@ -46,6 +53,10 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     GameComponent,
+    PokemonGameComponent,
+    DifficultGameOptionsComponent,
+    DiscoveryPanelComponent,
+    PokemonToDiscoveryComponent,
     SkillsComponent,
     ExperienceComponent,
     StudyComponent,
@@ -64,6 +75,7 @@ const routes: Routes = [
     Game2048Component
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
@@ -75,7 +87,7 @@ const routes: Routes = [
     FontAwesomeModule
   ],
   exports: [RouterModule],
-  providers: [],
+  providers: [ApiPokemonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

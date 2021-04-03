@@ -8,24 +8,32 @@
         </p>
       </div>
       <div class="col-md-4"></div>
-      <div class="col-md-4"> 
+      <div class="col-md-4">
         <button #btnCv type="button" [routerLink]="['/cv']" class="btn btn-dark btn-entrance-down">
+          <i class="fa fa-briefcase"></i>
           Curriculum
         </button>
         <button #btnCN type="button" [routerLink]="['/test-news']" class="btn btn-dark btn-entrance-down">
+          <i class="fa fa-file"></i>
           Clasificación de noticias
         </button>
         <button #btnCN type="button" [routerLink]="['/web-bd']" class="btn btn-dark btn-entrance-down">
+          <i class="fa fa-university"></i>
           Base de datos - usach
         </button>
-        <button #btnCN type="button" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
+        <button #btnCN type="button" [disabled]="true" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
           Procesamiento de lenguaje natural
         </button>
-        <button #btnCN type="button" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
+        <button #btnCN type="button" [disabled]="true" [routerLink]="['/helloworld']" class="btn btn-dark btn-entrance-down">
           Scrum
         </button>
         <button #btnCN type="button" [routerLink]="['/2048']" class="btn btn-dark btn-entrance-down">
-          2048
+          <i class="fa fa-gamepad"></i>
+          2048x game
+        </button>
+        <button #btnCN type="button" [routerLink]="['/pokemonGame']" class="btn btn-dark btn-entrance-down">
+          <i class="fa fa-gamepad"></i>
+          Pokemon game
         </button>
       </div>
     </div>
@@ -37,7 +45,7 @@
         / Fabián Arismendi Ferrada
       </span>
     </p>
-    <button 
+    <button
       class="btn btn-circle btn-xs btn-success position-button btn-entrance-right"
       (click)="changeImg()">
       <i class="fa fa-retweet"></i>
