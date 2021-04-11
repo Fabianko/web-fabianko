@@ -36,6 +36,8 @@ export class Game2048Component implements OnInit {
 
   endGame = false;
 
+  winner = false;
+
   sizeArray: number = 4;
 
   countMoviments: number = 0;
@@ -50,6 +52,8 @@ export class Game2048Component implements OnInit {
 
   public configInit(){
     this.countMoviments = 0;
+    this.winner = false;
+    this.endGame = false;
     this.history = [];
     this.array = this.createArray(this.sizeArray);
     this.array = this.randomInCeros(this.array,this.sizeArray);
@@ -61,6 +65,7 @@ export class Game2048Component implements OnInit {
   public backButton() {
     this.array = JSON.parse(JSON.stringify(this.history[this.countMoviments-1]));
     this.endGame=false;
+    this.winner=false;
     this.countMoviments-=1;
     this.getMaxValue(this.array);
   }
@@ -116,6 +121,9 @@ export class Game2048Component implements OnInit {
         console.log("termino el juego");
         this.endGame=true;
         return 0;
+      }
+      if (this.maxValue == 2048) {
+        this.winner = true;
       }
     }
   }
