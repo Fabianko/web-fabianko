@@ -1,0 +1,45 @@
+.cell{
+  background-color: #c4cff3;
+  width: 100px;
+  max-width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100px;
+  font-size: 40px;
+}
+.cell__color--1{
+  color:green;
+}
+.cell__color--2{
+  color: blue;
+}
+.cell__color--{
+  color: #c4cff3;
+}
+.cell__color-1-1{
+  color:#ffffff;
+  background-color: #2ea853;
+}
+.cell__color-1-2{
+  color:#000000;
+  background-color: #ffffff;
+}
+.cell__color-2-1{
+  color:#000000;
+  background-color: #ffffff;
+}
+.cell__color-2-2{
+  color:#ffffff;
+  background-color: #2ea853;
+}
+
+.cell__color-1-{
+  color: #ffffff;
+  background-color: #ffffff;
+}
+.cell__color-2-{
+  color: #ffffff;
+  background-color: #ffffff;
+}

@@ -28,7 +28,9 @@ import {ApiPokemonService} from './pokemonGame/api-pokemon.service';
 import { DifficultGameOptionsComponent } from './pokemonGame/difficult-game-options/difficult-game-options.component';
 import { PokemonToDiscoveryComponent } from './pokemonGame/pokemon-to-discovery/pokemon-to-discovery.component';
 import { DiscoveryPanelComponent } from './pokemonGame/discovery-panel/discovery-panel.component';
-
+import {GameTicTacToeComponent} from './tictactoegame/game/game.component';
+import {BoardComponent} from './tictactoegame/board/board.component';
+import {CellComponent} from './tictactoegame/board/cell/cell.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
 
@@ -43,6 +45,7 @@ const routes: Routes = [
   { path: 'cv', component: CvEspComponent },
   { path: '2048', component: GameComponent },
   { path: 'pokemonGame', component: PokemonGameComponent },
+  { path: 'tictactoe', component: GameTicTacToeComponent},
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'
@@ -52,6 +55,9 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
+    CellComponent,
+    BoardComponent,
+    GameTicTacToeComponent,
     GameComponent,
     PokemonGameComponent,
     DifficultGameOptionsComponent,

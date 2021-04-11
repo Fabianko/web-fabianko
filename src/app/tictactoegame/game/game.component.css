@@ -1,0 +1,48 @@
+/******************
+   variables
+*******************/
+:root {
+	--color-white: white;
+	--color-primary: #005AD6;
+	--color-primary-lighter: #A0C8FF;
+	--color-light-grey: #E1E1E1;
+	--color-dark-grey: #757575;
+	--color-darker-grey: #282828;
+	--color-light-blue-grey: #F3F6FA;
+
+}
+
+
+/******************
+  Typography
+*******************/
+
+h2 {
+	font-size: 24px;
+	font-family: 'Poppins';
+	font-weight: 500;
+}
+
+.container__background{
+  margin:0px;
+  width:100%;
+  height:100%;
+  background-color: #005AD6;
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.game__container{
+  background-color: #F3F6FA;
+  position: relative;
+  padding:20px;
+}
+
+.btn-back {
+  background-color: red;
+  position: fixed;
+  top: 40px;
+  right: 5%;
+  z-index: 1;
+}
