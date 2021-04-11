@@ -1,0 +1,7 @@
+.btn-back {
+  background-color: red;
+  position: fixed;
+  top: 40px;
+  right: 5%;
+  z-index: 1;
+}
