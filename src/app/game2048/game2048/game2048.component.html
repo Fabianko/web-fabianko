@@ -2,7 +2,7 @@
   GAME 2048x <span class="title-sub-1"> by Fabián Arismendi </span>
 </h1>
 <h2 class="text-center" style="color: red" *ngIf="endGame">FIN DEL JUEGO</h2>
-<h1 class="text-center" style="color: blue" *ngIf="winner">FELICIDADES </h1>
+<h1 class="text-center" style="color: blue" *ngIf="winner">WINNER 2048 </h1>
 <div class="">
   <div class="row">
     <div class="col-md-12">
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <p class="text-center label-1">Movimientos: {{ countMoviments }}</p>
+          <p class="text-center label-1">movements: {{ countMoviments }}</p>
           <p class="text-center label-1" *ngIf="maxValue">Max value: {{ maxValue }}</p>
         </div>
       </div>
