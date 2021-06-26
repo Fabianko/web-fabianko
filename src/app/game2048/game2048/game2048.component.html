@@ -1,0 +1,89 @@
+<h1 class="text-left title-1">
+  GAME 2048x <span class="title-sub-1"> by Fabián Arismendi </span>
+</h1>
+<h2 class="text-center" style="color: red" *ngIf="endGame">FIN DEL JUEGO</h2>
+<h1 class="text-center" style="color: blue" *ngIf="winner">WINNER 2048 </h1>
+<div class="">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="label-1">Size :</p>
+          <div class="input-group mb-1">
+            <input
+              type="number"
+              class="form-control"
+              [formControl]="inputSize"
+              placeholder="valor de 4 a 15"
+              aria-describedby="basic-addon2"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-info"
+                type="button"
+                (click)="changeSize()"
+              >
+                change
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="text-center label-1">movements: {{ countMoviments }}</p>
+          <p class="text-center label-1" *ngIf="maxValue">Max value: {{ maxValue }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row tablero">
+    <div class="col-md-12" style='text-align: -webkit-center;'>
+      <ng-container class="text-center" *ngIf="array">
+        <ng-container *ngFor="let row of array; let i = index">
+          <div style="display: table">
+            <ng-container *ngFor="let col of row; let j = index">
+              <div class="text-center color-{{ col }} elem-game ">
+                <ng-container class="text-center">
+                  {{ col }}
+                </ng-container>
+              </div>
+            </ng-container>
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-right">
+      <button
+        class="btn btn-success btn-1"
+        [disabled]="countMoviments == 0"
+        (click)="backButton()"
+      >
+        <i class="fa fa-undo "></i>
+      </button>
+    </div>
+    <div class="col-md-12 text-center">
+      <button class="btn btn-info btn-lg" [disabled]="endGame" (click)="clickUp()">
+        <i class="fa fa-arrow-up "></i>
+      </button>
+    </div>
+    <div class="col-md-12 text-center">
+      <button class="btn btn-info btn-lg" [disabled]="endGame" (click)="clickLeft()">
+        <i class="fa fa-arrow-left "></i>
+      </button>
+      <button class="btn btn-danger btn-lg" [disabled]="true" >
+        <i class="fa fa-gamepad "></i>
+      </button>
+      <button class="btn btn-info btn-lg" [disabled]="endGame" (click)="clickRight()">
+        <i class="fa fa-arrow-right "></i>
+      </button>
+    </div>
+    <div class="col-md-12 text-center">
+
+      <button class="btn btn-info btn-lg" [disabled]="endGame" (click)="clickDown()">
+        <i class="fa fa-arrow-down "></i>
+      </button>
+
+    </div>
+  </div>
+</div>

@@ -1,8 +1,8 @@
 export class ProfessionalExperienceDto{
   business: string;
-  position: string;
-  date: string;
-  description: string;
+  positions: positionDto[];
+
+
   tags: tag[];
   isOpen: boolean;
   isOpenAni: boolean;
@@ -11,4 +11,10 @@ export class ProfessionalExperienceDto{
 export class tag {
   name: string;
   link: string;
+}
+
+export class positionDto {
+  name: string;
+  date: string;
+  description: string;
 }

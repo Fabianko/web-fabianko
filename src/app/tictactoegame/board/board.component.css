@@ -1,0 +1,13 @@
+.elem-game{
+  display: table-cell;
+  color: #776e65;
+  min-width: 100px !important;
+  min-height: 80px !important;
+  margin: 0px;
+  border: 3px;
+  border-color: #332420;
+  border-style: groove;
+  height: 100px;
+  padding: 0px;
+  margin:0px;
+}

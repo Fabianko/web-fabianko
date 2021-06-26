@@ -16,7 +16,7 @@ export class ExperienceComponent implements OnInit {
   public openExp() {
     if (this.experienceDto.isOpen ) {
       this.experienceDto.isOpenAni = false;
-      setTimeout(()=>{this.experienceDto.isOpen = false;},500)
+      setTimeout(()=>{this.experienceDto.isOpen = false;},1000)
     }
     else {
       this.experienceDto.isOpen = true;

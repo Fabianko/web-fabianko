@@ -1,35 +1,404 @@
 {
-  "lateral1":"ABOUT ME",
-  "lateral2":"CONTACT",
-  "lateral3":"FOLLOW ME",
-  "profession":"COMPUTER SCIENCE ENGINEER",
-  "title1":"STUDIES",
-  "title2":"EXPERIENCE",
-  "lateral1Text":"My professional objective is to focus on the management, research and development of projects in all sizes, achieving through innovation and teamwork to meet the objectives, quality and expectations expected by people, for this I do not impose limitations regarding the activities to be developed in the professional field and teamwork.",
-  "experiences":[
-  ],
-  "studiesList":[
+  "lateral1": "ABOUT ME",
+  "lateral2": "CONTACT",
+  "lateral3": "FOLLOW ME",
+  "profession": "COMPUTER SCIENCE ENGINEER",
+  "title1": "STUDIES",
+  "title2": "EXPERIENCE",
+  "title3": "SKILLS",
+  "lastUpdate": "12-06-2020",
+  "lateral1Text": "My professional objective is to focus on the management, research and development of projects in all sizes, achieving through innovation and teamwork to meet the objectives, quality and expectations expected by people, for this I do not impose limitations regarding the activities to be developed in the professional field and teamwork.",
+  "experiences": [
     {
-      "date":"2015 - 2016",
-      "title":"Master in Computer Engineering",
-      "origin": "Universidad de Santiago de Chile",
-      "description":"Tesis: Método de modelamiento dinámico de tópicos para la red social Twitter, Fue centrada en el pre-procesamiento de los Tweets generados en la red social Twitter, donde se busca la generación de tópicos de forma dinámica en el tiempo, permitiendo un análisis predictivo y global respecto a diversos indicadores calculables utilizando procesamiento de lenguaje natural. Profesor Guía: Dra. Carolina Bonacic. Diploma de excelencia academica por el rendimiento en el programa de magíster ",
+      "business": "AVLA S.A.",
+      "positions": [
+        {
+          "name": "Data Scientist Lead",
+          "date": "february 2020 - TODAY",
+          "description": "Creation of claims and risk underwriting models, allowing to automate 60% of risk assessments automatically, Team leader of 2 data science and 1 data engineer in Chile and Peru."
+        },
+        {
+          "name": "Software Engineer Lead",
+          "date": "september 2018 - may 2020",
+          "description": "Developed the Artemisa system for management of credit insurance policies for Chile and Peru, developed in Angular 6 and Spring, postgres, AWS and kubernetes. Supporting the management of thousands of daily operations for the complete portfolio of clients, Frontend team leader with 8 developers."
+        },
+        {
+          "name": "Senior Software Engineer",
+          "date": "april 2017 - september 2018",
+          "description": "Development of a system for financial guarantees product (SAGR) Chile that manages from the commercial team to the generation of documents, developed in Angular 4, spring, postgres, dockers and AWS. The system allows a 30% reduction in manual operation times, Part of the 4-person team, working on frontend with angular."
+        }
+      ],
+      "tags": [
+        {
+          "name": "ANGULAR 4+",
+          "link": "https://angular.io"
+        },
+        {
+          "name": "AWS",
+          "link": "https://aws.amazon.com/es/"
+        },
+        {
+          "name": "AVLA",
+          "link": "https://www.avla.com/cl/"
+        }
+      ],
       "isOpen": false
     },
     {
-      "date":"2009 - 2016",
-      "title":"Ingeniería civil informática",
-      "origin": "Universidad de Santiago de Chile",
-      "description":"Memoria, se me permite presentar la tesis de magíster como memoria de ingeniería civil informática dado la complejidad del tema y la parte de programación necesaria para el preprocesamiento de texto. Diploma de titulación oportuna por terminar la carrera en los 6 años correspondientes",
+      "business": "Universidad de Santiago de Chile",
+      "positions": [
+        {
+          "name": "Assistant Professor",
+          "date": "august 2014 - TODAY",
+          "description": "Currently I teach classes in Database Design, Database Workshop, Introduction to Python programming and I have some theses in progress, Formerly Logic, Systems Engineering, Computer Structures."
+        }
+      ],
+      "tags": [
+        {
+          "name": "profile",
+          "link": "https://www.informatica.usach.cl/profesor_hora/fabian-andres-arismendi-ferrada/"
+        },
+        {
+          "name": "diinf",
+          "link": "https://www.informatica.usach.cl"
+        },
+        {
+          "name": "database",
+          "link": "https://en.wikipedia.org/wiki/Database"
+        }
+      ],
       "isOpen": false
     },
     {
-      "date":"2009 - 2014",
-      "title":"Licenciado en Ciencias de la Ingeniería",
-      "origin": "Universidad de Santiago de Chile",
-      "description":"Este titulo es entregado al 4 año cursado completo de la carrera que tiene un equivalente en conocimientos con cualquier licenciatura entregada por las universidades de Chile.",
+      "business": "Orand S.A.",
+      "positions": [
+        {
+          "name": "Software Engineer",
+          "date": "august 2016 - april 2017",
+          "description": "Development of a system for prioritizing and classifying emails using PLN with java and angular 2 for BBVA and Banco de Chile, Creation of web scraping of websites like sodimac, homy, ripley and falabella to feed the Impresse search engine using python."
+        }
+      ],
+      "tags": [
+        {
+          "name": "Orand s.a.",
+          "link": "https://www.orand.cl"
+        },
+        {
+          "name": "Impresee",
+          "link": "http://www.impresee.com"
+        },
+        {
+          "name": "TextMetric",
+          "link": "https://www.orand.cl/orand-presenta-su-nueva-unidad-de-negocios-textmetric/"
+        },
+        {
+          "name": "PYTHON",
+          "link": "https://www.python.org"
+        },
+        {
+          "name": "RoR",
+          "link": "https://rubyonrails.org"
+        },
+        {
+          "name": "Text Classification",
+          "link": "https://towardsdatascience.com/text-classification-in-python-dd95d264c802"
+        },
+        {
+          "name": "web Scraping",
+          "link": "https://en.wikipedia.org/wiki/Web_scraping"
+        }
+      ],
+      "isOpen": false
+    },
+    {
+      "business": "Imbalabs",
+      "positions": [
+        {
+          "name": "Software and research engineer",
+          "date": "september 2015 - november 2016",
+          "description": "In charge of text processing, topic modeling, text classification processes and analysis of the behavior of messages on Twitter, specializing in pre-processing of messages to obtain as much information as possible in the Spanish language, development with python tools."
+        }
+      ],
+      "tags": [
+        {
+          "name": "Text Classification",
+          "link": "https://towardsdatascience.com/text-classification-in-python-dd95d264c802"
+        },
+        {
+          "name": "Topic Modeling",
+          "link": "https://en.wikipedia.org/wiki/Topic_model"
+        },
+        {
+          "name": "LDA",
+          "link": "https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation"
+        },
+        {
+          "name": "PYTHON",
+          "link": "https://www.python.org"
+        }
+      ],
+      "isOpen": false
+    },
+    {
+      "business": "Etech Communities",
+      "positions": [
+        {
+          "name": "Software Engineer Intern",
+          "date": "march 2015 - august 2016",
+          "description": "Development of a system for the generation of video game news for the social network gamerapp and copagamer using Ruby On Rails 4 and Postgresql on AWS."
+        }
+      ],
+      "tags": [
+        {
+          "name": "GAMERAPP",
+          "link": "https://www.youtube.com/channel/UCuEh80qZ3XJX006n8I5AAtw"
+        },
+        {
+          "name": "RoR",
+          "link": "https://rubyonrails.org"
+        },
+        {
+          "name": "AWS",
+          "link": "https://aws.amazon.com/es/"
+        },
+        {
+          "name": "Postgresql",
+          "link": "https://www.postgresql.org"
+        },
+        {
+          "name": "LESS",
+          "link": "http://lesscss.org"
+        }
+      ],
+      "isOpen": false
+    },
+    {
+      "business": "CITIAPS",
+      "positions": [
+        {
+          "name": "Research Assistant",
+          "date": "august 2014 - august 2016",
+          "description": "Support in Fondef D09I1185, Scalable Web Observatories in Real Time, Providing tools for document classification and topic models in the Twitter social network using Python."
+        }
+      ],
+      "tags": [
+        {
+          "name": "CITIAPS",
+          "link": "https://citiaps.usach.cl"
+        },
+        {
+          "name": "FONDEF",
+          "link": "https://www.conicyt.cl/fondef/sobre-fondef/que-es-fondef/"
+        },
+        {
+          "name": "FONDEF (D09I1185)",
+          "link": "https://www.conicyt.cl/wp-content/themes/fondef/encuentra_proyectos/PROYECTO/09/I/D09I1185.html"
+        }
+      ],
+      "isOpen": false
+    },
+    {
+      "business": "Universidad de Central de Chile",
+      "positions": [
+        {
+          "name": "Assistant Professor",
+          "date": "august 2014 - jenuary 2015",
+          "description": "Information Systems Laboratory for 4th year civil engineering industry students with process and business modeling in Bizagi to improve or solve processes with information systems."
+        }
+      ],
+      "tags": [
+        {
+          "name": "Ucentral",
+          "link": "https://www.ucentral.cl"
+        }
+      ],
+      "isOpen": false
+    },
+    {
+      "business": "Universidad de Santiago de Chile",
+      "positions": [
+        {
+          "name": "Assistant student",
+          "date": "march 2011 - august 2015",
+          "description": "For the subjects of fundamentals of programming (2/2011), discrete structures (1/2012 to 2/2013), logic and theory of computing (2/2012), fundamentals of computing and programming (2/2013) , database foundations (2/2013 to 1/2015), professional elective entrepreneurship workshop (1/2014)."
+        }
+      ],
+      "tags": [
+        {
+          "name": "diinf",
+          "link": "https://www.informatica.usach.cl"
+        }
+      ],
       "isOpen": false
     }
-  ]
+  ],
+  "studiesList": [
+    {
+      "date": "august  2014 - december 2015",
+      "title": "Magíster en ingeniería informática",
+      "origin": "Universidad de Santiago de Chile",
+      "description": "Thesis: Method of dynamic modeling of topics for the social network Twitter It was focused on the pre-processing of the Tweets generated in the social network Twitter, where the generation of topics is sought dynamically over time, allowing a predictive and global analysis with respect to various calculable indicators using natural language processing. Guide Teacher: Dra. Carolina Bonacic. diploma of academic excellence for performance in the master's program.",
+      "isOpen": false
+    },
+    {
+      "date": "january  2009 - december 2015",
+      "title": "Ingeniería civil informática",
+      "origin": "Universidad de Santiago de Chile",
+      "description": "Memory, I am allowed to present the master's thesis as a memory of computer science civil engineering given the complexity of the subject and the part of programming necessary for text pre-processing. Diploma of timely qualification for finishing the degree in the corresponding 6 years.",
+      "isOpen": false
+    },
+    {
+      "date": "january  2009 - december 2013",
+      "title": "Licenciado en Ciencias de la Ingeniería",
+      "origin": "Universidad de Santiago de Chile",
+      "description": "This title is delivered to the 4 completed year of the career that has an equivalent in knowledge with any degree delivered by the Universidad de Santiago de Chile.",
+      "isOpen": false
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL",
+      "link": "https://en.wikipedia.org/wiki/SQL",
+      "value": 100
+    },
+    {
+      "name": "Angular 10",
+      "link": "",
+      "value": 80
+    },
+    {
+      "name": "Typescript",
+      "link": "",
+      "value": 100
+    },
+    {
+      "name": "Linux || Ubuntu server",
+      "link": "",
+      "value": 90
+    },
+    {
+      "name": "AWS (S3,EC2,RDS,etc.)",
+      "link": "",
+      "value": 70
+    },
+    {
+      "name": "Python",
+      "link": "",
+      "value": 90
+    },
+    {
+      "name": "PLN",
+      "link": "",
+      "value": 80
+    },
+    {
+      "name": "SCRUM",
+      "link": "",
+      "value": 100
+    },
+    {
+      "name": "UX/UI || Figma || draw.io ",
+      "link": "",
+      "value": 70
+    },
+    {
+      "name": "DENO",
+      "link": "",
+      "value": 20
+    },
+    {
+      "name": "NODEJS",
+      "link": "",
+      "value": 50
+    },
+    {
+      "name": "Postgresql",
+      "link": "",
+      "value": 90
+    },
+    {
+      "name": "Mysql",
+      "link": "",
+      "value": 80
+    },
+    {
+      "name": "JIRA + BITBUCKET + SLACK",
+      "link": "",
+      "value": 100
+    },
+    {
+      "name": "GIT + GITFLOW",
+      "link": "",
+      "value": 100
+    },
+    {
+      "name": "HTML5 + CSS3 + JS",
+      "link": "",
+      "value": 100
+    },
+    {
+      "name": "Ruby On Rails",
+      "link": "",
+      "value": 70
+    },
+    {
+      "name": "JAVA + Spring Framework",
+      "link": "",
+      "value": 60
+    },
+    {
+      "name": "Dockers",
+      "link": "",
+      "value": 50
+    },
+    {
+      "name": "MongoDB",
+      "link": "",
+      "value": 60
+    },
+    {
+      "name": "Selenium || beautifulsoup || scrapy",
+      "link": "",
+      "value": 90
+    },
+    {
+      "name": "Material design || Bootstrap 4",
+      "link": "",
+      "value": 100
+    },
+    {
+      "name": "ReactJs || React Native || redux",
+      "link": "",
+      "value": 40
+    },
+    {
+      "name": "VueJs",
+      "link": "",
+      "value": 40
+    },
+    {
+      "name": "Excel || Word || PowerPoint",
+      "link": "",
+      "value": 50
+    },
+    {
+      "name": "Latex + Overleaf",
+      "link": "",
+      "value": 70
+    },
+    {
+      "name": "R || GNU Octave",
+      "link": "",
+      "value": 50
+    },
+    {
+      "name": "Rust",
+      "link": "",
+      "value": 10
+    }
+  ],
+  "certificates": []
+
+
 
 }

@@ -1,10 +1,12 @@
 <div class="row">
   <div class="col-md-4">
-    <p class="text-right title-skill">{{skill.name}}</p>
+    <p class="text-right title-skill">
+      <a class="text-skill" href="{{skill.link}}">{{skill.name}}</a>
+    </p>
   </div>
   <div class="col-md-8">
     <div class="progress">
-      <div class="progress-bar bg-blue1"
+      <div class="progress-bar bg-blue1 progress-meter"
         role="progressbar"
         [style.width]="skill.value + '%'"
         aria-valuemin= "0"
