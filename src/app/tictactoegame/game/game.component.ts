@@ -6,21 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./game.component.css']
 })
 export class GameTicTacToeComponent implements OnInit {
-  public winner:number;
+
+  public winner: number;
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  validWin(e:boardClass) {
+
+  validWin(e: boardClass) {
     if (
-      this.validHorizontalWin(e.board,e.nowPlayer) ||
-      this.validVerticalWin(e.board,e.nowPlayer) ||
-      this.validDiagonal1(e.board,e.nowPlayer) ||
-      this.validDiagonal2(e.board,e.nowPlayer)
+      this.validHorizontalWin(e.board, e.nowPlayer) ||
+      this.validVerticalWin(e.board, e.nowPlayer) ||
+      this.validDiagonal1(e.board, e.nowPlayer) ||
+      this.validDiagonal2(e.board, e.nowPlayer)
     ) {
       this.winner = e.nowPlayer;
+      return true;
     }
     else {
       return false;
@@ -28,41 +32,43 @@ export class GameTicTacToeComponent implements OnInit {
   }
 
 
-  public validHorizontalWin(board, player) :boolean {
+  public validHorizontalWin(board, player): boolean {
     let i = 0;
     let j = 0;
     while (i < board.length) {
-        if (board[i][j] == player) {
-            if (j == board.length-1) {
-                return true;
-            }
-            j++;
+      if (board[i][j] == player) {
+        if (j == board.length - 1) {
+          return true;
         }
-        else {
-            i++;
-        }
+        j++;
+      }
+      else {
+        i++;
+      }
     }
     return false;
   }
 
-  public validVerticalWin(board,player) :boolean{
+
+  public validVerticalWin(board, player): boolean {
     let i = 0;
     let j = 0;
     while (j < board.length) {
-        if (board[i][j] == player) {
-            if (i == board.length-1) {
-                return true;
-            }
-            i++;
+      if (board[i][j] == player) {
+        if (i == board.length - 1) {
+          return true;
         }
-        else {
-            j++;
-        }
+        i++;
+      }
+      else {
+        j++;
+      }
     }
     return false;
   }
 
-  public validDiagonal1(board,player):boolean {
+
+  public validDiagonal1(board, player): boolean {
     let i = 0;
     let j = 0;
     while (j < board.length) {
@@ -77,9 +83,10 @@ export class GameTicTacToeComponent implements OnInit {
     return true;
   }
 
-  public validDiagonal2(board,player):boolean {
+
+  public validDiagonal2(board, player): boolean {
     let i = 0;
-    let j = board.length -1;
+    let j = board.length - 1;
     while (i < board.length) {
 
       if (board[i][j] != player) {
@@ -97,5 +104,5 @@ export class GameTicTacToeComponent implements OnInit {
 
 export class boardClass {
   board: number[][]
-  nowPlayer:number
+  nowPlayer: number
 }

@@ -8,9 +8,9 @@ import { itemDto } from './dtos/itemDto';
   styleUrls: ['./web-bd.component.less']
 })
 export class WebBdComponent implements OnInit {
-  dataBd:itemDto[];
+  
   constructor() { }
-
+  dataBd: itemDto[] | undefined;
   ngOnInit() {
     this.dataBd = data['default'];
     console.log(data);
