@@ -3,6 +3,8 @@
 @black: #0c0809;
 @white: #FFF;
 @blueLinkedin:  #2977b4;
+@purple: #392365;
+@purple2: #a058ef;
 
 @padding1: 10px;
 @paddingCard:40px;
@@ -54,7 +56,8 @@
 }
 .p-title-mrk{
   font-size: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 40px;
+
   /*
   -ms-transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg); 
@@ -81,6 +84,7 @@
 }
 .txt-size-btn{
   font-size: 18px;;
+  border-bottom: inset;
 }
 .btn-linkedin{
   background-color: @blueLinkedin;
@@ -130,4 +134,33 @@
 .btn-dark{
   margin-left: 5px;
   margin-bottom: 5px;
+}
+
+.footer{ 
+  background: linear-gradient(0.35turn, @purple, @black, @purple);
+  height: 30px;
+  opacity: 0.7;
+  padding:5px;
+}
+.footer:hover{ 
+  background: linear-gradient(0.2turn, @black, @purple, @black);
+  height: 30px;
+  opacity: 0.7;
+  padding:5px;
+}
+.color-white{
+  color: white;
+}
+.i-links {
+  color: @purple2;
+  margin-right:5px;
+}
+
+.btn-dark{
+  background: linear-gradient(0.2turn, @black, @purple, @black);
+  border-color:@purple;
+}
+
+.btn-success{
+  background: linear-gradient(0.2turn, @black, green, @black);
 }

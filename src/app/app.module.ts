@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -28,6 +29,7 @@ import { ItemComponent } from './todolist/item/item.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 
+
 @NgModule({
   declarations: [
     CellComponent,
@@ -56,12 +58,14 @@ import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
     Game2048Component
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

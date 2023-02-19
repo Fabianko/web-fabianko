@@ -6,12 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./game.component.css']
 })
 export class GameTicTacToeComponent implements OnInit {
+
   public winner: number;
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
 
   validWin(e: boardClass) {
     if (
@@ -46,6 +49,7 @@ export class GameTicTacToeComponent implements OnInit {
     return false;
   }
 
+
   public validVerticalWin(board, player): boolean {
     let i = 0;
     let j = 0;
@@ -63,6 +67,7 @@ export class GameTicTacToeComponent implements OnInit {
     return false;
   }
 
+
   public validDiagonal1(board, player): boolean {
     let i = 0;
     let j = 0;
@@ -77,6 +82,7 @@ export class GameTicTacToeComponent implements OnInit {
     }
     return true;
   }
+
 
   public validDiagonal2(board, player): boolean {
     let i = 0;

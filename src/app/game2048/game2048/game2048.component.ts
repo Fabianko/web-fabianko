@@ -31,6 +31,7 @@ export class Game2048Component implements OnInit {
       Validators.min(3),
       Validators.max(8),
       Validators.pattern('[0-9]*')
+
     ], []);
 
   endGame = false;
@@ -41,7 +42,9 @@ export class Game2048Component implements OnInit {
 
   countMoviments: number = 0;
 
+
   history: number[][][] = [];
+
 
   constructor() { }
 
@@ -49,19 +52,23 @@ export class Game2048Component implements OnInit {
     this.configInit();
   }
 
+
   public configInit() {
     this.countMoviments = 0;
     this.winner = false;
     this.endGame = false;
     this.history = [];
     this.array = this.createArray(this.sizeArray);
+
     this.array = this.randomInCeros(this.array, this.sizeArray);
+
     this.history.push(JSON.parse(JSON.stringify(this.array)));
     this.getMaxValue(this.array);
   }
 
 
   public backButton() {
+
     this.array = JSON.parse(JSON.stringify(this.history[this.countMoviments - 1]));
     this.endGame = false;
     this.winner = false;
@@ -77,6 +84,7 @@ export class Game2048Component implements OnInit {
   }
 
   public clickUp() {
+
     let matrix: number[][] = JSON.parse(JSON.stringify(this.moveUp(this.array)));
     this.nextStep(matrix);
   }
@@ -96,6 +104,7 @@ export class Game2048Component implements OnInit {
     this.nextStep(matrix);
   }
 
+
   public getMaxValue(matrix: number[][]) {
     for (let i = 0; i < matrix.length; i++) {
       for (let j = 0; j < matrix[i].length; j++) {
@@ -106,23 +115,28 @@ export class Game2048Component implements OnInit {
     }
   }
 
+
   public nextStep(matrix: number[][]) {
+
     if (this.history[this.countMoviments].toString() == matrix.toString()) {
       return 0;
     }
     else {
       this.array = JSON.parse(JSON.stringify(matrix));
       this.countMoviments += 1;
+
       this.array = JSON.parse(JSON.stringify(this.randomInCeros(this.array, this.sizeArray)));
       this.history.push(JSON.parse(JSON.stringify(this.array)));
       this.getMaxValue(this.array);
       if (this.isEnd(this.array, this.sizeArray)) {
         console.log("termino el juego");
         this.endGame = true;
+
         return 0;
       }
       if (this.maxValue == 2048) {
         this.winner = true;
+
         return 0;
       }
     }
@@ -146,12 +160,14 @@ export class Game2048Component implements OnInit {
     return matrix;
   }
 
+
   public getCeros(matrix, size) {
     let ceros = [];
     let i = 0;
     while (i < size) {
       let j = 0;
       while (j < size) {
+
         if (matrix[i][j] == 0) {
           ceros.push({ 'i': i, 'j': j });
         }
@@ -163,6 +179,7 @@ export class Game2048Component implements OnInit {
   }
 
   //condicion de termino del juego
+
   public isEnd(matrix: number[][], size: number): boolean {
     let ceros = this.getCeros(matrix, size);
     if (ceros.length === 0) {
@@ -196,6 +213,7 @@ export class Game2048Component implements OnInit {
   }
 
   public moveRight(array: number[][]): number[][] {
+
     let matrix: number[][] = [];
     for (let index = 0; index < array.length; index++) {
       const row = array[index];
@@ -205,6 +223,7 @@ export class Game2048Component implements OnInit {
   }
 
   public moveLeft(array: number[][]): number[][] {
+
     let matrix: number[][] = [];
     for (let index = 0; index < array.length; index++) {
       const row = array[index];
@@ -215,7 +234,9 @@ export class Game2048Component implements OnInit {
 
   public moveUp(array: number[][]): number[][] {
     array = this.transpose(array);
+
     let matrix: number[][] = [];
+
     for (let index = 0; index < array.length; index++) {
       const row = array[index];
       matrix[index] = this.moveLeftRow(row);
@@ -225,7 +246,9 @@ export class Game2048Component implements OnInit {
 
   public moveDown(array: number[][]): number[][] {
     array = this.transpose(array);
+
     let matrix: number[][] = [];
+
     for (let index = 0; index < array.length; index++) {
       const row = array[index];
       matrix[index] = this.moveRightRow(row);
@@ -234,6 +257,7 @@ export class Game2048Component implements OnInit {
   }
 
   /* También esta función resuelve movimientos Down mediante transpose*/
+
   public moveRightRow(array: number[]): number[] {
     var i = array.length - 1;
     var countRev = 0;
@@ -259,6 +283,7 @@ export class Game2048Component implements OnInit {
         }
       }
       i = i - 1;
+
     }
     return array;
   }
@@ -289,6 +314,7 @@ export class Game2048Component implements OnInit {
         }
       }
       i = i + 1;
+
     }
     return array;
   }
