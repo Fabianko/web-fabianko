@@ -1,4 +1,4 @@
-import { ThrowStmt } from '@angular/compiler';
+
 import { Component, OnInit } from '@angular/core';
 import { ApiPokemonService } from '../api-pokemon.service';
 @Component({
