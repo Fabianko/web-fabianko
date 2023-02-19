@@ -1,6 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-import { typeWithParameters } from '@angular/compiler/src/render3/util';
 
 @Component({
   selector: 'app-game2048',
