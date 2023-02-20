@@ -2,19 +2,33 @@
   <ng-container *ngFor="let i of newsJson.noticias">
     <div class="col-md-6" style="margin-top:20px;">
       <div class="card">
-        <img [src]="i.prontus_fotolibre && i.prontus_fotolibre.toString().includes('noticias') ?'http://www.' + newsJson.fuente + i.prontus_fotolibre : 'assets/img/no-image.jpg'"
-        class="card-img-top" alt="...">
+        <div *ngIf="
+          (!i.prontus_fotolibre || !i.prontus_fotolibre._text)
+          && (!i.prontus_foto640 || !i.prontus_foto640._text)
+          ">
+          <img [src]="'/assets/img/no-image.jpg'"
+          class="card-img-top" alt="...">
+        </div>
+        <div *ngIf="i.prontus_fotolibre && i.prontus_fotolibre._text">
+          <img [src]="'http://www.' + newsJson.fuente._text + i.prontus_fotolibre._text "
+          class="card-img-top" alt="...">
+        </div>
+        <div *ngIf="!i.prontus_fotolibre._text && i.prontus_foto640 && i.prontus_foto640._text">
+          <img [src]="i.prontus_foto640 ?'http://www.' + newsJson.fuente._text + i.prontus_foto640._text : 'assets/img/no-image.jpg'"
+          class="card-img-top" alt="...">
+        </div>
+        
         <div class="card-body" >
-          <h6 class="card-title"> {{i.title}}
+          <h6 class="card-title"> {{i.title._text}}
             <span class="subtitle">
-              <a href="{{i.link}}">
-                ({{newsJson.fuente}})
+              <a href="{{i.link._text}}">
+                ({{newsJson.fuente._text}})
               </a>
             </span>
           </h6>
 
-          <p class="card-text">{{i.description}}</p>
-          <p class="text-right"> {{i.pubDate? (i.pubDate |date:'dd/MM/yyyy HH:mm') :"" }}</p>
+          <p class="card-text">{{i.description._text}}</p>
+          <p class="text-right"> {{i.pubDate? (i.pubDate._text |date:'dd/MM/yyyy HH:mm') :"" }}</p>
         </div>
         <button type="button" class="btn btn-success btn-xs" (click)="onClick($event)">
           <i class="fa fa-check"></i>

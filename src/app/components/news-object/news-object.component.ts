@@ -1,5 +1,5 @@
 import { Component, OnInit  } from '@angular/core';
-
+import { xml2json } from 'xml-js';
 @Component({
   selector: 'app-news-object',
   templateUrl: './news-object.component.html',
@@ -49,20 +49,9 @@ export class NewsObjectComponent implements OnInit {
           return;
         }
         console.log(xhr2);
-        //console.log(xhr.responseText);
-        //parsear XML to JSON en JS
         const parser = new DOMParser();
-        console.log(xhr.responseText);
-        const xmlData = parser.parseFromString(xhr.responseText, 'text/xml');
-        //transform xml to json in obj function
-        let obj = this.xmlToJson(xhr.responseXML);
-        
-
-
-        
-
-        //this.newsJson['fuentes'] = obj['rss']['channel']['description'];
-        //this.newsJson ['noticias'] = obj ['rss']['channel']['item'] ;
+        let obj:any = xml2json(xhr.responseText, { compact: true });
+        obj = JSON.parse(obj);
         let i = 0;
         i = Math.floor(Math.random() * 10);
         console.log(obj);
@@ -80,11 +69,11 @@ export class NewsObjectComponent implements OnInit {
       }, 1000
     );
   }
+  
 
-  //transform xml to json in obj function
-  private xmlToJson(xml) {
-    return JSON.parse(JSON.stringify(xml));
-  }
+
+
+
   public nextObject() {
     this.reloadNews = true;
     let i = 0;
