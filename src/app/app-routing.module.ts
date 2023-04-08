@@ -7,6 +7,7 @@ import { PokemonGameComponent } from './pokemonGame/pokemonGame.component';
 import { GameTicTacToeComponent } from './tictactoegame/game/game.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
+import { NewHomeComponent } from './new-home/new-home.component';
 
 const routes: Routes = [
   { path: '',
@@ -14,7 +15,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   { path: 'web-bd', component: WebBdComponent },
-  { path: 'helloworld', component: WelcomeHomeComponent },
+  { path: 'helloworld', component: NewHomeComponent },
   {path:'test-news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent },
   { path: '2048', component: GameComponent },

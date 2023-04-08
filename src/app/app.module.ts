@@ -1,4 +1,5 @@
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -28,8 +29,7 @@ import { GameTicTacToeComponent } from './tictactoegame/game/game.component';
 import { ItemComponent } from './todolist/item/item.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
-
-
+import {NewHomeComponent} from './new-home/new-home.component';
 @NgModule({
   declarations: [
     CellComponent,
@@ -53,6 +53,7 @@ import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
     ImageObjectComponent,
     CvEspComponent,
     WelcomeHomeComponent,
+    NewHomeComponent,
     WebBdComponent,
     ItemComponent,
     Game2048Component
@@ -62,6 +63,7 @@ import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    CommonModule,
     ReactiveFormsModule
   ],
   providers: [],

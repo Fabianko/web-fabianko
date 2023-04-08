@@ -1,0 +1,93 @@
+
+
+@yellow: #f3f520;
+@green: #59d102;
+@black: #111424;
+@blue: #5151e9;
+@white: #ffffff;
+
+.background {
+  background: linear-gradient(to right, @yellow, @green);
+  height: auto;
+  color: @black;
+}
+.background-2{
+  background: linear-gradient(to right, @yellow, @green  );
+  //border redondos inferiores
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: auto;
+  color: @white;
+}
+.background-light {
+  background: linear-gradient(to right, @black, @blue);
+  height: 100%;
+}
+.about {
+  color: @black;
+  font-weight: bold;
+  // center in vertical
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: 3em;
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+.iam {
+  color: @blue;
+}
+.h-text {
+  background-color: @blue;
+  font-size: 1.5em;
+  width: 30%;
+  min-width: 200px;
+
+  padding: 0.3em 1.4em;
+  -moz-border-radius: 0 40% / 0 100%;
+  -webkit-border-radius: 0 40% / 0 100%;
+  border-radius: 0 40% / 0 100%;
+}
+.label-text {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to left, #fff, #ab94c1);
+}
+
+.clickable-image {
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+.clickable-image:hover {
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  .card-img{
+    opacity: 1;
+  }
+}
+.card-title {
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+
+  text-align: center;
+  color: @white;
+  font-family: impact;
+  letter-spacing: 0;
+  text-shadow: -3px -3px 3px @blue, 3px -3px 3px @blue, -3px 3px 3px @blue,
+    3px 3px 3px @blue;
+}
+.card-img{
+  opacity: 0.5;
+  background-size: cover;
+  background-position: center;
+  max-height: 100px;
+  width: auto;
+}

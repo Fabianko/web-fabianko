@@ -59,12 +59,7 @@ export class NewsObjectComponent implements OnInit {
         this.allNews = obj.rss.channel.item;
         this.newsJson['noticias'] = obj.rss.channel.item;
 
-        /*
-        if (this.newsJson['noticias']['prontus_fotolibre'] && typeof this.newsJson['noticias']['prontus_fotolibre'] === 'string') {
-          this.newsJson['imgNoticia'] = this.newsJson['noticias']['prontus_fotolibre'];
-          console.log(this.newsJson['imgNoticia']);
-        }
-        */
+      
         console.log(this.newsJson);
       }, 1000
     );
