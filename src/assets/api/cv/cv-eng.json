@@ -2,19 +2,92 @@
   "lateral1": "ABOUT ME",
   "lateral2": "CONTACT",
   "lateral3": "FOLLOW ME",
-  "profession": "COMPUTER SCIENCE ENGINEER",
+  "profession": "MSc Software Engineer / Full Stack Developer / Technical Lead",
   "title1": "STUDIES",
   "title2": "EXPERIENCE",
   "title3": "SKILLS",
-  "lastUpdate": "12-06-2020",
-  "lateral1Text": "My professional objective is to focus on the management, research and development of projects in all sizes, achieving through innovation and teamwork to meet the objectives, quality and expectations expected by people, for this I do not impose limitations regarding the activities to be developed in the professional field and teamwork.",
+  "lastUpdate": "08-04-2023",
+  "lateral1Text": "I 💚 software development and anime/videogames 🎮, since school and now I'm looking for the best opportunities for professional growth in the world🙂. During my university life I coordinated up to 100 volunteers for charitable and dispersal activities. After finishing my civil engineering in computer science and the master's degree in computer engineering, I started a teaching process at my university until today 👨‍🏫. Currently I have 9 years as a university professor, 8 years of experience in development companies, 4 leading teams for products for internal use as well as for B2C and B2B clients using multiple technologies💻.",
   "experiences": [
+    {
+      "business": "Poliglota.org" ,
+      "positions": [
+        {
+          "name": "Developers lead (TM)",
+          "date": "may 2021 - TODAY",
+          "description": "I lead the entire software development team (6 →14) supporting the growth of the technology area from 2 to 6 teams. Achievements: Implement SCRUM of SCRUMS and create devs OKRs, increase the number of user stories put into production without bugs, Create and execute career plan for all programmers in the company, Migrate RoR monolith system to microservices with RoR Api + Vue3, CI/CD architecture, Jenkins and AWS Fargate / Dockers, Multi-squad Git workflow with gitflow, LMS integration for asynchronous classes, Selecting and hiring developers and creating profiles and create and plan software architecture and critical workflow optimization"
+        }
+      ],
+      "tags": [
+        {
+          "name": "VUE3",
+          "link": "https://vuejs.org/"
+        },
+        {
+          "name": "Ruby On Rails",
+          "link": "https://rubyonrails.org/"
+        },
+        {
+          "name": "SCRUM",
+          "link": "https://www.scrum.org/"
+        },
+        {
+          "name": "GIT",
+          "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Jenkins",
+          "link": "https://www.jenkins.io/"
+        },
+        {
+          "name": "AWS",
+          "link": "https://aws.amazon.com/es/"
+        },
+        {
+          "name": "Poliglota.org",
+          "link": "https://www.poliglota.org"
+        },
+        {
+          "name": "LMS",
+          "link": "https://en.wikipedia.org/wiki/Learning_management_system"
+
+        }
+        
+        
+      ],
+      "isOpen": true
+    },
+    {
+      "business": "Universidad de Santiago de Chile",
+      "positions": [
+        {
+          "name": "Assistant Professor",
+          "date": "august 2014 - TODAY",
+          "description": "Currently I teach classes in Database Design, Database Workshop, Introduction to Python programming and I have some theses in progress, Formerly Logic, Systems Engineering, Computer Structures."
+        }
+      ],
+      "tags": [
+        {
+          "name": "profile",
+          "link": "https://www.informatica.usach.cl/profesor_hora/fabian-andres-arismendi-ferrada/"
+        },
+        {
+          "name": "diinf",
+          "link": "https://www.informatica.usach.cl"
+        },
+        {
+          "name": "database",
+          "link": "https://en.wikipedia.org/wiki/Database"
+        }
+      ],
+      "isOpen": false
+    },
     {
       "business": "AVLA S.A.",
       "positions": [
         {
           "name": "Data Scientist Lead",
-          "date": "february 2020 - TODAY",
+          "date": "february 2020 - april 2021",
           "description": "Creation of claims and risk underwriting models, allowing to automate 60% of risk assessments automatically, Team leader of 2 data science and 1 data engineer in Chile and Peru."
         },
         {
@@ -40,31 +113,6 @@
         {
           "name": "AVLA",
           "link": "https://www.avla.com/cl/"
-        }
-      ],
-      "isOpen": false
-    },
-    {
-      "business": "Universidad de Santiago de Chile",
-      "positions": [
-        {
-          "name": "Assistant Professor",
-          "date": "august 2014 - TODAY",
-          "description": "Currently I teach classes in Database Design, Database Workshop, Introduction to Python programming and I have some theses in progress, Formerly Logic, Systems Engineering, Computer Structures."
-        }
-      ],
-      "tags": [
-        {
-          "name": "profile",
-          "link": "https://www.informatica.usach.cl/profesor_hora/fabian-andres-arismendi-ferrada/"
-        },
-        {
-          "name": "diinf",
-          "link": "https://www.informatica.usach.cl"
-        },
-        {
-          "name": "database",
-          "link": "https://en.wikipedia.org/wiki/Database"
         }
       ],
       "isOpen": false

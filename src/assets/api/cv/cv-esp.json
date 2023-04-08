@@ -2,13 +2,86 @@
   "lateral1": "SOBRE MI",
   "lateral2": "CONTACTO",
   "lateral3": "SÍGUEME EN",
-  "profession": "INGENIERO CIVIL INFORMÁTICO",
+  "profession": "MSc Software Engineer / Full Stack Developer / Technical Lead",
   "title1": "ESTUDIOS",
   "title2": "EXPERIENCIA",
   "title3": "HABILIDADES",
-  "lastUpdate": "12-06-2020",
-  "lateral1Text": "Mi objetivo profesional es enfocarme en la gestión, investigación y desarrollo de proyectos en todos los tamaños, logrando a través de la innovación y el trabajo de equipos cumplir con los objetivos, la calidad y las expectativas esperadas por las personas, para esto no me impongo limitaciones respecto a las actividades a desarrollar en el ámbito profesional y el trabajo en equipo.",
+  "lastUpdate": "08-04-2023",
+  "lateral1Text": "Soy 💚 desarrollo de software y anime/videojuegos 🎮, desde la escuela y ahora busco las mejores oportunidades de crecimiento profesional en el mundo 🙂. Durante mi vida universitaria coordiné hasta 100 voluntarios para actividades benéficas y de dispersión. Después de terminar mi carrera de ingeniería civil en informática y la maestría en ingeniería informática, inicié un proceso de docencia en mi universidad hasta el día de hoy 👨‍🏫. Actualmente tengo 9 años como docente universitario, 8 años de experiencia en empresas de desarrollo, 4 equipos líderes tanto para productos de uso interno como para clientes B2C y B2B utilizando múltiples tecnologías💻.",
   "experiences": [
+    {
+      "business": "Poliglota.org" ,
+      "positions": [
+        {
+          "name": "Developers lead (TM)",
+          "date": "mayo 2021 - PRESENTE",
+          "description": "Lidero todo el equipo de desarrollo de software (6 →14) apoyando el crecimiento del área de tecnología de 2 a 6 equipos. Logros: Implementar SCRUM de SCRUMS y crear OKR de desarrolladores, aumentar la cantidad de historias de usuarios puestas en producción sin errores, crear y ejecutar un plan de carrera para todos los programadores de la empresa, migrar el sistema monolítico RoR a microservicios con RoR Api + Vue3, CI/CD arquitectura, Jenkins y AWS Fargate/Dockers, flujo de trabajo Git de varios escuadrones con gitflow, integración de LMS para clases asincrónicas, selección y contratación de desarrolladores y creación de perfiles y creación y planificación de arquitectura de software y optimización de flujo de trabajo crítico"
+        }
+      ],
+      "tags": [
+        {
+          "name": "VUE3",
+          "link": "https://vuejs.org/"
+        },
+        {
+          "name": "Ruby On Rails",
+          "link": "https://rubyonrails.org/"
+        },
+        {
+          "name": "SCRUM",
+          "link": "https://www.scrum.org/"
+        },
+        {
+          "name": "GIT",
+          "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Jenkins",
+          "link": "https://www.jenkins.io/"
+        },
+        {
+          "name": "AWS",
+          "link": "https://aws.amazon.com/es/"
+        },
+        {
+          "name": "Poliglota.org",
+          "link": "https://www.poliglota.org"
+        },
+        {
+          "name": "LMS",
+          "link": "https://en.wikipedia.org/wiki/Learning_management_system"
+
+        }
+        
+        
+      ],
+      "isOpen": true
+    },
+    {
+      "business": "Universidad de Santiago de Chile, facultad de ingeniería",
+      "positions": [
+        {
+          "name": "Profesor por horas",
+          "date": "agosto 2014 - PRESENTE",
+          "description": "Actualmente realizo clases de Diseño de base de datos, Taller de base de datos, Introducción a la programación con python y tengo varios tesistas, Anteriormente Lógica, Ingeniería de sistemas, Estructuras de computadores."
+        }
+      ],
+      "tags": [
+        {
+          "name": "bitacora",
+          "link": "https://www.informatica.usach.cl/profesor_hora/fabian-andres-arismendi-ferrada/"
+        },
+        {
+          "name": "diinf",
+          "link": "https://www.informatica.usach.cl"
+        },
+        {
+          "name": "base de datos",
+          "link": "https://en.wikipedia.org/wiki/Database"
+        }
+      ],
+      "isOpen": false
+    },
     {
       "business": "AVLA SEGUROS DE CRÉDITO Y GARANTÍA S.A.",
       "positions": [
@@ -44,31 +117,7 @@
       ],
       "isOpen": false
     },
-    {
-      "business": "Universidad de Santiago de Chile, facultad de ingeniería",
-      "positions": [
-        {
-          "name": "Profesor por horas",
-          "date": "agosto 2014 - PRESENTE",
-          "description": "Actualmente realizo clases de Diseño de base de datos, Taller de base de datos, Introducción a la programación con python y tengo varios tesistas, Anteriormente Lógica, Ingeniería de sistemas, Estructuras de computadores."
-        }
-      ],
-      "tags": [
-        {
-          "name": "bitacora",
-          "link": "https://www.informatica.usach.cl/profesor_hora/fabian-andres-arismendi-ferrada/"
-        },
-        {
-          "name": "diinf",
-          "link": "https://www.informatica.usach.cl"
-        },
-        {
-          "name": "base de datos",
-          "link": "https://en.wikipedia.org/wiki/Database"
-        }
-      ],
-      "isOpen": false
-    },
+    
     {
       "business": "Orand S.A.",
       "positions": [
