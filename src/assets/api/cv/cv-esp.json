@@ -50,10 +50,7 @@
         {
           "name": "LMS",
           "link": "https://en.wikipedia.org/wiki/Learning_management_system"
-
         }
-        
-        
       ],
       "isOpen": true
     },
@@ -423,7 +420,7 @@
     {
       "name": "VueJs",
       "link": "",
-      "value": 40
+      "value": 70
     },
     {
       "name": "Excel || Word || PowerPoint",
