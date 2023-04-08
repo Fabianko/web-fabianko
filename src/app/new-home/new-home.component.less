@@ -6,6 +6,20 @@
 @blue: #5151e9;
 @white: #ffffff;
 
+
+.navbar-brand {
+  animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+  0% { color: @black; }
+  20% { color: @blue; }
+  40% { color: @black; }
+  60% { color: @green; }
+  80% { color: @blue; }
+  100% { color: @black; }
+}
+
 .background {
   background: linear-gradient(to right, @yellow, @green);
   height: auto;
@@ -23,7 +37,7 @@
   height: auto;
   color: @white;
 }
-.background-light {
+.background-dark {
   background: linear-gradient(to right, @black, @blue);
   height: 100%;
 }
@@ -42,6 +56,11 @@
 .iam {
   color: @blue;
 }
+.fadeIn {
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+
 .h-text {
   background-color: @blue;
   font-size: 1.5em;
@@ -74,7 +93,7 @@
   }
 }
 .card-title {
-  font-size: 1.8em;
+  font-size: 1.2em;
   font-family: "Roboto", sans-serif;
 
   text-align: center;

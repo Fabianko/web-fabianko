@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 
 export class NewHomeComponent implements OnInit, OnDestroy {
+  dark:boolean = false;
   texts = ['Software Engineer 🤓', 'Geek 🎮', 'Otaku 🥷', 'MCU fan 🦹'];
   currentText = this.texts[0];
   textIndex = 0;
@@ -16,7 +17,7 @@ export class NewHomeComponent implements OnInit, OnDestroy {
   projects = [
     {
       name: 'Clasificacion de noticias',
-      imageUrl: 'https://assets.nationbuilder.com/americanlandscouncil/pages/39/features/original/news.jpg?1469829691',
+      imageUrl: 'https://st.depositphotos.com/2288675/2453/i/950/depositphotos_24539893-stock-photo-breaking-news-daily-newspaper-headline.jpg',
       to_link: 'test-news'
     },
     {
@@ -43,7 +44,9 @@ export class NewHomeComponent implements OnInit, OnDestroy {
 
   
   constructor(private router: Router) {}
-
+  onClickDark(){
+    this.dark = !this.dark;
+  }
   onImageClick(link: string) {
     console.log('Image clicked');
     //redireccionar a link que es una pagina interna del proyecto

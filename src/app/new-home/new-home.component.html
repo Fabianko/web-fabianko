@@ -1,8 +1,8 @@
-<div class="background">
+<div class="background{{ dark ? '-dark' : '' }}">
   <div class="container">
     <nav class="navbar sticky-top navbar-expand-md navbar-light background-2">
       <div class="container-fluid">
-        <a class="navbar-brand" (click)="navigateToSection('about')"
+        <a class="navbar-brand fs-3" (click)="navigateToSection('about')"
           >Fabianko</a
         >
         <button
@@ -30,24 +30,28 @@
               <a class="nav-link" href="cv">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" (click)="navigateToSection('contact')">Contact</a>
+              <a class="nav-link" (click)="navigateToSection('contact')"
+                >Contact</a
+              >
             </li>
           </ul>
           <span class="ml-auto">
-            <button class="btn btn-success">
-              <i i-bs name="alarm-fill"></i>
+            <!--
+            <button class="btn btn-success" (click)="onClickDark()">
+                <i class="fa {{dark?'fa-sun-o':'fa-moon-o'}}"></i> 
             </button>
+            -->
           </span>
         </div>
       </div>
     </nav>
     <div class="about pt-5 row" id="about">
-      <div class="col-md-6 pl-5">
-        <h4>Welcome! I'm Fabian(ko)</h4>
+      <div class="col-md-8 pl-5 text-center">
+        <h4 class="fs-5 fw-bolder">Welcome! I'm Fabian(ko) Arismendi && </h4>
         <h1>
-          && I'm
+          I'm
           <span
-            class="animated iam"
+            class="animated iam fs-1" 
             [class.fadeIn]="!fadeOut"
             [class.fadeOut]="fadeOut"
           >
@@ -55,7 +59,7 @@
           </span>
         </h1>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img src="/assets/img/gif_dev.gif" alt="developer" class="img-fluid" />
       </div>
     </div>
@@ -64,8 +68,8 @@
         <span class="label-text"> projects </span>
       </p>
     </div>
-    <div class="row pt-5 ml-4">
-      <div *ngFor="let project of projects" class="col-md-4 mb-3">
+    <div class="row py-5 ml-4">
+      <div *ngFor="let project of projects" class="col-md-2 mb-3">
         <div
           class="card bg-dark text-white clickable-image"
           (click)="onImageClick(project.to_link)"
@@ -77,22 +81,9 @@
           />
           <div class="card-img-overlay">
             <h5 class="card-title">{{ project.name }}</h5>
-            <p class="card-text">Last updated 3 mins ago</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="py-5" id="contact">
-      <p class="text-center h-text ml-5">
-        <span class="label-text"> contact </span>
-      </p>
-    </div>
-    <div class="row py-5">
-        <div class="col-12">
-            <form action="">
-                hol
-            </form>
-        </div>
     </div>
   </div>
 </div>
