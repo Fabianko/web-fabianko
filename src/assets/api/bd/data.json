@@ -4,7 +4,7 @@
         "files":[
             {
                 "name":"Clase 1 - introducción a las bases de datos",
-                "url":"https://drive.google.com/file/d/1hdRdVtxM5AN_j3nHDnp46iLbY9o-z_im/view?usp=sharing",
+                "url":"https://drive.google.com/file/d/1L5z2wYHMPWjYQ2N9P9R8E5JanCd5msXp/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
@@ -19,8 +19,13 @@
             },
             {
                 "name":"A Preliminary Framework for Entity-Relationship Models - Dr. Peter Chen",
-                "url":"http://bit.csc.lsu.edu/~chen/pdf/framework.pdf",
+                "url":"https://drive.google.com/file/d/1aLzRBbtcmlxhWfDPvQGUJ582xRMI11tZ/view?usp=sharing",
                 "date":"05/08/2020"
+            },
+            {
+                "name":"Entity-Relationship Modeling - Dr. Peter Chen",
+                "url":"http://bit.csc.lsu.edu/~chen/pdf/Chen_Pioneers.pdf",
+                "date":"05/04/2023"
             }
         ]
     },
@@ -28,13 +33,28 @@
         "name":"Unidad 2: Modelamiento de bases de datos",
         "files":[
             {
-                "name":"archivo 3",
-                "url":"http://www.google.com",
+                "name":"Clase 2 Modelamiento de base de datos y normalización",
+                "url":"https://drive.google.com/file/d/1kJm9WrEUe9dPHFdjKkU2DxysDRcerwnF/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
-                "name":"archivo 4",
-                "url":"http://www.google.com",
+                "name":"Clase 5 - Modelo físico de base de datos",
+                "url":"https://drive.google.com/file/d/1kCRiU42bDB8oM2sVmDXRvuPDUegQTsHo/view?usp=sharing",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"Ejercicios Modelo entidad relación - Modelo relacional",
+                "url":"https://drive.google.com/file/d/1R6ZfQ0mTiprj7FR837eBbWD0F6h0uqys/view?usp=sharing",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"miro.com, to create database diagrams",
+                "url":"https://www.miro.com",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"draw.io, to create database diagrams",
+                "url":"https://www.draw.io",
                 "date":"26/05/2020"
             }
         ]
@@ -43,13 +63,18 @@
         "name":"Unidad 3: Normalización de bases de datos",
         "files":[
             {
-                "name":"archivo 3",
-                "url":"http://www.google.com",
+                "name":"Clase 4 - Normalización",
+                "url":"https://drive.google.com/file/d/1Vu7aL_dA6PSUpNu6LZ9tw8IcmfhZvqd4/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
-                "name":"archivo 4",
-                "url":"http://www.google.com",
+                "name":"Relational Database: A Practical Foundation for productivity - E.F. Codd 1982",
+                "url":"https://drive.google.com/file/d/1Oqaoh-cprBJNxOMxVX9UhekCBQYpG8Yq/view?usp=sharing",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF Example - Guru99",
+                "url":"https://www.guru99.com/database-normalization.html",
                 "date":"26/05/2020"
             }
         ]
@@ -58,13 +83,13 @@
         "name":"Unidad 4: Algebra relacional",
         "files":[
             {
-                "name":"archivo 3",
-                "url":"http://www.google.com",
+                "name":"Clase 6 - álgebra relacional",
+                "url":"https://drive.google.com/file/d/1HkjCNRMNRHztWHIz6lN5bvGoIXQAF4Na/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
-                "name":"archivo 4",
-                "url":"http://www.google.com",
+                "name":"Relational Algebra - Practice Paper",
+                "url":"https://practicepaper.in/gate-cse/relational-algebra",
                 "date":"26/05/2020"
             }
         ]
@@ -73,14 +98,19 @@
         "name":"Unidad 5: Lenguaje de consultas estructurado (SQL)",
         "files":[
             {
-                "name":"archivo 3",
-                "url":"http://www.google.com",
+                "name":"Clase 7-8 - Structured Query Language SQL",
+                "url":"https://drive.google.com/file/d/1qYUyRZcQZD3EjP8FwJPokD5MicJz6zai/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
-                "name":"archivo 4",
-                "url":"http://www.google.com",
+                "name":"Clase 10 - Complementos de SQL",
+                "url":"https://drive.google.com/file/d/1h2iSE05ls2M8wgCwt00M4IURD4s8Pdlr/view?usp=sharing",
                 "date":"26/05/2020"
+            },
+            {
+                "name":"dbdiagram.io to create ER diagrams with sql code",
+                "url":"https://dbdiagram.io/home",
+                "date":"26/05/2023"
             }
         ]
     }
@@ -89,13 +119,18 @@
         "name":"Unidad 6: Seguridad en bases de datos",
         "files":[
             {
-                "name":"archivo 3",
-                "url":"http://www.google.com",
+                "name":"Clase 10 - Complementos de SQL",
+                "url":"https://drive.google.com/file/d/1h2iSE05ls2M8wgCwt00M4IURD4s8Pdlr/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
-                "name":"archivo 4",
-                "url":"http://www.google.com",
+                "name":"PL/PGSQL - PostgreSQL",
+                "url":"https://www.postgresql.org/message-id/attachment/92321/pl_pgsql_y_otros_lenguajes_procedurales_en_postgresql.pdf",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"triggers and security in PostgreSQL -University of Washington",
+                "url":"https://courses.cs.washington.edu/courses/cse444/10su/sections/section6-triggers-security.pdf",
                 "date":"26/05/2020"
             }
         ]
@@ -104,13 +139,28 @@
         "name":"Unidad 7: Bases de datos modernas",
         "files":[
             {
-                "name":"archivo 3",
-                "url":"http://www.google.com",
+                "name":"Clase 11 - Base de datos modernas",
+                "url":"https://drive.google.com/file/d/1luIOf1D9Y73liG4lBaz9Tz1AgLYAnXvT/view?usp=sharing",
                 "date":"26/05/2020"
             },
             {
-                "name":"archivo 4",
-                "url":"http://www.google.com",
+                "name":"Providing OLAP to User-Analysts: An IT Mandate - E.F.Codd 1998",
+                "url":"https://drive.google.com/file/d/1e6XG-5Zk7hnFcF0YZ2AXMNHwrJdVZlsr/view?usp=sharing",
+                "date":"26/05/2020"
+            }
+        ]
+    },
+    {
+        "name":"Bibliografía",
+        "files":[
+            {
+                "name":"Fundamentos de base de datos - silberschatz korth sudarshan",
+                "url":"https://drive.google.com/file/d/1tzt8zc9dJlXHytgwzDmy34rlcynxLxXU/view?usp=sharing",
+                "date":"26/05/2020"
+            },
+            {
+                "name":"Base de datos relacionales - Mauricio Marin",
+                "url":"https://drive.google.com/file/d/1IG3NTVCyqH_14lc_Bw1ReCu6z_zCh9vJ/view?usp=sharing",
                 "date":"26/05/2020"
             }
         ]
