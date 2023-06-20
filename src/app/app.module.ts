@@ -30,6 +30,7 @@ import { ItemComponent } from './todolist/item/item.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 import {NewHomeComponent} from './new-home/new-home.component';
+import { EeComponent } from './easyEnglish/ee.component';
 @NgModule({
   declarations: [
     CellComponent,
@@ -56,7 +57,8 @@ import {NewHomeComponent} from './new-home/new-home.component';
     NewHomeComponent,
     WebBdComponent,
     ItemComponent,
-    Game2048Component
+    Game2048Component,
+    EeComponent
   ],
   imports: [
     HttpClientModule,

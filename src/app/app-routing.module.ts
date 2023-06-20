@@ -8,6 +8,7 @@ import { GameTicTacToeComponent } from './tictactoegame/game/game.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 import { NewHomeComponent } from './new-home/new-home.component';
+import { EeComponent } from './easyEnglish/ee.component';
 
 const routes: Routes = [
   { path: '',
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: '2048', component: GameComponent },
   { path: 'pokemonGame', component: PokemonGameComponent },
   { path: 'tictactoe', component: GameTicTacToeComponent},
+  { path: 'ee', component: EeComponent},
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'

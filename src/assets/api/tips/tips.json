@@ -1,0 +1,59 @@
+[
+    {
+        "spanish": "ahora, lo entiendo",
+        "english": "now, i get it",
+        "english_pronunciation": "naw, ai gerit",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/now%2C%20i%20get%20it",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/ahora%2C%20lo%20entiendo",
+        "audio":"/assets/api/tips/audio/1.mp3"
+    },
+    {
+        "spanish": "espera, no entiendo",
+        "english": "wait, i don't get it",
+        "english_pronunciation": "güeit, ai dont gerit",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/wait%2C%20i%20don%27t%20get%20it",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/espera%2C%20no%20entiendo",
+        "audio":"/assets/api/tips/audio/2.mp3"
+    },
+    {
+        "spanish": "¿qué significa?",
+        "english": "what does it mean?",
+        "english_pronunciation": "guat dasit min?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%20does%20it%20mean%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFqu%C3%A9%20significa%3F",
+        "audio":"/assets/api/tips/audio/3.mp3"
+    },
+    {
+        "spanish": "¿qué es?",
+        "english": "what is it?",
+        "english_pronunciation": "guat isit?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%20is%20it%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFqu%C3%A9%20es%3F",
+        "audio":"/assets/api/tips/audio/4.mp3"
+    },
+    {
+        "spanish": "¿qué es esto?",
+        "english": "what is this?",
+        "english_pronunciation": "guat is dis?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%20is%20this%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFqu%C3%A9%20es%20esto%3F",
+        "audio":"/assets/api/tips/audio/5.mp3"
+    },
+    {
+        "spanish": "¿qué es eso?",
+        "english": "what is that?",
+        "english_pronunciation": "guat is dat?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%20is%20that%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFqu%C3%A9%20es%20eso%3F",
+        "audio":"/assets/api/tips/audio/6.mp3"
+    },
+    {
+        "spanish": "¿cuánto cuesta esto?",
+        "english": "how much is this?",
+        "english_pronunciation": "jau mach is dis?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/how%20much%20is%20this%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFcu%C3%A1nto%20cuesta%20esto%3F",
+        "audio":"/assets/api/tips/audio/7.mp3"
+    }
+
+]
