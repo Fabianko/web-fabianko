@@ -1,29 +1,53 @@
-<div class="container py-5">
-    <div class="row py-5" *ngIf="selected">
-        <div class="col-md-6">
-            <p class="es-text">🇪🇸 {{selected.spanish}} </p>
-            <hr>
-            <p class="en-text">🇬🇧 {{selected.english}}</p>
-            <hr>
-            <p class="cl-text">🇨🇱 {{selected.english_pronunciation}}</p>
-        </div>
-        <div class="col-md-6 py-5 text-center">
-            <audio controls autoplay>
-                <source src="{{selected.audio}}" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+<div class="container py-5" *ngIf="this.data.length > 0">
+  <div class="row py-5" *ngIf="selected">
+    <div class="col-md-6">
+      <p class="es-text">🇪🇸 {{ selected.spanish }}
+        <a href="{{selected.iframe_es_audio}}">
+            <i class="fa fa-info-circle"></i>
+        </a>
+      </p>
+      <hr />
+      <p class="en-text">🇬🇧 {{ selected.english }}
+        <a href="{{selected.iframe_en_audio}}">
+            <i class="fa fa-info-circle"></i>
+        </a>
+      </p>
+      <hr />
+      <p class="cl-text">🇨🇱 {{ selected.english_pronunciation }}</p>
     </div>
-    <div class="row">
-        <div class="col-12 d-grid ">
-            <button class="btn btn-success btn-lg" (click)="random()" >NEXT 🚀</button>
-        </div>
+    <div class="col-md-6 py-5 text-center">
+      <audio controls autoplay>
+        <source src="{{ selected.audio }}" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
     </div>
-    <button class="btn btn-info btn-back" routerLink="/helloworld">
-      <i class="fa fa-backward"></i>
-      BACK
-    </button>
-  
   </div>
-  
-  
+  <div class="row">
+    <div class="col-12 d-grid">
+      <button class="btn btn-success btn-lg" (click)="random()">
+        NEXT 🚀 {{ this.data.length }}
+      </button>
+    </div>
+  </div>
+  <button class="btn btn-info btn-back" routerLink="/helloworld">
+    <i class="fa fa-backward"></i>
+    BACK
+  </button>
+</div>
+<div class="container py-5" *ngIf="this.data.length == 0">
+  <div class="row py-5">
+    <div class="col-12 d-grid">
+      <button class="btn btn-primary btn-lg" (click)="reloadData()">
+        RELOAD
+      </button>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="col-12 d-grid">
+      <button class="btn btn-light btn-lg" routerLink="/helloworld">
+        <i class="fa fa-backward"></i>
+        BACK
+      </button>
+    </div>
+  </div>
+</div>

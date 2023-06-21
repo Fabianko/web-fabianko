@@ -54,6 +54,38 @@
         "iframe_en_audio": "https://www.spanishdict.com/translate/how%20much%20is%20this%3F",
         "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFcu%C3%A1nto%20cuesta%20esto%3F",
         "audio":"/assets/api/tips/audio/7.mp3"
+    },
+    {
+        "spanish": "qué raro",
+        "english": "that's so weird",
+        "english_pronunciation": "das so güird",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20so%20weird",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/qu%C3%A9%20raro",
+        "audio":"/assets/api/tips/audio/8.mp3"
+    },
+    {
+        "spanish": "qué fastidio",
+        "english": "that's so annoying",
+        "english_pronunciation": "das so anoying",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20so%20annoying",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/qu%C3%A9%20fastidio",
+        "audio":"/assets/api/tips/audio/9.mp3"
+    },
+    {
+        "spanish": "¡qué bien!",
+        "english": "that's great!",
+        "english_pronunciation": "das greit",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20great%21",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/qu%C3%A9%20bien%21",
+        "audio":"/assets/api/tips/audio/10.mp3"
+    },
+    {
+        "spanish": "qué triste",
+        "english": "that's so sad",
+        "english_pronunciation": "das so sad",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20so%20sad",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/qu%C3%A9%20triste",
+        "audio":"/assets/api/tips/audio/11.mp3"
     }
 
 ]
