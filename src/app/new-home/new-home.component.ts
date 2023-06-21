@@ -39,6 +39,11 @@ export class NewHomeComponent implements OnInit, OnDestroy {
       name: 'TicTacToe',
       imageUrl: 'https://m.media-amazon.com/images/I/41yg3KWfkQL.png',
       to_link: 'tictactoe'
+    },
+    {
+      name: 'Easy English',
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ2Q6uV4_L1CWuTJfRrsB9JanoDaVpXOG-Cw&usqp=CAU',
+      to_link: 'ee'
     }
   ]
 
