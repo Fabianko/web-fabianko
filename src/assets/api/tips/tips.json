@@ -350,7 +350,346 @@
         "iframe_en_audio": "https://www.spanishdict.com/translate/i%20spaced%20out",
         "iframe_es_audio": "https://www.spanishdict.com/translate/me%20distraje",
         "audio":"/assets/api/tips/audio/44.mp3"
+    },
+    {
+        "english": "You're pulling my leg",
+        "spanish": "Me estás tomando el pelo",
+        "english_pronunciation": "iur puling mai leg",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/you%27re%20pulling%20my%20leg",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20est%C3%A1s%20tomando%20el%20pelo",
+        "audio":"/assets/api/tips/audio/45.mp3"
+    },
+    {
+        "english": "I'll keep that in mind.",
+        "spanish": "Lo tendré en cuenta.",
+        "english_pronunciation": "ail kip dat in maind",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%27ll%20keep%20that%20in%20mind.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/lo%20tendr%C3%A9%20en%20cuenta.", 
+        "audio":"/assets/api/tips/audio/46.mp3"
+    },
+    {
+        "english": "Cut to the chase.",
+        "spanish": "Vamos al grano.",
+        "english_pronunciation": "cat tu de cheis",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/cut%20to%20the%20chase.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/vamos%20al%20grano.",
+        "audio":"/assets/api/tips/audio/47.mp3"
+    },
+    {
+        "english": "You're on a roll.",
+        "spanish": "Lo estás haciendo muy bien.",
+        "english_pronunciation": "iur on a rol",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/you%27re%20on%20a%20roll.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/lo%20est%C3%A1s%20haciendo%20muy%20bien.",
+        "audio":"/assets/api/tips/audio/48.mp3"
+    },
+    {
+        "english": "Easier said than done.",
+        "spanish": "Es más fácil decirlo que hacerlo.",
+        "english_pronunciation": "iser sed det dan",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/easier%20said%20than%20done.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/es%20m%C3%A1s%20f%C3%A1cil%20decirlo%20que%20hacerlo.",
+        "audio":"/assets/api/tips/audio/49.mp3"
+    },
+    {
+        "english": "Bite the bullet",
+        "spanish": "Afrontar la situación",
+        "english_pronunciation": "bait de bulit",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/bite%20the%20bullet",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/afrontar%20la%20situaci%C3%B3n",
+        "audio":"/assets/api/tips/audio/50.mp3"
+    },
+    {
+        "english": "It's not rocket science",
+        "spanish": "No es tan difícil",
+        "english_pronunciation": "its not roket saiens",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/it%27s%20not%20rocket%20science",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/no%20es%20tan%20dif%C3%ADcil",
+        "audio":"/assets/api/tips/audio/51.mp3"
+    },
+    {
+        "english": "Don't beat around the bush",
+        "spanish": "No te andes por las ramas",
+        "english_pronunciation": "dont bit araund de bush",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/don%27t%20beat%20around%20the%20bush",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/no%20te%20andes%20por%20las%20ramas",
+        "audio":"/assets/api/tips/audio/52.mp3"
+    },
+    {
+        "english":  "That rings a bell",
+        "spanish": "Eso me suena",
+        "english_pronunciation": "dat rings a bel",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%20rings%20a%20bell",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/eso%20me%20suena",
+        "audio":"/assets/api/tips/audio/53.mp3"
+    },
+    {
+        "english": "I'll back you up",
+        "spanish": "Te apoyaré",
+        "english_pronunciation": "ail bak iu ap",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%27ll%20back%20you%20up",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/te%20apoyar%C3%A9",
+        "audio":"/assets/api/tips/audio/54.mp3"
+    },
+    {
+        "english": "Can't complain",
+        "spanish": "No me puedo quejar",
+        "english_pronunciation": "cant complen",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/can%27t%20complain",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/no%20me%20puedo%20quejar",
+        "audio":"/assets/api/tips/audio/55.mp3"
+    },
+    {
+        "english": "What's the big deal?",
+        "spanish": "¿Cuál es el problema?",
+        "english_pronunciation": "wats de big dil",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%27s%20the%20big%20deal",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFcu%C3%A1l%20es%20el%20problema",
+        "audio":"/assets/api/tips/audio/56.mp3"
+    },
+    {
+        "english": "In the nick of time",
+        "spanish": "Justo a tiempo",
+        "english_pronunciation": "in de nik of taim",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/in%20the%20nick%20of%20time",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/justo%20a%20tiempo",
+        "audio":"/assets/api/tips/audio/57.mp3"
+    },
+    {
+        "english": "That's a piece of cake",
+        "spanish": "Eso es pan comido",
+        "english_pronunciation": "dat is a pis of keik",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20a%20piece%20of%20cake",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/eso%20es%20pan%20comido",
+        "audio":"/assets/api/tips/audio/58.mp3"
+    },
+    {
+        "english": "I hit the jackpot",
+        "spanish": "Gané la lotería",
+        "english_pronunciation": "ai jit de yacpot",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%20hit%20the%20jackpot",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/gan%C3%A9%20la%20loter%C3%ADa",
+        "audio":"/assets/api/tips/audio/59.mp3"
+    },
+    {
+        "english": "Let's get down to business",
+        "spanish": "Vamos al grano",
+        "english_pronunciation": "lets get daun tu bisnes",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/let%27s%20get%20down%20to%20business",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/vamos%20al%20grano",
+        "audio":"/assets/api/tips/audio/60.mp3"
+    },
+    {
+        "english": "I can't put my finger on it",
+        "spanish": "No puedo precisarlo",
+        "english_pronunciation": "ai cant put mai finger on it",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%20can%27t%20put%20my%20finger%20on%20it",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/no%20puedo%20precisarlo",
+        "audio":"/assets/api/tips/audio/61.mp3"
+    },
+    {
+        "english": "Let's touch base later",
+        "spanish": "Hablemos más tarde",
+        "english_pronunciation": "lets toch beis leiter",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/let%27s%20touch%20base%20later",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/hablemos%20m%C3%A1s%20tarde",
+        "audio":"/assets/api/tips/audio/62.mp3"
+    },
+    {
+        "english": "I'm tied up at the moment",
+        "spanish": "Estoy ocupado en este momento",
+        "english_pronunciation": "aim taid ap at de moment",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%27m%20tied%20up%20at%20the%20moment",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/estoy%20ocupado%20en%20este%20momento",
+        "audio":"/assets/api/tips/audio/63.mp3"
+    },
+    {
+        "english": "Keep me in the loop",
+        "spanish": "Manténgame informado",
+        "english_pronunciation": "kip mi in de lup",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/keep%20me%20in%20the%20loop",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/mant%C3%A9ngame%20informado",
+        "audio":"/assets/api/tips/audio/64.mp3"
+    },
+    {
+        "english":"It's not my call",
+        "spanish": "No es mi decisión",
+        "english_pronunciation": "its not mai col",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/it%27s%20not%20my%20call",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/no%20es%20mi%20decisi%C3%B3n",
+        "audio":"/assets/api/tips/audio/65.mp3"
+    },
+    {
+        "english":"Let's brainstorm this",
+        "spanish": "Pensemos en esto",
+        "english_pronunciation": "lets breinstorm dis",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/let%27s%20brainstorm%20this",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/pensemos%20en%20esto",
+        "audio":"/assets/api/tips/audio/66.mp3"
+    },
+    {
+        "english": "The ball is in your court",
+        "spanish": "Es tu turno de actuar",
+        "english_pronunciation": "de bol is in yor cort",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/the%20ball%20is%20in%20your%20court",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/es%20tu%20turno%20de%20actuar",
+        "audio":"/assets/api/tips/audio/67.mp3"
+    },
+    {
+        "english": "We need to iron out the details",
+        "spanish": "Necesitamos pulir los detalles",
+        "english_pronunciation": "wi nid tu airon aut de diteils",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/we%20need%20to%20iron%20out%20the%20details",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/necesitamos%20pulir%20los%20detalles",
+        "audio":"/assets/api/tips/audio/68.mp3"
+    },
+    {
+        "english": "We're behind schedule",
+        "spanish": "Estamos atrasados",
+        "english_pronunciation": "wi ar bihaind schediul",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/we%27re%20behind%20schedule",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/estamos%20atrasados",
+        "audio":"/assets/api/tips/audio/69.mp3"
+    },
+    {
+        "english": "We're on the right track",
+        "spanish": "Vamos por buen camino",
+        "english_pronunciation": "wi ar on de rait trak",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/we%27re%20on%20the%20right%20track",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/vamos%20por%20buen%20camino",
+        "audio":"/assets/api/tips/audio/70.mp3"
+    },
+    {
+        "english": "You've nailed it",
+        "spanish": "lo has hecho perfecto",
+        "english_pronunciation": "yor neild it",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/you%27ve%20nailed%20it",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/o%20has%20hecho%20perfecto",
+        "audio":"/assets/api/tips/audio/71.mp3"
+    },
+    {
+        "english": "Could you help me, please?",
+        "spanish": "¿Me podría ayudar, por favor?",
+        "english_pronunciation": "cud yu jelp mi plis",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/could%20you%20help%20me%2C%20please",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20podr%C3%ADa%20ayudar%2C%20por%20favor",
+        "audio":"/assets/api/tips/audio/72.mp3"
+    },
+    {
+        "spanish" : "¿Cómo llego a la estación de tren?",
+        "english": "How do I get to the train station?",
+        "english_pronunciation": "jau du ai get tu de trein steishon",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/how%20do%20i%20get%20to%20the%20train%20station",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/c%C3%B3mo%20llego%20a%20la%20estaci%C3%B3n%20de%20tren",
+        "audio":"/assets/api/tips/audio/73.mp3"
+    },
+    {
+        "english": "Could you repeat that, please?",
+        "spanish": "¿Podría repetir eso, por favor?",
+        "english_pronunciation": "cud yu ripit dat plis",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/could%20you%20repeat%20that%2C%20please",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/podr%C3%ADa%20repetir%20eso%2C%20por%20favor",
+        "audio":"/assets/api/tips/audio/74.mp3"
+    },
+    {
+        "english": "What do you do for a living?",
+        "spanish": "¿A qué te dedicas?",
+        "english_pronunciation": "jua du yu du for a living",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%20do%20you%20do%20for%20a%20living",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/a%20qu%C3%A9%20te%20dedicas",
+        "audio":"/assets/api/tips/audio/75.mp3"
+    },
+    {
+        "english": "What does this word mean?",
+        "spanish": "¿Qué significa esta palabra?",
+        "english_pronunciation": "jua das dis word min",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%20does%20this%20word%20mean",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/qu%C3%A9%20significa%20esta%20palabra",
+        "audio":"/assets/api/tips/audio/76.mp3"
+    },
+    {
+        "spanish": "¿Cómo está el clima hoy, nublado, lluvioso o soleado?",
+        "english": "How's the weather today, cloudy, rainy or sunny?",
+        "english_pronunciation": "jauz de gueder tudei claudi, reini or sani",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/how%27s%20the%20weather%20today%2C%20cloudy%2C%20rainy%20or%20sunny",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/c%C3%B3mo%20est%C3%A1%20el%20clima%20hoy%2C%20nublado%2C%20lluvioso%20o%20soleado",
+        "audio":"/assets/api/tips/audio/77.mp3"
+    },
+    {
+        "english": "Can I get the check, please?",
+        "spanish": "¿Me trae la cuenta, por favor?",
+        "english_pronunciation": "can ai get de chek plis",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/can%20i%20get%20the%20check%2C%20please",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20trae%20la%20cuenta%2C%20por%20favor",
+        "audio":"/assets/api/tips/audio/78.mp3"
+    },
+    {
+        "spanish": "un kilometro son 0.62 millas y una milla son 1.61 kilometros",
+        "english": "one kilometer is 0.62 miles and one mile is 1.61 kilometers",
+        "english_pronunciation": "uan kilometer is 0.62 mails and uan mail is 1.61 kilometer",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/one%20kilometer%20is%200.62%20miles%20and%20one%20mile%20is%201.61%20kilometers",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/un%20kil%C3%B3metro%20son%200.62%20millas%20y%20una%20milla%20son%201.61%20kil%C3%B3metros",
+        "audio":"/assets/api/tips/audio/79.mp3"
+    },
+    {
+        "spanish": "un kilogramo son 2.2 libras y una libra son 0.45 kilogramos",
+        "english": "one kilogram is 2.2 pounds and one pound is 0.45 kilograms",
+        "english_pronunciation": "uan kilogram is 2.2 paunds and uan paund is 0.45 kilogram",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/one%20kilogram%20is%202.2%20pounds%20and%20one%20pound%20is%200.45%20kilograms",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/un%20kilogramo%20son%202.2%20libras%20y%20una%20libra%20son%200.45%20kilogramos",
+        "audio":"/assets/api/tips/audio/80.mp3"
+    },
+    {
+        "spanish": "30 grados celcius son 86 grados fahrenheit y 30 grados fahrenheit son -1 grados celcius",
+        "english": "30 degrees celcius is 86 degrees fahrenheit and 30 degrees fahrenheit is -1 degrees celcius",
+        "english_pronunciation": "30 degrees celcius is 86 degrees fahrenheit and 30 degrees fahrenheit is -1 degrees celcius",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/30%20degrees%20celcius%20is%2086%20degrees%20fahrenheit%20and%2030%20degrees%20fahrenheit%20is%20-1%20degrees%20celcius",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/30%20grados%20celcius%20son%2086%20grados%20fahrenheit%20y%2030%20grados%20fahrenheit%20son%20-1%20grados%20celcius",
+        "audio":"/assets/api/tips/audio/81.mp3"
+    },
+    {
+        "english": "They had to call off the meeting due to bad weather.",
+        "spanish": "Tuvieron que cancelar la reunión debido al mal tiempo.",
+        "english_pronunciation": "dei jad tu col of de mitin diu tu bad gueder",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/they%20had%20to%20call%20off%20the%20meeting%20due%20to%20bad%20weather",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/tuvieron%20que%20cancelar%20la%20reuni%C3%B3n%20debido%20al%20mal%20tiempo",
+        "audio":"/assets/api/tips/audio/82.mp3"
+    },
+    {
+        "english": "We need to cut back on spending.",
+        "spanish": "Necesitamos reducir los gastos.",
+        "english_pronunciation": "wi nid tu cat back on spenin",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/we%20need%20to%20cut%20back%20on%20spending",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/necesitamos%20reducir%20los%20gastos",
+        "audio":"/assets/api/tips/audio/83.mp3"
+    },
+    {
+        "english": "Please fill out this application form.",
+        "spanish": "Por favor, rellene este formulario de solicitud.",
+        "english_pronunciation": "plis fil aut dis apliceshion form",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/please%20fill%20out%20this%20application%20form",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/por%20favor%2C%20rellene%20este%20formulario%20de%20solicitud",
+        "audio":"/assets/api/tips/audio/84.mp3"
+    },
+    {
+        "english": "I get along well with my coworkers.",
+        "spanish": "Me llevo bien con mis compañeros de trabajo.",
+        "english_pronunciation": "ai guet along guel wid mai cowrkers",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%20get%20along%20well%20with%20my%20coworkers",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20llevo%20bien%20con%20mis%20compa%C3%B1eros%20de%20trabajo",
+        "audio":"/assets/api/tips/audio/85.mp3"
+    },
+    {
+        "english": "I won't give up. I'll keep trying.",
+        "spanish": "No me rendiré. Seguiré intentándolo.",
+        "english_pronunciation": "ai wount guiv ap. ail kip traiin",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%20won%27t%20give%20up.%20i%27ll%20keep%20trying",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/no%20me%20rendir%C3%A9.%20seguir%C3%A9%20intent%C3%A1ndolo",
+        "audio":"/assets/api/tips/audio/86.mp3"
     }
+
+
+
 
     
 
