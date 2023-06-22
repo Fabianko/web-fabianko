@@ -8,7 +8,7 @@
         "audio":"/assets/api/tips/audio/1.mp3"
     },
     {
-        "spanish": "espera, no entiendo",
+        "spanish": "espera, no entendi",
         "english": "wait, i don't get it",
         "english_pronunciation": "güeit, ai dont gerit",
         "iframe_en_audio": "https://www.spanishdict.com/translate/wait%2C%20i%20don%27t%20get%20it",
@@ -86,6 +86,272 @@
         "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20so%20sad",
         "iframe_es_audio": "https://www.spanishdict.com/translate/qu%C3%A9%20triste",
         "audio":"/assets/api/tips/audio/11.mp3"
+    },
+    {
+        "spanish": "Con razón sucede eso",
+        "english": "no wonder that happens",
+        "english_pronunciation": "no güander dat japens",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/no%20wonder%20that%20happens",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/con%20raz%C3%B3n%20sucede%20eso",
+        "audio":"/assets/api/tips/audio/12.mp3"
+    },
+    {
+        "spanish": "Olvídalo, no importa",
+        "english": "Forget it, nevermind",
+        "english_pronunciation": "forguetit, nevermaind",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/forget%20it%2C%20nevermind",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/olv%C3%ADdalo%2C%20no%20importa",
+        "audio":"/assets/api/tips/audio/13.mp3"
+    },
+    {
+        "spanish": "Lo entendí",
+        "english": "I got it",
+        "english_pronunciation": "ai gotit",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/I%20got%20it",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/lo%20entend%C3%AD",
+        "audio":"/assets/api/tips/audio/14.mp3"
+    },
+    {
+        "spanish": "Porque sí",
+        "english": "just because",
+        "english_pronunciation": "yast becos",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/just%20because",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/porque%20s%C3%AD",
+        "audio":"/assets/api/tips/audio/15.mp3"
+    },
+    {
+        "spanish": "Eso no fue lo que quise decir",
+        "english": "that's not what I meant",
+        "english_pronunciation": "das not guat ai ment",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20not%20what%20I%20meant",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/eso%20no%20fue%20lo%20que%20quise%20decir",
+        "audio":"/assets/api/tips/audio/16.mp3"
+    },
+    {
+        "english": "how are you doing?",
+        "spanish": "¿cómo estás?",
+        "english_pronunciation": "jau yu duin?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/how%20are%20you%20doing%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFc%C3%B3mo%20est%C3%A1s%3F",
+        "audio":"/assets/api/tips/audio/17.mp3"
+    },
+    {
+        "english": "how are you doing today?",
+        "spanish": "¿cómo estás hoy?",
+        "english_pronunciation": "jau yu duin tudai?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/how%20are%20you%20doing%20today%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFc%C3%B3mo%20est%C3%A1s%20hoy%3F",
+        "audio":"/assets/api/tips/audio/18.mp3"
+    },
+    {
+        "english": "how is it going?",
+        "spanish": "¿cómo te va?",
+        "english_pronunciation": "jau si goin?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/how%20is%20it%20going%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFc%C3%B3mo%20te%20va%3F",
+        "audio":"/assets/api/tips/audio/19.mp3"
+    },
+    {
+        "english": "how've you been?",
+        "spanish": "¿cómo has estado?",
+        "english_pronunciation": "jauv yu bin?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/how%27ve%20you%20been%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFc%C3%B3mo%20has%20estado%3F",
+        "audio":"/assets/api/tips/audio/20.mp3"
+    },
+    {
+        "english": "what've you been up to?",
+        "spanish": "¿qué has estado haciendo?",
+        "english_pronunciation": "guatv yu bin ap tu?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%27ve%20you%20been%20up%20to%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFqu%C3%A9%20has%20estado%20haciendo%3F",
+        "audio":"/assets/api/tips/audio/21.mp3"
+    },
+    {
+        "english": "what've you been up to lately?",
+        "spanish": "¿qué has estado haciendo últimamente?",
+        "english_pronunciation": "guatv yu bin ap tu leitli?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/what%27ve%20you%20been%20up%20to%20lately%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFqu%C3%A9%20has%20estado%20haciendo%20%C3%BAltimamente%3F",
+        "audio":"/assets/api/tips/audio/22.mp3"
+    },
+    {
+        "english": "i feel like coffee",
+        "spanish": "me apetece un café",
+        "english_pronunciation": "ai fil laik cofi",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%20feel%20like%20coffee",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20apetece%20un%20caf%C3%A9",
+        "audio":"/assets/api/tips/audio/23.mp3"
+    },
+    {
+        "english": "i feel like coffee, do you want?",
+        "spanish": "me apetece un café, ¿quieres?",
+        "english_pronunciation": "ai fil laik cofi, du yu guant?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%20feel%20like%20coffee%2C%20do%20you%20want%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20apetece%20un%20caf%C3%A9%2C%20%C2%BFquieres%3F",
+        "audio":"/assets/api/tips/audio/24.mp3"
+    },
+    {
+        "english": "did you have problems?",
+        "spanish": "¿tuviste problemas?",
+        "english_pronunciation": "FAST: YEB problems?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/did%20you%20have%20problems%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFtuviste%20problemas%3F",
+        "audio":"/assets/api/tips/audio/25.mp3"
+    },
+    {
+        "english": "why did you do it?",
+        "spanish": "¿por qué lo hiciste?",
+        "english_pronunciation": "FAST: guadyu du it?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/why%20did%20you%20do%20it%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFpor%20qu%C3%A9%20lo%20hiciste%3F",
+        "audio":"/assets/api/tips/audio/26.mp3"
+    },
+    {
+        "english": "my email is me at fabianko dot com",
+        "spanish": "mi correo es me arroba fabianko punto com",
+        "english_pronunciation": "mai imel is mi at fabianko dot com",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/my%20email%20is%20me%20at%20fabianko%20dot%20com",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/mi%20correo%20es%20me%20arroba%20fabianko%20punto%20com",
+        "audio":"/assets/api/tips/audio/27.mp3"
+    },
+    {
+        "english": "at (@), dot(.), colon (:), comma(,), forward-slash(/), back-slach(\\), dash(-), underscore(_)",
+        "spanish": "arroba, punto, dos puntos, coma, barra, barra invertida, guión, guión bajo",
+        "english_pronunciation": "at, dot, colon, comma, forward-slash, back-slach, dash, underscore",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/at%2C%20dot%2C%20colon%2C%20comma%2C%20forward-slash%2C%20back-slach%2C%20dash%2C%20underscore",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/arroba%2C%20punto%2C%20dos%20puntos%2C%20coma%2C%20barra%2C%20barra%20invertida%2C%20gu%C3%AD%C3%B3n%2C%20gu%C3%AD%C3%B3n%20bajo",
+        "audio":"/assets/api/tips/audio/28.mp3"
+    },
+    {
+        "english": "I'm beat",
+        "spanish": "estoy agotado",
+        "english_pronunciation": "aim bit",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%27m%20beat",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/estoy%20agotado",
+        "audio":"/assets/api/tips/audio/29.mp3"
+    },
+    {
+        "english": "Catch you later",
+        "spanish": "Te veo luego",
+        "english_pronunciation": "cach yu leiter",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/catch%20you%20later",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/te%20veo%20luego",
+        "audio":"/assets/api/tips/audio/30.mp3"
+    },
+    {
+        "english": "Hang on.",
+        "spanish": "Espera.",
+        "english_pronunciation": "jeng on",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/hang%20on.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/espera.",
+        "audio":"/assets/api/tips/audio/31.mp3"
+    },
+    {
+        "english": "Got a minute?",
+        "spanish": "¿Tienes un minuto?",
+        "english_pronunciation": "got a minit?",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/got%20a%20minute%3F",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%BFtienes%20un%20minuto%3F",
+        "audio":"/assets/api/tips/audio/32.mp3"
+    },
+    {
+        "english": "I'm on it.",
+        "spanish": "Estoy en ello.",
+        "english_pronunciation": "aim on it",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%27m%20on%20it.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/estoy%20en%20ello.",
+        "audio":"/assets/api/tips/audio/33.mp3"
+    },
+    {
+        "english": "That's a wrap.",
+        "spanish": "Eso es todo.",
+        "english_pronunciation": "dats a rap",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/that%27s%20a%20wrap.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/eso%20es%20todo.",
+        "audio":"/assets/api/tips/audio/34.mp3"
+    },
+    {
+        "english": "Take it easy",
+        "spanish": "Tómatelo con calma",
+        "english_pronunciation": "teik it isi",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/take%20it%20easy",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/t%C3%B3matelo%20con%20calma",
+        "audio":"/assets/api/tips/audio/35.mp3"
+    },
+    {
+        "english": "Keep me posted.",
+        "spanish": "Manténme informado.",
+        "english_pronunciation": "kip mi posted",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/keep%20me%20posted.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/mant%C3%A9nme%20informado.",
+        "audio":"/assets/api/tips/audio/36.mp3"
+    },
+    {
+        "english": "Get out of here!",
+        "spanish": "¡No me digas! / ¡Vete de aquí!",
+        "english_pronunciation": "get aut of jir",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/get%20out%20of%20here%21",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/%C2%A1no%20me%20digas%21%20%C2%A1vete%20de%20aqu%C3%AD%21",
+        "audio":"/assets/api/tips/audio/37.mp3"
+    },
+    {
+        "english": "Let's call it a day.",
+        "spanish": "Vamos a dejarlo por hoy.",
+        "english_pronunciation": "lets col it a dei",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/let%27s%20call%20it%20a%20day.",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/vamos%20a%20dejarlo%20por%20hoy.",
+        "audio":"/assets/api/tips/audio/38.mp3"
+    },
+    {
+        "english": "It's a long shot",
+        "spanish": "Es una posibilidad remota",
+        "english_pronunciation": "its a long shot",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/it%27s%20a%20long%20shot",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/es%20una%20posibilidad%20remota",
+        "audio":"/assets/api/tips/audio/39.mp3"
+    },
+    {
+        "english": "Shoot the breeze with me",
+        "spanish": "Charla conmigo",
+        "english_pronunciation": "shut de briz wit mi",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/shoot%20the%20breeze%20with%20me",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/charla%20conmigo",
+        "audio":"/assets/api/tips/audio/40.mp3"
+    },
+    {
+        "english": "Beats me",
+        "spanish": "Ni idea",
+        "english_pronunciation": "bits mi",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/beats%20me",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/ni%20idea",
+        "audio":"/assets/api/tips/audio/41.mp3"
+    },
+    {
+        "english": "It's on me the beers",
+        "spanish": "Yo invito las cervezas",
+        "english_pronunciation": "its on mi de biers",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/it%27s%20on%20me%20the%20beers",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/yo%20invito%20las%20cervezas",
+        "audio":"/assets/api/tips/audio/42.mp3"
+    },
+    {
+        "english": "I'm down for that",
+        "spanish": "Me apunto",
+        "english_pronunciation": "aim daun for dat",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%27m%20down%20for%20that",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20apunto",
+        "audio":"/assets/api/tips/audio/43.mp3"
+    },
+    {
+        "english": "I spaced out",
+        "spanish": "Me distraje",
+        "english_pronunciation": "aim speist aut",
+        "iframe_en_audio": "https://www.spanishdict.com/translate/i%20spaced%20out",
+        "iframe_es_audio": "https://www.spanishdict.com/translate/me%20distraje",
+        "audio":"/assets/api/tips/audio/44.mp3"
     }
+
+    
 
 ]

@@ -9,9 +9,11 @@ import * as data from '../../assets/api/tips/tips.json';
 export class EeComponent implements OnInit {
   selected: any;
   data: any;
+  originalData: any;
   constructor() {}
 
   ngOnInit() {
+    this.originalData = data['default'];
     this.data = data['default'];
     this.random();
   }
