@@ -8,21 +8,29 @@ import { GameTicTacToeComponent } from './tictactoegame/game/game.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 import { NewHomeComponent } from './new-home/new-home.component';
-import { EeComponent } from './easyEnglish/ee.component';
+import { TipsComponent } from './easyEnglishHome/easyEnglishTips/tips.component';
+import { EeHomeComponent } from './easyEnglishHome/home.component';
+import { ConditionalSentencesComponent } from './easyEnglishHome/easyEnglishConditionalSentences/conditional-sentences.component';
+import { VerbalTensesComponent } from './easyEnglishHome/easyEnglishVerbalTenses/verbal-tenses.component';
+import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs/phrasal-verbs.component';
 
 const routes: Routes = [
   { path: '',
     redirectTo: '/helloworld',
     pathMatch: 'full'
   },
-  { path: 'web-bd', component: WebBdComponent },
-  { path: 'helloworld', component: NewHomeComponent },
-  {path:'test-news', component: HeaderComponent},
-  { path: 'cv', component: CvEspComponent },
-  { path: '2048', component: GameComponent },
-  { path: 'pokemonGame', component: PokemonGameComponent },
+  { path: 'web-bd', component: WebBdComponent},
+  { path: 'helloworld', component: NewHomeComponent},
+  { path:'test-news', component: HeaderComponent},
+  { path: 'cv', component: CvEspComponent},
+  { path: '2048', component: GameComponent},
+  { path: 'pokemonGame', component: PokemonGameComponent},
   { path: 'tictactoe', component: GameTicTacToeComponent},
-  { path: 'ee', component: EeComponent},
+  { path: 'tips', component: TipsComponent},
+  { path: 'verbalTenses', component: VerbalTensesComponent },
+  { path: 'conditionalSentences', component: ConditionalSentencesComponent},
+  { path: 'phrasalVerbs', component: PhrasalVerbsComponent},
+  { path: 'eeHome', component: EeHomeComponent},
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'
