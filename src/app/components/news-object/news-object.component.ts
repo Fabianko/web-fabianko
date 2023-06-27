@@ -32,14 +32,11 @@ export class NewsObjectComponent implements OnInit {
 
     xhr.open('GET', url, true); // llama al url
 
-    
-    //xhr.setRequestHeader('Content-Type', 'application/xml');
-    //xhr.setRequestHeader('Access-Control-Allow-Origin', 'http://www.cooperativa.cl');
 
     xhr.send();
 
 
-    //ejecuta primero antes del send
+
     setTimeout(
       () => {
         if (xhr.responseText === '') {
