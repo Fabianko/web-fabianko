@@ -6,12 +6,17 @@
   </div>
   <div class="row py-5">
     <div class="col-lg-6 d-grid py-2" *ngFor="let option of options">
-      <button class="btn btn-success btn-lg" routerLink="/{{option.route}}">
+      <button
+        class="btn btn-lg"
+        [ngStyle]="{'background-color': option.bgcolor, 'color': option.txtcolor}"
+        routerLink="/{{ option.route }}"
+      >
+        <i class="{{ option.faicon }}"></i>
         {{ option.name }}
       </button>
     </div>
   </div>
-  <hr>
+  <hr />
   <div class="row py-5">
     <div class="col-lg-6">
       <iframe
@@ -23,7 +28,7 @@
         allowfullscreen
       ></iframe>
     </div>
-    <div class="col-lg-6 py-5">
+    <div class="col-lg-6">
       <iframe
         src="https://www.youtube.com/embed/f2pHWeuM3rs"
         height="400"
@@ -34,13 +39,16 @@
       ></iframe>
     </div>
   </div>
-  
 </div>
 <button class="btn btn-info btn-back" routerLink="/helloworld">
   <i class="fa fa-backward"></i>
   BACK
 </button>
-<a class="btn btn-info btn-back2" href="https://forms.gle/z6aHjGZyDHv2AhWh8" target="_blank">
+<a
+  class="btn btn-info btn-back2"
+  href="https://forms.gle/z6aHjGZyDHv2AhWh8"
+  target="_blank"
+>
   <i class="fa fa-file-text-o"></i>
   FEEDBACK
 </a>

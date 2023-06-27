@@ -1,0 +1,52 @@
+<div class="row" *ngIf="allNews">
+  <ng-container *ngFor="let i of allNews">
+    <div class="col-md-6" style="margin-top: 20px">
+      <div class="card">
+        <div *ngIf="!i.image && !i.video">
+            <img
+              [src]="'/assets/img/no-image.jpg'"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+        <div *ngIf="i.image && !i.video">
+          <img [src]="i.image" class="card-img-top" alt="..." />
+        </div>
+        <div *ngIf="i.video">
+            <video
+                width="100%"
+                height="auto"
+                controls
+                loop
+                muted
+                playsinline
+            >
+                <source src="{{i.video}}" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="card-body">
+          <h6 class="card-title">
+            <span *ngIf="i.video">
+                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="selectNews(i)">
+                    <i class="fa fa-video-camera"></i>
+                </button>
+             
+            </span>
+            {{ i.title }}
+            <span class="subtitle">
+              <a href="{{ i.link }}"> (elpais.com) </a>
+            </span>
+          </h6>
+
+          <p class="card-text">{{ i.description }}</p>
+          <p class="text-right">
+            {{ i.datetime ? (i.datetime | date : "dd/MM/yyyy HH:mm") : "" }}
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </ng-container>
+</div>
+

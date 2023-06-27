@@ -30,7 +30,7 @@ import { ItemComponent } from './todolist/item/item.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
 import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 import {NewHomeComponent} from './new-home/new-home.component';
-
+import { News2ObjectComponent } from './components/news2-object/news2-object.component';
 import { EeHomeComponent } from './easyEnglishHome/home.component';
 import { TipsComponent } from './easyEnglishHome/easyEnglishTips/tips.component';
 import { ConditionalSentencesComponent } from './easyEnglishHome/easyEnglishConditionalSentences/conditional-sentences.component';
@@ -67,7 +67,8 @@ import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs
     EeHomeComponent,
     VerbalTensesComponent,
     ConditionalSentencesComponent,
-    PhrasalVerbsComponent
+    PhrasalVerbsComponent,
+    News2ObjectComponent
   ],
   imports: [
     HttpClientModule,
