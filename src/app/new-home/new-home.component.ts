@@ -18,7 +18,7 @@ export class NewHomeComponent implements OnInit, OnDestroy {
     {
       name: 'Clasificacion de noticias',
       imageUrl: 'https://st.depositphotos.com/2288675/2453/i/950/depositphotos_24539893-stock-photo-breaking-news-daily-newspaper-headline.jpg',
-      to_link: 'test-news'
+      to_link: 'news'
     },
     {
       name: 'Base de datos usach',

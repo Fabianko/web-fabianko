@@ -21,7 +21,7 @@ const routes: Routes = [
   },
   { path: 'web-bd', component: WebBdComponent},
   { path: 'helloworld', component: NewHomeComponent},
-  { path:'test-news', component: HeaderComponent},
+  { path:'news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent},
   { path: '2048', component: GameComponent},
   { path: 'pokemonGame', component: PokemonGameComponent},
