@@ -7,7 +7,7 @@ import { xml2json } from 'xml-js';
   styleUrls: ['./news2-object.component.less'],
 })
 export class News2ObjectComponent implements OnInit {
-  url = 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada';
+  url = 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada';
   constructor() {}
   newSelected = undefined
   public allNews = [];
