@@ -30,7 +30,7 @@ const routes: Routes = [
   { path: 'verbalTenses', component: VerbalTensesComponent },
   { path: 'conditionalSentences', component: ConditionalSentencesComponent},
   { path: 'phrasalVerbs', component: PhrasalVerbsComponent},
-  { path: 'eeHome', component: EeHomeComponent},
+  { path: 'ee', component: EeHomeComponent},
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'
