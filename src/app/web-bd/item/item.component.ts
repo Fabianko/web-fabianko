@@ -17,7 +17,7 @@ export class ItemComponent implements OnInit {
   public openExp() {
     if (this.item.isOpen ) {
       this.item.isOpenAni = false;
-      setTimeout(()=>{this.item.isOpen = false;},500)
+      this.item.isOpen = false;
     }
     else {
       this.item.isOpen = true;

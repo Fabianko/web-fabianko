@@ -7,7 +7,7 @@
       {{item.name}}
     </p>
 
-    <p class="no-margin expDescription {{item.isOpenAni?'open-ani':'close-ani'}}" *ngIf="item.isOpen">
+    <div class="no-margin expDescription " *ngIf="item.isOpen">
       <ng-container *ngFor="let tag of item.files">
         <hr class="hr-top">
         <div class="row">
@@ -27,7 +27,7 @@
         <hr class="hr-bottom">
         
       </ng-container>
-    </p>
+    </div>
     
   </div>
   <div class="col-md-1"></div>

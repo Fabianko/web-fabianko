@@ -1,45 +1,17 @@
-@red: #dd4040;
-@yellow: #fbd951;
-@black: #0c0809;
 @white: #f7f7f7;
-@blueLinkedin:  #2977b4;
-@blue2:#1a5d68;
-
+@blue1:#6535de;
+@blue2:#582bea;
+@dark: #261363;
 @padding1: 10px;
 @paddingCard:40px;
 
-.color-red{
-  background:@white;
-  background-image: linear-gradient(to bottom right,@yellow, @black);
-}
+
 
 .background-color-mrk{
   background:@white;
 }
 
-.background-mrk{
-  background-image: url('/assets/img/forest-5143125.png');
-  height: 100%; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
-}
 
-.background-mrk-1{
-  background-image: url('/assets/img/sky-34536_1280.png');
-  height: 100%; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
-}
-
-.background-mrk-2{
-  background-image: url('/assets/img/sunset-1753249_1280.png');
-  height: 100%; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
-}
 .padding-basic {
   padding: @padding1;
 }
@@ -56,13 +28,7 @@
 .p-title-mrk{
   font-size: 20px;
   padding-bottom: 5px;
-  /*
-  -ms-transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg); 
-  -moz-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  -sand-transform: rotate(-5deg);
-  transform: rotate(-5deg);*/
+ 
 }
 .padding-card{
   padding-top: @paddingCard; 
@@ -83,10 +49,7 @@
 .txt-size-btn{
   font-size: 18px;;
 }
-.btn-linkedin{
-  background-color: @blueLinkedin;
-  padding: 1px 6px;
-}
+
 
 .card {
   background-color: @white;
@@ -98,36 +61,14 @@
   bottom: 20px;
   right: 20px; 
 }
-.position-linkedin{
-  position: fixed;
-  bottom: 40px;
-  left: 20px; 
-  color: @blueLinkedin;
-}
+
 
 .style-mrk{
   color: #e3e6e3;
   font-family: monospace;
-  animation: flipInY;
-  animation-duration: 2s;
+
 }
 
-.btn-entrance-down{
-  animation: backInDown;
-  animation-duration: 1s; 
-}
-.btn-entrance-right{
-  animation: backInRight;
-  animation-duration: 1s; 
-}
-.btn-entrance-left{
-  animation: backInLeft;
-  animation-duration: 1s; 
-}
-.btn-entrance-up{
-  animation: backInUp;
-  animation-duration: 1s; 
-}
 
 .btn-dark{
   margin-left: 5px;
@@ -147,8 +88,16 @@
   padding-bottom: 30px;
 }
 
-.btn-back{
+.btn-back {
+  background-color: @blue2;
+  color: white;
   position: fixed;
-  top: 10px;
-  right: 20px;
+  top: 40px;
+  right: 5%;
+  z-index: 1;
+}
+
+.btn-back:hover {
+  background-color: @blue1;
+  color: white;
 }
