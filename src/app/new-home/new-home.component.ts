@@ -32,7 +32,7 @@ export class NewHomeComponent implements OnInit, OnDestroy {
     },
     {
       name: 'Pokemon game',
-      imageUrl: 'https://img.lemde.fr/2022/12/22/5/0/1730/865/768/384/75/0/e968e4d_1671703423578-b5e.jpeg',
+      imageUrl: 'https://play-lh.googleusercontent.com/o1xjpaWAF3bUEcPeyINNzAF3D6VuOJZh5_BXB-cuLTxcDIinPO06L1dyAz7-G68W',
       to_link: 'pokemonGame'
     },
     {
@@ -42,7 +42,7 @@ export class NewHomeComponent implements OnInit, OnDestroy {
     },
     {
       name: 'Easy English',
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ2Q6uV4_L1CWuTJfRrsB9JanoDaVpXOG-Cw&usqp=CAU',
+      imageUrl: 'https://media.istockphoto.com/id/1313088031/vector/english.jpg?s=612x612&w=0&k=20&c=Mslm0FNFCeExaXw1B-aNSY89W_cB3emg03CkUDHeIbU=',
       to_link: 'ee'
     }
   ]
