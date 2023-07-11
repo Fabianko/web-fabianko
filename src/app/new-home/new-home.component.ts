@@ -61,6 +61,7 @@ export class NewHomeComponent implements OnInit, OnDestroy {
   public navigateToSection(section: string) {
     window.location.hash = '';
     window.location.hash = section;
+    
 }
   
   ngOnInit() {

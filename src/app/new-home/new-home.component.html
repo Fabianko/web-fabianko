@@ -1,9 +1,4 @@
-<div class="animation-wrapper">
-  <div class="particle particle-1"></div>
-  <div class="particle particle-2"></div>
-  <div class="particle particle-3"></div>
-  <div class="particle particle-4"></div>
-</div>
+
 <div class="background{{ dark ? '-dark' : '' }}">
   <div class="container">
     
@@ -26,10 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" (click)="navigateToSection('about')">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" (click)="navigateToSection('projects')"
+              <a class="nav-link" (click)="navigateToSection('projects')" href="#projects"
                 >Projects</a
               >
             </li>
@@ -37,8 +29,8 @@
               <a class="nav-link" href="cv">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" (click)="navigateToSection('contact')"
-                >Contact</a
+              <a class="nav-link" href="mailto:me@fabianko.com"
+                >Contact me</a
               >
             </li>
           </ul>
@@ -52,7 +44,7 @@
         </div>
       </div>
     </nav>
-    <div class="about pt-5 row" id="about">
+    <div class="about pt-3 row" id="about">
       <div class="col-md-8 pl-5 text-center">
         <h4 class="fs-5 fw-bolder">Welcome! I'm Fabian(ko) Arismendi && </h4>
         <h1>
@@ -70,7 +62,7 @@
         <img src="/assets/img/gif_dev.gif" alt="developer" class="img-fluid fadeIn" />
       </div>
     </div>
-    <div class="pt-5" id="">
+    <div class="pt-3" id="">
       <button class="cta">
         <span class="span">Projects</span>
         <span class="second">

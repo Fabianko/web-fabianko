@@ -29,8 +29,16 @@
           </div>
         </div>
         <div class="col-md-6">
-          <p class="text-center label-1">movements: {{ countMoviments }}</p>
-          <p class="text-center label-1" *ngIf="maxValue">Max value: {{ maxValue }}</p>
+          <p class="text-center label-1">Movements: 
+            <button class="btn btn-success">
+              {{ countMoviments }}
+            </button>
+          
+            Max score: 
+            <button class="btn btn-warning">
+              {{ maxValue }}
+            </button>
+          </p>
         </div>
       </div>
     </div>
