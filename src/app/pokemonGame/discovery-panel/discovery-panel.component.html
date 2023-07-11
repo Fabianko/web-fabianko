@@ -1,9 +1,9 @@
 <div class="card border-primary mb-3">
   <div class="card-body">
     <div class="row">
-      <div class="col col-md-6">
+      <div class="col-md-6">
         <form (ngSubmit)="validPokemon()">
-          <div class="input-group mb-3">
+          <div class="input-group my-3">
             <input
               #key="ngModel"
               name="key"
@@ -36,9 +36,9 @@
           <strong>Oh sorry!</strong> that's not the pokemon, try again
         </div>
       </div>
-      <div class="col col-md-6 text-center">
-        <button class="btn btn-success">Found: {{ listFound.length }}</button>
-        <button class="btn btn-primary">Wrong: {{ listWrong.length }}</button>
+      <div class="col-md-6 text-center">
+        Found:  <button class="btn btn-success my-3"> {{ listFound.length }}</button>
+        Wrong:  <button class="btn btn-danger my-3">{{ listWrong.length }}</button>
         <div style="margin-top:10px;">
           <div *ngFor="let item of listLog">
             <p style="margin: 0px;">
