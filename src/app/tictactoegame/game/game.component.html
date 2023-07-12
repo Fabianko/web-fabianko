@@ -1,6 +1,11 @@
 <div class="container__background">
   <div class="game__container">
-    <app-board (gameChangeBoard)='validWin($event)' [winner]='winner' [endGame]='endGame'></app-board>
+    <app-board 
+      (gameChangeBoard)='validWin($event)' 
+      (reloadGame)="configInit()"
+      [winner]='winner' 
+      [endGame]='endGame'>
+    </app-board>
   </div>
 </div>
 <button class="btn btn-info btn-back" routerLink="/helloworld">

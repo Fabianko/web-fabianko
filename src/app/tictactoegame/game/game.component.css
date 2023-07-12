@@ -40,9 +40,15 @@ h2 {
 }
 
 .btn-back {
-  background-color: red;
+  background-color: #582bea;
+  color: white;
   position: fixed;
   top: 40px;
   right: 5%;
   z-index: 1;
+}
+
+.btn-back:hover {
+  background-color: #6535de;
+  color: white;
 }
