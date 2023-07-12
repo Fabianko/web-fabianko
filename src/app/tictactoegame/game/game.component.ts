@@ -8,13 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class GameTicTacToeComponent implements OnInit {
 
   public winner: number;
-
+  public endGame: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  public configInit() {
+    this.winner = undefined;
+    this.endGame = false;
+  }
 
   validWin(e: boardClass) {
     let validateHorizontal = this.validHorizontalWin(e.board, e.nowPlayer);
@@ -31,10 +35,26 @@ export class GameTicTacToeComponent implements OnInit {
       return true;
     }
     else {
+      this.endGame = this.validEndGame(e.board);
       return false;
     }
   }
 
+  public validEndGame(board: number[][]): boolean {
+    let i = 0;
+    let j = 0;
+    while (i < board.length) {
+      j = 0;
+      while (j < board[i].length) {
+        if (board[i][j] == 0) {
+          return false;
+        }
+        j++;
+      }
+      i++;
+    }
+    return true;
+  }
 
   public validHorizontalWin(board: number[][], player: number): boolean {
     for (let i = 0; i < board.length; i++) {

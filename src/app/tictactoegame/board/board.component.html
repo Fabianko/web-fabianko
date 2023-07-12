@@ -1,15 +1,19 @@
 <h1 class='text-center'>Game TicTacToe</h1>
-<h2 class='text-center'>{{winner?'Winner':'Player turn'}} : {{player==1?'X':'O'}}</h2>
-
+<h2 class='text-center' *ngIf="endGame==false">{{winner?'Winner ':'Player turn '}} : 
+  <button class="btn btn-{{winner?'success':'info'}}">
+    {{player==1?'X':'O'}}
+  </button>
+</h2>
+<h2 class='text-center' *ngIf="endGame!=false"> END GAME!</h2>
 <div class="row " style='margin-bottom: 20px;'>
   <div class="col-md-4 text-center">
-    <button class="btn btn-primary" (click)='sizeArray=3;configInit();'>EASY</button>
+    <button class="btn btn-primary" [disabled]="winner || endGame" (click)='sizeArray=3;configInit();'>EASY</button>
   </div>
   <div class="col-md-4 text-center">
-    <button class="btn btn-primary" (click)='sizeArray=4;configInit();'>MEDIUM</button>
+    <button class="btn btn-primary" [disabled]="winner || endGame"  (click)='sizeArray=4;configInit();'>MEDIUM</button>
   </div>
   <div class="col-md-4 text-center">
-    <button class="btn btn-primary" (click)='sizeArray=5;configInit();'>HARD</button>
+    <button class="btn btn-primary" [disabled]="winner || endGame"  (click)='sizeArray=5;configInit();'>HARD</button>
   </div>
 </div>
   <ng-container  *ngIf="array">
@@ -17,7 +21,7 @@
       <div style="display: table">
         <ng-container *ngFor="let col of row; let j = index">
           <div class="text-center color-{{ col }} elem-game ">
-            <app-cell [value]='player' [i]='i' [j]='j' [win]='winner' (changeStateEmitter)='nextPlayer($event)'></app-cell>
+            <app-cell [value]='player' [i]='i' [j]='j' [win]='winner' [end]='endGame' (changeStateEmitter)='nextPlayer($event)'></app-cell>
           </div>
         </ng-container>
 

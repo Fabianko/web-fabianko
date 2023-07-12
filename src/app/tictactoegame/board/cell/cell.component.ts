@@ -18,6 +18,8 @@ export class CellComponent implements OnInit {
 
   @Input() j: number;
 
+  @Input() end: boolean;
+
   constructor() { }
 
   ngOnInit(): void {

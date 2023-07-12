@@ -13,7 +13,9 @@ export class BoardComponent implements OnInit {
   sizeArray: number = 3;
   player: number = 1;
   @Input() winner: number;
+  @Input() endGame: boolean;
   @Output() gameChangeBoard = new EventEmitter<any>();
+  @Output() reloadGame = new EventEmitter<any>();
 
   constructor() { }
 
@@ -27,6 +29,9 @@ export class BoardComponent implements OnInit {
     this.arrayGame = undefined;
     this.array = this.createArray(this.sizeArray);
     this.arrayGame = this.createArray(this.sizeArray);
+    this.endGame = false;
+    this.reloadGame.emit(true);
+    
   }
 
   public createArray(size: number):  number[][] {
