@@ -6,7 +6,6 @@ import { GameComponent } from './game2048/game2048.component';
 import { PokemonGameComponent } from './pokemonGame/pokemonGame.component';
 import { GameTicTacToeComponent } from './tictactoegame/game/game.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
-import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 import { NewHomeComponent } from './new-home/new-home.component';
 import { TipsComponent } from './easyEnglishHome/easyEnglishTips/tips.component';
 import { EeHomeComponent } from './easyEnglishHome/home.component';

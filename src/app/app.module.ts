@@ -28,7 +28,6 @@ import { CellComponent } from './tictactoegame/board/cell/cell.component';
 import { GameTicTacToeComponent } from './tictactoegame/game/game.component';
 import { ItemComponent } from './todolist/item/item.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
-import { WelcomeHomeComponent } from './welcome-home/welcome-home.component';
 import {NewHomeComponent} from './new-home/new-home.component';
 import { News2ObjectComponent } from './components/news2-object/news2-object.component';
 import { EeHomeComponent } from './easyEnglishHome/home.component';
@@ -58,7 +57,6 @@ import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs
     NewsObjectComponent,
     ImageObjectComponent,
     CvEspComponent,
-    WelcomeHomeComponent,
     NewHomeComponent,
     WebBdComponent,
     ItemComponent,
