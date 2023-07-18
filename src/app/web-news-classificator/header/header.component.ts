@@ -1,4 +1,4 @@
-import { SelectClassificatorComponent } from './../select-classificator/select-classificator.component';
+import { SelectClassificatorComponent } from '../select-classificator/select-classificator.component';
 import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({

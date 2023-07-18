@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from './components/header/header.component';
+import { HeaderComponent } from './web-news-classificator/header/header.component';
 import { CvEspComponent } from './cv/cv-esp.component';
 import { GameComponent } from './game2048/game2048.component';
 import { PokemonGameComponent } from './pokemonGame/pokemonGame.component';
@@ -20,7 +20,7 @@ const routes: Routes = [
   },
   { path: 'web-bd', component: WebBdComponent},
   { path: 'helloworld', component: NewHomeComponent},
-  { path:'news', component: HeaderComponent},
+  { path: 'news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent},
   { path: '2048', component: GameComponent},
   { path: 'pokemonGame', component: PokemonGameComponent},

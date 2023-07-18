@@ -1,0 +1,33 @@
+@grey:#e5e9ff;
+@bgCard:#136315;
+@blue1:#6535de;
+@blue2:#582bea;
+@dark: #261363;
+
+.backgroud-game {
+  // color en degrade de fondo
+  background: linear-gradient(90deg, @blue1 0%, @dark 100%);
+  padding: 30px;
+  border: none;
+  border-radius: 1em;
+}
+
+.cont-full {
+  padding-top: 30px;
+  height: -webkit-fill-available;
+ 
+}
+
+.btn-back {
+  background-color: @blue2;
+  color: white;
+  position: fixed;
+  top: 40px;
+  right: 5%;
+  z-index: 1;
+}
+.btn-back:hover {
+  background-color: @blue1;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
