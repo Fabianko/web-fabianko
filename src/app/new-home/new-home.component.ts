@@ -32,7 +32,7 @@ export class NewHomeComponent implements OnInit, OnDestroy {
     },
     {
       name: 'Pokemon game',
-      imageUrl: 'https://play-lh.googleusercontent.com/o1xjpaWAF3bUEcPeyINNzAF3D6VuOJZh5_BXB-cuLTxcDIinPO06L1dyAz7-G68W',
+      imageUrl: 'https://cdn-icons-png.flaticon.com/256/1169/1169608.png',
       to_link: 'pokemonGame'
     },
     {
