@@ -25,11 +25,15 @@ const routes: Routes = [
   { path: '2048', component: GameComponent},
   { path: 'pokemonGame', component: PokemonGameComponent},
   { path: 'tictactoe', component: GameTicTacToeComponent},
-  { path: 'tips', component: TipsComponent},
-  { path: 'verbalTenses', component: VerbalTensesComponent },
-  { path: 'conditionalSentences', component: ConditionalSentencesComponent},
-  { path: 'phrasalVerbs', component: PhrasalVerbsComponent},
-  { path: 'ee', component: EeHomeComponent},
+  
+  { path: 'ee', component: EeHomeComponent,
+    children: [
+      { path: 'tips', component: TipsComponent},
+      { path: 'verbalTenses', component: VerbalTensesComponent },
+      { path: 'conditionalSentences', component: ConditionalSentencesComponent},
+      { path: 'phrasalVerbs', component: PhrasalVerbsComponent}
+    ]
+  },
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'
