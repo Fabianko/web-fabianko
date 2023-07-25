@@ -1,9 +1,11 @@
-# Web Fabianko.com
+# Web www.fabianko.com
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
 
-NPM install
-
+install [nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/) and angular cli
+```
+npm install -g @angular/cli
+```
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

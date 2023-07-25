@@ -16,10 +16,10 @@
     "moduleResolution": "node",
     "noImplicitAny":false,
     "importHelpers": true,
-    "target": "es2017",
-    "module": "es2020",
+    "target": "ES2022",
+    "module": "ES2022",
     "lib": [
-      "es2018",
+      "ES2022",
       "dom"
     ]
   },
