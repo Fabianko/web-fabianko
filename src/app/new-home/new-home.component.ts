@@ -16,22 +16,22 @@ export class NewHomeComponent implements OnInit, OnDestroy {
   intervalSubscription: Subscription;
   projects = [
     {
-      name: 'Clasificacion de noticias',
+      name: 'Latam News (ES)',
       imageUrl: 'https://st.depositphotos.com/2288675/2453/i/950/depositphotos_24539893-stock-photo-breaking-news-daily-newspaper-headline.jpg',
       to_link: 'news'
     },
     {
-      name: 'Base de datos usach',
+      name: 'Database usach (ES)',
       imageUrl: 'https://www.csail.mit.edu/sites/default/files/2021-06/database.jpeg',
       to_link: 'web-bd'
     },
     {
-      name: '2048',
+      name: '2048 puzzle game',
       imageUrl: 'https://res.cloudinary.com/lmn/image/upload/c_limit,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinny/a509d725e6b5180bfb4c33262cc93cd5.jpg',
       to_link: '2048'
     },
     {
-      name: 'Pokemon game',
+      name: 'who\'s that pokemon? game',
       imageUrl: 'https://cdn-icons-png.flaticon.com/256/1169/1169608.png',
       to_link: 'pokemonGame'
     },
@@ -41,7 +41,7 @@ export class NewHomeComponent implements OnInit, OnDestroy {
       to_link: 'tictactoe'
     },
     {
-      name: 'Easy English',
+      name: 'Easy English for spanish speakers',
       imageUrl: 'https://media.istockphoto.com/id/1313088031/vector/english.jpg?s=612x612&w=0&k=20&c=Mslm0FNFCeExaXw1B-aNSY89W_cB3emg03CkUDHeIbU=',
       to_link: 'ee'
     }
