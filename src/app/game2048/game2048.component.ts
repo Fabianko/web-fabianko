@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LocalStorageService } from '../local-storate.service';
 
 @Component({
   selector: 'game-2048',
@@ -9,7 +10,7 @@ export class GameComponent implements OnInit {
 
   public maxSize:number=3;
   public matriz:any = {};
-  constructor() { }
+  constructor(private localStorageService: LocalStorageService) { }
 
   ngOnInit() {
     this.createNewMatriz();

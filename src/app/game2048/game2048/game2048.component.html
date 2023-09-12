@@ -1,7 +1,10 @@
 <h1 class="text-left title-1">
   GAME 2048x <span class="title-sub-1"> by Fabián Arismendi </span>
 </h1>
-<h2 class="text-center" style="color: red" *ngIf="endGame">FIN DEL JUEGO</h2>
+<h2 class="text-center" style="color: red" *ngIf="endGame">
+  GAME OVER
+  <button class="btn btn-info" (click)="configInit()">try again</button>
+</h2>
 <h1 class="text-center" style="color: blue" *ngIf="winner">WINNER 2048 </h1>
 <div class="">
   <div class="row">
@@ -30,12 +33,12 @@
         </div>
         <div class="col-md-6">
           <p class="text-center label-1">Movements: 
-            <button class="btn btn-success">
+            <button class="btn btn-primary">
               {{ countMoviments }}
             </button>
           
             Max score: 
-            <button class="btn btn-warning">
+            <button class="btn color-{{maxValue}}">
               {{ maxValue }}
             </button>
           </p>
@@ -49,7 +52,7 @@
         <ng-container *ngFor="let row of array; let i = index">
           <div style="display: table">
             <ng-container *ngFor="let col of row; let j = index">
-              <div class="text-center color-{{ col }} elem-game ">
+              <div class="text-center color-{{ col }} elem-game {{endGame?'gameover':''}}">
                 <ng-container class="text-center">
                   {{ col }}
                 </ng-container>
@@ -68,6 +71,7 @@
         (click)="backButton()"
       >
         <i class="fa fa-undo "></i>
+        undo move
       </button>
     </div>
     <div class="col-md-12 text-center">

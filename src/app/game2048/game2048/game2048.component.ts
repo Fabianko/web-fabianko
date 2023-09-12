@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-
+import { LocalStorageService } from '../../local-storate.service';
 @Component({
   selector: 'app-game2048',
   templateUrl: './game2048.component.html',
@@ -42,13 +42,19 @@ export class Game2048Component implements OnInit {
 
   countMoviments: number = 0;
 
+  maxStorage: number ;
+
 
   history: number[][][] = [];
 
 
-  constructor() { }
+  constructor(private localStorageService: LocalStorageService) { }
 
   ngOnInit(): void {
+    this.maxStorage = this.localStorageService.get('max2048');
+    if (this.maxStorage){
+      this.maxValue = this.maxStorage;
+    }
     this.configInit();
   }
 
@@ -110,6 +116,10 @@ export class Game2048Component implements OnInit {
       for (let j = 0; j < matrix[i].length; j++) {
         if (matrix[i][j] > this.maxValue) {
           this.maxValue = matrix[i][j];
+          if (this.maxStorage < this.maxValue) {
+            this.localStorageService.set('max2048',this.maxValue);
+            this.maxStorage = this.maxValue;
+          }
         }
       }
     }
