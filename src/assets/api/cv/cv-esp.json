@@ -305,142 +305,224 @@
     {
       "name": "SQL",
       "link": "https://en.wikipedia.org/wiki/SQL",
-      "value": 100
+      "value": 100,
+      "image": "https://lineadecodigo.com/wp-content/uploads/2014/04/sql-e1633736325758.png"
     },
     {
-      "name": "Angular 10",
-      "link": "",
-      "value": 80
+      "name": "Angular",
+      "link": "https://angular.io/",
+      "value": 80,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/800px-Angular_full_color_logo.svg.png"
     },
     {
       "name": "Typescript",
-      "link": "",
-      "value": 100
+      "link": "https://www.typescriptlang.org/",
+      "value": 100,
+      "image": "https://cms.rootstack.com/sites/default/files/inline-images/typescript_1.png"
     },
     {
-      "name": "Linux || Ubuntu server",
-      "link": "",
-      "value": 90
+      "name": "Linux",
+      "link": "https://www.linux.org/",
+      "value": 90,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png"
     },
     {
-      "name": "AWS (S3,EC2,RDS,etc.)",
-      "link": "",
-      "value": 70
+      "name": "Ubuntu",
+      "link": "https://ubuntu.com/",
+      "value": 90,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/800px-Logo-ubuntu_cof-orange-hex.svg.png"
+    },
+    {
+      "name": "AWS",
+      "link": "https://aws.amazon.com/es/",
+      "value": 70,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/800px-Amazon_Web_Services_Logo.svg.png"
     },
     {
       "name": "Python",
-      "link": "",
-      "value": 90
+      "link": "https://www.python.org/",
+      "value": 90,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png"
     },
     {
-      "name": "PLN",
-      "link": "",
-      "value": 80
+      "name": "NLP",
+      "link": "https://www.ibm.com/es-es/topics/natural-language-processing",
+      "value": 80,
+      "image": "https://cdn-icons-png.flaticon.com/512/9831/9831299.png"
     },
     {
       "name": "SCRUM",
-      "link": "",
-      "value": 100
+      "link": "https://www.scrum.org/resources/blog/que-es-scrum",
+      "value": 100,
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ae/aa4e8c14374a73b6890fcb5248c732/Agile-CSM-logo800x800.png?auto=format%2Ccompress&dpr=1"
     },
     {
-      "name": "UX/UI || Figma || draw.io ",
-      "link": "",
-      "value": 70
+      "name": "Figma",
+      "link": "https://www.figma.com/",
+      "value": 70,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png"
+    },
+    {
+      "name": "Canva",
+      "link": "https://www.canva.com/",
+      "value": 70,
+      "image": "https://play-lh.googleusercontent.com/3aWGqSf3T_p3F6wc8FFvcZcnjWlxpZdNaqFVEvPwQ1gTOPkVoZwq6cYvfK9eCkwCXbRY"
+    },
+    {
+      "name": "draw.io ",
+      "link": "http://draw.io/",
+      "value": 70,
+      "image": "data:image/png;base64,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"
     },
     {
       "name": "DENO",
-      "link": "",
-      "value": 20
+      "link": "https://deno.com/",
+      "value": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/800px-Deno.svg.png"
     },
     {
       "name": "NODEJS",
-      "link": "",
-      "value": 50
+      "link": "https://nodejs.org/",
+      "value": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/800px-Node.js_logo.svg.png"
     },
     {
       "name": "Postgresql",
-      "link": "",
-      "value": 90
+      "link": "https://www.postgresql.org/",
+      "value": 90,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/800px-Postgresql_elephant.svg.png"
     },
     {
       "name": "Mysql",
-      "link": "",
-      "value": 80
+      "link": "https://www.mysql.com/",
+      "value": 80,
+      "image": "https://javguerra.github.io/assets/img/mysql.png"
     },
     {
-      "name": "JIRA + BITBUCKET + SLACK",
-      "link": "",
-      "value": 100
+      "name": "JIRA",
+      "link": "https://www.atlassian.com/es/software/jira",
+      "value": 100,
+      "image": "https://luna1.co/c1de9a.png"
+    },
+    {
+      "name": "BITBUCKET",
+      "link": "https://bitbucket.org/",
+      "value": 100,
+      "image": "https://w7.pngwing.com/pngs/404/31/png-transparent-bitbucket-icon-hd-logo-thumbnail.png"
+    },
+    {
+      "name": "SLACK",
+      "link": "https://slack.com/",
+      "value": 100,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Slack_Icon.png/800px-Slack_Icon.png"
     },
     {
       "name": "GIT + GITFLOW",
-      "link": "",
-      "value": 100
+      "link": "https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=%C2%BFQu%C3%A9%20es%20Gitflow%3F,vez%20y%20quien%20lo%20populariz%C3%B3.",
+      "value": 100,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/800px-Git_icon.svg.png"
     },
     {
-      "name": "HTML5 + CSS3 + JS",
-      "link": "",
-      "value": 100
+      "name": "HTML5",
+      "link": "https://es.wikipedia.org/wiki/HTML",
+      "value": 100,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"
+    },
+    {
+      "name": "CSS3",
+      "link": "https://es.wikipedia.org/wiki/CSS",
+      "value": 100,
+      "image": "https://camo.githubusercontent.com/119b29ca4b9d31cf3969a94eb57fcfbbea0879b493c09c89dc6d4b7fb9e0dc37/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667"
+    },
+    {
+      "name": "JS",
+      "link": "https://es.wikipedia.org/wiki/JavaScript",
+      "value": 100,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      "name": "Ruby",
+      "link": "https://www.ruby-lang.org/es/",
+      "value": 70,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/800px-Ruby_logo.svg.png"
     },
     {
       "name": "Ruby On Rails",
-      "link": "",
-      "value": 70
+      "link": "https://rubyonrails.org/",
+      "value": 70,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ruby_on_Rails-logo.png/800px-Ruby_on_Rails-logo.png"
     },
     {
-      "name": "JAVA + Spring Framework",
-      "link": "",
-      "value": 60
+      "name": "JAVA",
+      "link": "https://www.java.com/es/",
+      "value": 60,
+      "image": "https://i.blogs.es/e7b69c/java_logo/650_1200.png"
+    },
+    {
+      "name": "Spring Framework",
+      "link": "https://spring.io/",
+      "value": 60,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/640px-Spring_Boot.svg.png"
     },
     {
       "name": "Dockers",
-      "link": "",
-      "value": 50
+      "link": "https://www.docker.com/",
+      "value": 50,
+      "image": "data:image/png;base64,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"
     },
     {
       "name": "MongoDB",
-      "link": "",
-      "value": 60
+      "link": "https://www.mongodb.com/",
+      "value": 60,
+      "image": "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png"
     },
     {
       "name": "Selenium || beautifulsoup || scrapy",
-      "link": "",
-      "value": 90
+      "link": "https://www.selenium.dev/",
+      "value": 90,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/800px-Selenium_Logo.png"
     },
     {
-      "name": "Material design || Bootstrap 4",
-      "link": "",
-      "value": 100
+      "name": "Material design",
+      "link": "https://m3.material.io/",
+      "value": 100,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Material_Design_Logo.svg/640px-Google_Material_Design_Logo.svg.png"
     },
     {
-      "name": "ReactJs || React Native || redux",
-      "link": "",
-      "value": 40
+      "name": "Bootstrap ",
+      "link": "https://getbootstrap.com/",
+      "value": 100,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
+    },
+    {
+      "name": "ReactJs",
+      "link": "https://es.react.dev/",
+      "value": 40,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png"
     },
     {
       "name": "VueJs",
-      "link": "",
-      "value": 70
-    },
-    {
-      "name": "Excel || Word || PowerPoint",
-      "link": "",
-      "value": 50
+      "link": "https://vuejs.org/",
+      "value": 70,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/800px-Vue.js_Logo_2.svg.png"
     },
     {
       "name": "Latex + Overleaf",
-      "link": "",
-      "value": 70
+      "link": "https://www.overleaf.com/",
+      "value": 70,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/800px-LaTeX_logo.svg.png"
     },
     {
-      "name": "R || GNU Octave",
-      "link": "",
-      "value": 50
+      "name": "R || GNU Octave ",
+      "link": "https://www.r-project.org/",
+      "value": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/800px-R_logo.svg.png"
     },
     {
       "name": "Rust",
-      "link": "",
-      "value": 10
+      "link": "https://www.rust-lang.org/",
+      "value": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/800px-Rust_programming_language_black_logo.svg.png"
     }
   ],
   "certificates": []

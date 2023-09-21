@@ -1,4 +1,16 @@
-
+<div class="row">
 <ng-container *ngFor="let item of skills">
-  <skill [skill]="item"></skill>
+  <div class="col-md-3 col-lg-2">
+    <p class="text-center title-skill">
+      <a class="text-skill" href="{{item.link}}">
+        <img src="{{item.image}}" [alt]="item.name">
+        
+      </a>
+    </p>
+    <p class="text-center title-skill p-0">
+      {{item.name}}
+    </p>
+    <hr>
+  </div>
 </ng-container>
+</div>
