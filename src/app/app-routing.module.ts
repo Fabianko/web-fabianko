@@ -12,6 +12,7 @@ import { EeHomeComponent } from './easyEnglishHome/home.component';
 import { ConditionalSentencesComponent } from './easyEnglishHome/easyEnglishConditionalSentences/conditional-sentences.component';
 import { VerbalTensesComponent } from './easyEnglishHome/easyEnglishVerbalTenses/verbal-tenses.component';
 import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs/phrasal-verbs.component';
+import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.component';
 
 const routes: Routes = [
   { path: '',
@@ -31,7 +32,9 @@ const routes: Routes = [
       { path: 'tips', component: TipsComponent},
       { path: 'verbalTenses', component: VerbalTensesComponent },
       { path: 'conditionalSentences', component: ConditionalSentencesComponent},
-      { path: 'phrasalVerbs', component: PhrasalVerbsComponent}
+      { path: 'phrasalVerbs', component: PhrasalVerbsComponent},
+      { path: 'readNews', component: ReadNewsComponent},
+
     ]
   },
   { path: '**',

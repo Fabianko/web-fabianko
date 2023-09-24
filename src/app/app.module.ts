@@ -34,6 +34,7 @@ import { TipsComponent } from './easyEnglishHome/easyEnglishTips/tips.component'
 import { ConditionalSentencesComponent } from './easyEnglishHome/easyEnglishConditionalSentences/conditional-sentences.component';
 import { VerbalTensesComponent } from './easyEnglishHome/easyEnglishVerbalTenses/verbal-tenses.component';
 import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs/phrasal-verbs.component';
+import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.component';
 @NgModule({
   declarations: [
     CellComponent,
@@ -65,7 +66,8 @@ import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs
     VerbalTensesComponent,
     ConditionalSentencesComponent,
     PhrasalVerbsComponent,
-    News2ObjectComponent
+    News2ObjectComponent,
+    ReadNewsComponent
   ],
   imports: [
     HttpClientModule,

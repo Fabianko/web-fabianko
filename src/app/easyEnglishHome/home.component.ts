@@ -35,6 +35,13 @@ export class EeHomeComponent implements OnInit {
       bgcolor: '#3a0ca3',
       txtcolor: '#ffffff',
     },
+    {
+      name: 'Read news',
+      route: './readNews',
+      faicon: 'fa fa-newspaper-o',
+      bgcolor: '#3f37c9',
+      txtcolor: '#ffffff',
+    },
   ];
   constructor() {}
 

@@ -1,0 +1,49 @@
+<!--en angular 10 cuando el largo de finished tenga 2 objetos adentro mostrar-->
+<div *ngIf="nytimesRssService.news.length === 0">
+  <!--bootstrap icono cargando-->
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border text-info" role="status">
+      <span class="sr-only">
+        <i class="fa fa-spinner fa-spin"></i>
+      </span>
+    </div>
+  </div>
+</div>
+<div *ngIf="nytimesRssService.news.length > 0">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="card mt-5">
+          <div class="row">
+            <div class="col-md-2">
+              <img *ngIf="nytimesRssService.news[indexNew].imageUrl" [src]="nytimesRssService.news[indexNew].imageUrl" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">
+                  ({{indexNew+1}}) 
+                  {{ nytimesRssService.news[indexNew].title }}
+                  <span class="subtitle">
+                    {{ nytimesRssService.news[indexNew].origin }}
+                  </span>
+                </h5>
+                <p class="card-text">{{ nytimesRssService.news[indexNew].description }}</p>
+                <p class="text-end">
+                  <a [href]="nytimesRssService.news[indexNew].link" class="btn btn-success" target="_blank" >Go to the news</a>
+                  <button class="btn btn-info text-end" (click)="next()">next</button>
+                </p>
+                
+              </div>
+              <div class="card-footer text-end" style="font-size:10px">
+                {{ nytimesRssService.news[indexNew].pubDate | date: 'dd/MM/yyyy hh:mm' }}
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
