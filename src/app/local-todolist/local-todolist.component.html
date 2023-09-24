@@ -1,0 +1,117 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>LocalStorage TodoList</h1>
+      <p class="text-muted">Gestiona tus tareas fácilmente sin internet.</p>
+      <p class="text-muted">Desarrollado en 45 minutos utilizando ChatGPT esta versión 1</p>
+    </div>
+    <div class="col-12 mt-5">
+      <!-- Botón flotante para agregar tarea -->
+      <button
+        class="floating-button"
+        data-bs-toggle="modal"
+        data-bs-target="#addTaskModal"
+      >
+        +
+      </button>
+
+      <!-- Modal para agregar tarea -->
+      <div
+        class="modal fade"
+        id="addTaskModal"
+        tabindex="-1"
+        aria-labelledby="addTaskModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addTaskModalLabel">
+                Agregar nueva tarea
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form (submit)="addTask(); $event.preventDefault()">
+                <div class="mb-3">
+                  <label for="taskTitle" class="form-label">Título</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="taskTitle"
+                    name="taskTitle"
+                    [(ngModel)]="newTaskTitle"
+                    maxlength="50"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="taskDescription" class="form-label"
+                    >Descripción</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="taskDescription"
+                    name="taskDescription"
+                    [(ngModel)]="newTaskDescription"
+                    maxlength="200"
+                    required
+                  ></textarea>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    [disabled]="!newTaskTitle || !newTaskDescription"
+                  >
+                    Agregar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 mt-5">
+      <h3>Tareas</h3>
+      <ul class="list-group">
+        <li
+          *ngFor="let task of tasks"
+          class="list-group-item animated"
+          [class.list-group-item-danger]="task.status === 2"
+          [class.completed-task]="task.status === 1"
+          [ngClass]="{
+            animate__slideInLeft: isNew(task.id),
+            animate__slideOutRight: isDeleted(task.id)
+          }"
+        >
+          <h5 [class.completed-title]="task.status === 1">{{ task.title }}</h5>
+          <p [class.completed-description]="task.status === 1">
+            {{ task.description }}
+          </p>
+          <p>Fecha: {{ task.creationDate }} | Hora: {{ task.creationTime }}</p>
+          <button class="btn btn-success" (click)="markAsCompleted(task.id)">
+            Completar
+          </button>
+          <button class="btn btn-danger" (click)="deleteTask(task.id)">
+            Eliminar
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
