@@ -25,9 +25,9 @@ import { PokemonGameComponent } from './pokemonGame/pokemonGame.component';
 import { BoardComponent } from './tictactoegame/board/board.component';
 import { CellComponent } from './tictactoegame/board/cell/cell.component';
 import { GameTicTacToeComponent } from './tictactoegame/game/game.component';
-import { ItemComponent } from './todolist/item/item.component';
 import { WebBdComponent } from './web-bd/web-bd.component';
-import {NewHomeComponent} from './new-home/new-home.component';
+import { ItemComponent } from './web-bd/item/item.component';
+import { NewHomeComponent } from './new-home/new-home.component';
 import { News2ObjectComponent } from './web-news-classificator/news2-object/news2-object.component';
 import { EeHomeComponent } from './easyEnglishHome/home.component';
 import { TipsComponent } from './easyEnglishHome/easyEnglishTips/tips.component';
@@ -35,6 +35,8 @@ import { ConditionalSentencesComponent } from './easyEnglishHome/easyEnglishCond
 import { VerbalTensesComponent } from './easyEnglishHome/easyEnglishVerbalTenses/verbal-tenses.component';
 import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs/phrasal-verbs.component';
 import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.component';
+import { DevTipsComponent } from './dev-tips/dev-tips.component';
+import { LocalTodolistComponent } from './local-todolist/local-todolist.component';
 @NgModule({
   declarations: [
     CellComponent,
@@ -59,7 +61,6 @@ import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.componen
     CvEspComponent,
     NewHomeComponent,
     WebBdComponent,
-    ItemComponent,
     Game2048Component,
     TipsComponent,
     EeHomeComponent,
@@ -67,7 +68,11 @@ import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.componen
     ConditionalSentencesComponent,
     PhrasalVerbsComponent,
     News2ObjectComponent,
-    ReadNewsComponent
+    ReadNewsComponent,
+    DevTipsComponent,
+    LocalTodolistComponent,
+    ItemComponent
+
   ],
   imports: [
     HttpClientModule,

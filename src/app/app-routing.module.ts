@@ -13,6 +13,8 @@ import { ConditionalSentencesComponent } from './easyEnglishHome/easyEnglishCond
 import { VerbalTensesComponent } from './easyEnglishHome/easyEnglishVerbalTenses/verbal-tenses.component';
 import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs/phrasal-verbs.component';
 import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.component';
+import { DevTipsComponent } from './dev-tips/dev-tips.component';
+import { LocalTodolistComponent } from './local-todolist/local-todolist.component';
 
 const routes: Routes = [
   { path: '',
@@ -37,6 +39,8 @@ const routes: Routes = [
 
     ]
   },
+  { path: 'dev-tips', component: DevTipsComponent },
+  { path: 'local-todolist', component: LocalTodolistComponent},
   { path: '**',
     redirectTo: '/helloworld',
     pathMatch: 'full'

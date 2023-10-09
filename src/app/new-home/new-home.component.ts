@@ -44,6 +44,16 @@ export class NewHomeComponent implements OnInit, OnDestroy {
       name: 'Easy English for spanish speakers',
       imageUrl: 'https://media.istockphoto.com/id/1313088031/vector/english.jpg?s=612x612&w=0&k=20&c=Mslm0FNFCeExaXw1B-aNSY89W_cB3emg03CkUDHeIbU=',
       to_link: 'ee'
+    },
+    {
+      name: 'Dev Tips',
+      imageUrl: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      to_link: 'dev-tips'
+    },
+    {
+      name: 'Local Todo List',
+      imageUrl: 'https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png',
+      to_link: 'local-todolist'
     }
   ]
 
