@@ -10,6 +10,7 @@ export class AppComponent {
   icon = 'assets/img/sun.png';
   iconMoon = 'assets/img/moon.png';
   iconSun = 'assets/img/sun.png';
+  cv = "https://docs.google.com/document/d/1tYP67lVL7F4BJyVPGA90BFvFNvBJIhVc/edit?usp=sharing&ouid=110481904985279152520&rtpof=true&sd=true"
   status = false;
   toggleTheme() {
     if (this.status) {
