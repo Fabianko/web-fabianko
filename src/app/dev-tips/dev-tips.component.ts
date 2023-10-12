@@ -27,7 +27,7 @@ export class DevTipsComponent implements OnInit {
       creationDate: new Date('2023-09-25'),
     },
     {
-      title: 'POO',
+      title: 'OOP',
       description: 'Programación orientada a objetos',
       type: 'VIDEO',
       url: 'https://www.youtube.com/embed/SI7O81GMG2A',
@@ -35,14 +35,14 @@ export class DevTipsComponent implements OnInit {
     },
     {
       title: 'ACID',
-      description: 'Principio ACID, Normalización, Tipos de Bases de Datos y Características del DBA',
+      description: 'BD: (atomicity, consistency, isolation, durability)',
       type: 'VIDEO',
       url: 'https://www.youtube.com/embed/NlwQJ2kCy5M',
       creationDate: new Date('2023-09-25'),
     },
     {
       title: 'Programación funcional',
-      description: 'Programación funcional',
+      description: 'Functional programming',
       type: 'VIDEO',
       url: 'https://www.youtube.com/embed/MW0DMjJ-2fc',
       creationDate: new Date('2023-09-25')
@@ -55,33 +55,47 @@ export class DevTipsComponent implements OnInit {
       creationDate: new Date('2023-09-25')
     },
     {
-      title: 'Algoritmos de ordenamiento',
+      title: 'Sorting algorithm',
       description: 'Algoritmos de ordenamiento',
       type: 'VIDEO',
       url: 'https://www.youtube.com/embed/Hd5jp935ays',
       creationDate: new Date('2023-09-25')
     },
     {
-      title: 'Algoritmos de busqueda',
-      description: 'Algoritmos de busqueda',
+      title: 'Binary search algorithm',
+      description: 'Algoritmos de busqueda binaria',
       type: 'VIDEO',
-      url: 'https://www.youtube.com/embed/Hd5jp935ays',
+      url: 'https://www.youtube.com/embed/MFhxShGxHWc',
       creationDate: new Date('2023-09-25')
     },
     {
-      title: 'text imagen',
-      description: 'Principios de diseño de código',
-      type: 'IMG',
-      url: 'https://www.imagen.com.mx/assets/img/imagen_share.png',
-      creationDate: new Date('2023-09-25'),
+      title: 'Stacks and Queues',
+      description: 'Pilas y colas',
+      type: 'VIDEO',
+      url: 'https://www.youtube.com/embed/A3ZUpyrnCbM',
+      creationDate: new Date('2023-09-25')
     },
     {
-      title: 'pagina web cualquiera',
-      description: 'este es un ejemplo',
-      type: 'TEXT',
-      url: 'https://www.imagen.com.mx/assets/img/imagen_share.png',
-      creationDate: new Date('2023-09-25'),
+      title: 'Design patterns',
+      description: 'Patrones de diseño',
+      type: 'VIDEO',
+      url: 'https://www.youtube.com/embed/tv-_1er1mWI',
+      creationDate: new Date('2023-09-25')
     },
+    {
+      title: 'Architecture patterns',
+      description: 'Patrones de arquitectura',
+      type: 'VIDEO',
+      url: 'https://www.youtube.com/embed/BrT3AO8bVQY',
+      creationDate: new Date('2023-09-25')
+    },
+    {
+      title: 'Programming paradigm',
+      description: 'Paradigmas de programación',
+      type: 'VIDEO',
+      url: 'https://www.youtube.com/embed/xTLbG3_Rs_w',
+      creationDate: new Date('2023-09-25')
+    }
   ];
   constructor(public sanitizer: DomSanitizer) {}
 
@@ -89,7 +103,7 @@ export class DevTipsComponent implements OnInit {
     this.ICONS['IMG'] =
       'https://cdn-icons-png.flaticon.com/512/1088/1088537.png';
     this.ICONS['VIDEO'] =
-      'https://cdn-icons-png.flaticon.com/512/3191/3191412.png';
+      'https://cdn-icons-png.flaticon.com/256/3670/3670163.png';
     this.ICONS['TEXT'] =
       'https://cdn-icons-png.flaticon.com/128/2905/2905285.png';
   }
