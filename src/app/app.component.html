@@ -1,18 +1,44 @@
-<div class="animation-wrapper">
-  <div class="particle particle-1"></div>
-  <div class="particle particle-2"></div>
-  <div class="particle particle-3"></div>
-  <div class="particle particle-4"></div>
-</div>
-<router-outlet></router-outlet>
+<div class="container">
+  <nav class="navbar sticky-top navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3" href="/">Fabianko</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link dark-mode-resume" id="resume" href="cv">Resume 👀</a>
+          </li>
+        </ul>
+        <span class="ml-auto">
+          <div class="form-check form-switch">
+            
+            <button
+              class="btn btn-outline-primary btn-sm"
+              (click)="toggleTheme()"
+            ><img style="width: 30px; height: 30px;" src=" {{icon}}" alt=""></button>
+          </div>
+        </span>
+      </div>
+    </div>
+  </nav>
 
-<footer
-  id="sticky-footer"
-  class="flex-shrink-0 py-1 bg-light text-dark fixed-bottom"
->
-  <div class="container text-center">
+  <router-outlet></router-outlet>
+</div>
+
+<footer id="footer" class="flex-shrink-0 py-1 bg-light fixed-bottom dark-mode-footer">
+  <div id="footer" class="container text-center">
     <div class="row">
-      <div class="col-lg-6 ">
+      <div class="col-lg-6">
         <small>Copyright &copy; Fabianko.com</small>
       </div>
       <div class="col-lg-6">
@@ -22,23 +48,30 @@
         <a href="mailto:me@fabianko.com" class="btn btn-primary mx-1 py-0">
           <i class="fa fa-envelope-o"></i>
         </a>
-        
-        <a href="https://www.threads.net/@fabianko" class="btn btn-primary mx-1 py-0">
+
+        <a
+          href="https://www.threads.net/@fabianko"
+          class="btn btn-primary mx-1 py-0"
+        >
           <i class="fa fa-twitter"></i>
         </a>
-        <a href="https://www.linkedin.com/in/fabianko/" class="btn btn-primary mx-1 py-0">
+        <a
+          href="https://www.linkedin.com/in/fabianko/"
+          class="btn btn-primary mx-1 py-0"
+        >
           <i class="fa fa-linkedin"></i>
         </a>
-        <a href="https://www.github.com/fabianko/" class="btn btn-primary mx-1 py-0"
+        <a
+          href="https://www.github.com/fabianko/"
+          class="btn btn-primary mx-1 py-0"
           ><i class="fa fa-github"></i
         ></a>
-        <a href="https://theorg.com/org/poliglota/org-chart/fabian-arismendi-ferrada" class="btn btn-primary mx-1 py-0"
+        <a
+          href="https://theorg.com/org/poliglota/org-chart/fabian-arismendi-ferrada"
+          class="btn btn-primary mx-1 py-0"
           ><i class="fa fa-globe"></i
         ></a>
       </div>
     </div>
-    
-    
-   
   </div>
 </footer>

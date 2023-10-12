@@ -2,53 +2,15 @@
 
 @yellow: #fffff2;
 @green: #e8ffd7;
-@green2: rgb(53, 217, 53);
+@green2: #35d935;
 @black: #111424;
 @blue: #5151e9;
 @blue2: #4040e0;
 @white: #ffffff;
 
 
-.navbar-brand {
-  animation: color-change 10s infinite;
-}
 
-@keyframes color-change {
-  0% { color: @black; }
-  20% { color: @blue; }
-  40% { color: @black; }
-  60% { color: @green2; }
-  80% { color: @blue; }
-  100% { color: @black; }
-}
-
-.background {
-  
-  color: @black;
-}
-.background-2{
-  //opacidad en background
-
-  background: linear-gradient(to right, @yellow, @green , 0.5 );
-
-  //border redondos inferiores
-  -webkit-border-bottom-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  -moz-border-radius-bottomright: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  transition: border-radius 1s ease;
-  -webkit-transition: border-radius 1s ease;
-  height: auto;
-  color: @white;
-}
-.background-dark {
-  background: linear-gradient(to right, @black, @blue);
-  height: 100%;
-}
 .about {
-  color: @black;
   font-weight: bold;
   display: flex;
   justify-content: center;

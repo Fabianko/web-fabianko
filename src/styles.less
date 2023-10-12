@@ -4,21 +4,41 @@
 @import "~animate.css/animate.css";
 @import "assets/css/colors.less";
 
-@yellow: #fffff2;
-@green: #e8ffd7;
+@yellow: #f4f4c4;
+@green: #cef9af;
 @black: #111424;
+@black2: #151827;
+@black3: #1c2036;
+@black4: #181921;
 
-html, body { 
+ body { 
   height: 100%; 
   max-height: 100%;
   width: 100%;
   max-width: 100%;
   background: linear-gradient(to right, @yellow, @green);
+  transition: 1s;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .body-mrk{
   background-color: @white;
+}
+
+.dark-mode {
+  background: linear-gradient(to right, @black2, @black);
+  color: white;
+  transition: 1s;
+}
+
+.dark-mode-footer {
+  background: linear-gradient(to right, @black3, @black4);
+  color: white;
+  transition: 1s;
+}
+.dark-mode-resume {
+  color: white;
+  transition: 1s;
 }
 
 .no-padding{
