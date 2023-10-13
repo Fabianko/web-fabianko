@@ -1,37 +1,40 @@
-<div class="container py-5" *ngIf="this.data.length > 0">
-  <div class="row py-5" *ngIf="selected">
+<div class="container" *ngIf="this.data.length > 0">
+  <h2 class="text-center pb-3">Random phrases</h2>
+  <div class="row" *ngIf="selected">
     <div class="col-lg-6">
-      <p class="es-text">
-        <img src="/assets/img/es.png" alt="" style="height: 40px;">
-        {{ selected.spanish }}
-        <a href="{{selected.iframe_es_audio}}">
-            <i class="fa fa-info-circle"></i>
-        </a>
-      </p>
-      <hr />
+      
       <p class="en-text">
-        <img src="/assets/img/en.png" alt="" style="height: 40px;">
+        <img src="/assets/img/en.png" alt="" style="height: 40px" />
         {{ selected.english }}
-        <a href="{{selected.iframe_en_audio}}">
-            <i class="fa fa-info-circle"></i>
+        <a href="{{ selected.iframe_en_audio }}" target="_blank">
+          <i class="fa fa-info-circle"></i>
         </a>
       </p>
       <hr />
       <p class="cl-text">
-        <img src="/assets/img/cl.png" alt="" style="height: 40px;">
-        {{ selected.english_pronunciation }}</p>
+        <img src="/assets/img/cl.png" alt="" style="height: 40px" />
+        {{ selected.english_pronunciation }}
+      </p>
+      <hr />
+      <p class="es-text">
+        <img src="/assets/img/es.png" alt="" style="height: 40px" />
+        {{ selected.spanish }}
+        <a href="{{ selected.iframe_es_audio }}" target="_blank">
+          <i class="fa fa-info-circle"></i>
+        </a>
+      </p>
     </div>
-    <div class="col-lg-6 py-5 text-center">
+    <div class="col-lg-6 text-center">
       <audio controls autoplay>
         <source src="{{ selected.audio }}" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
   </div>
-  <div class="row">
+  <div class="row pt-3">
     <div class="col-12 d-grid">
       <button class="btn btn-success btn-lg" (click)="random()">
-        NEXT 🚀 {{ this.data.length }} / {{this.originalData.length}}
+        NEXT 🚀 {{ this.data.length }} / {{ this.originalData.length }}
       </button>
     </div>
   </div>
@@ -39,7 +42,11 @@
     <i class="fa fa-backward"></i>
     BACK
   </button>
-  <a class="btn btn-info btn-back2" href="https://forms.gle/z6aHjGZyDHv2AhWh8" target="_blank">
+  <a
+    class="btn btn-info btn-back2"
+    href="https://forms.gle/z6aHjGZyDHv2AhWh8"
+    target="_blank"
+  >
     <i class="fa fa-file-text-o"></i>
     FEEDBACK
   </a>
@@ -58,7 +65,11 @@
         <i class="fa fa-backward"></i>
         BACK
       </button>
-      <a class="btn btn-info btn-back2" href="https://forms.gle/z6aHjGZyDHv2AhWh8" target="_blank">
+      <a
+        class="btn btn-info btn-back2"
+        href="https://forms.gle/z6aHjGZyDHv2AhWh8"
+        target="_blank"
+      >
         <i class="fa fa-file-text-o"></i>
         FEEDBACK
       </a>

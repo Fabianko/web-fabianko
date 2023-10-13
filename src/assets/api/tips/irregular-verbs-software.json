@@ -1,0 +1,302 @@
+[
+  {
+    "infinitive": "be",
+    "pastSimple": "was/were",
+    "participle": "been",
+    "translation": "ser, estar"
+  },
+  {
+    "infinitive": "begin",
+    "pastSimple": "began",
+    "participle": "begun",
+    "translation": "comenzar"
+  },
+  {
+    "infinitive": "break",
+    "pastSimple": "broke",
+    "participle": "broken",
+    "translation": "romper, interrumpir"
+  },
+  {
+    "infinitive": "bring",
+    "pastSimple": "brought",
+    "participle": "brought",
+    "translation": "traer"
+  },
+  {
+    "infinitive": "build",
+    "pastSimple": "built",
+    "participle": "built",
+    "translation": "construir"
+  },
+  {
+    "infinitive": "buy",
+    "pastSimple": "bought",
+    "participle": "bought",
+    "translation": "comprar"
+  },
+  {
+    "infinitive": "catch",
+    "pastSimple": "caught",
+    "participle": "caught",
+    "translation": "capturar, atrapar errores"
+  },
+  {
+    "infinitive": "come",
+    "pastSimple": "came",
+    "participle": "come",
+    "translation": "venir"
+  },
+  {
+    "infinitive": "cost",
+    "pastSimple": "cost",
+    "participle": "cost",
+    "translation": "costar"
+  },
+  {
+    "infinitive": "cut",
+    "pastSimple": "cut",
+    "participle": "cut",
+    "translation": "cortar, reducir"
+  },
+  {
+    "infinitive": "do",
+    "pastSimple": "did",
+    "participle": "done",
+    "translation": "hacer"
+  },
+  {
+    "infinitive": "draw",
+    "pastSimple": "drew",
+    "participle": "drawn",
+    "translation": "dibujar, diseñar"
+  },
+  {
+    "infinitive": "drive",
+    "pastSimple": "drove",
+    "participle": "driven",
+    "translation": "dirigir, impulsar"
+  },
+  {
+    "infinitive": "find",
+    "pastSimple": "found",
+    "participle": "found",
+    "translation": "encontrar, hallar errores"
+  },
+  {
+    "infinitive": "get",
+    "pastSimple": "got",
+    "participle": "gotten/got",
+    "translation": "obtener"
+  },
+  {
+    "infinitive": "give",
+    "pastSimple": "gave",
+    "participle": "given",
+    "translation": "dar"
+  },
+  {
+    "infinitive": "go",
+    "pastSimple": "went",
+    "participle": "gone",
+    "translation": "ir, proceder"
+  },
+  {
+    "infinitive": "have",
+    "pastSimple": "had",
+    "participle": "had",
+    "translation": "tener, haber"
+  },
+  {
+    "infinitive": "hold",
+    "pastSimple": "held",
+    "participle": "held",
+    "translation": "sostener, mantener una reunión"
+  },
+  {
+    "infinitive": "keep",
+    "pastSimple": "kept",
+    "participle": "kept",
+    "translation": "mantener, guardar"
+  },
+  {
+    "infinitive": "know",
+    "pastSimple": "knew",
+    "participle": "known",
+    "translation": "saber, conocer"
+  },
+  {
+    "infinitive": "lay",
+    "pastSimple": "laid",
+    "participle": "laid",
+    "translation": "establecer, poner"
+  },
+  {
+    "infinitive": "lead",
+    "pastSimple": "led",
+    "participle": "led",
+    "translation": "liderar"
+  },
+  {
+    "infinitive": "learn",
+    "pastSimple": "learnt/learned",
+    "participle": "learnt/learned",
+    "translation": "aprender"
+  },
+  {
+    "infinitive": "leave",
+    "pastSimple": "left",
+    "participle": "left",
+    "translation": "dejar, abandonar"
+  },
+  {
+    "infinitive": "make",
+    "pastSimple": "made",
+    "participle": "made",
+    "translation": "hacer, fabricar"
+  },
+  {
+    "infinitive": "mean",
+    "pastSimple": "meant",
+    "participle": "meant",
+    "translation": "significar, querer decir"
+  },
+  {
+    "infinitive": "meet",
+    "pastSimple": "met",
+    "participle": "met",
+    "translation": "reunirse, encontrar"
+  },
+  {
+    "infinitive": "pay",
+    "pastSimple": "paid",
+    "participle": "paid",
+    "translation": "pagar"
+  },
+  {
+    "infinitive": "put",
+    "pastSimple": "put",
+    "participle": "put",
+    "translation": "poner, instalar"
+  },
+  {
+    "infinitive": "read",
+    "pastSimple": "read (/red/)",
+    "participle": "read (/red/)",
+    "translation": "leer"
+  },
+  {
+    "infinitive": "run",
+    "pastSimple": "ran",
+    "participle": "run",
+    "translation": "ejecutar, correr"
+  },
+  {
+    "infinitive": "say",
+    "pastSimple": "said",
+    "participle": "said",
+    "translation": "decir"
+  },
+  {
+    "infinitive": "see",
+    "pastSimple": "saw",
+    "participle": "seen",
+    "translation": "ver, observar"
+  },
+  {
+    "infinitive": "sell",
+    "pastSimple": "sold",
+    "participle": "sold",
+    "translation": "vender"
+  },
+  {
+    "infinitive": "send",
+    "pastSimple": "sent",
+    "participle": "sent",
+    "translation": "enviar"
+  },
+  {
+    "infinitive": "set",
+    "pastSimple": "set",
+    "participle": "set",
+    "translation": "establecer, configurar"
+  },
+  {
+    "infinitive": "show",
+    "pastSimple": "showed",
+    "participle": "shown",
+    "translation": "mostrar, demostrar"
+  },
+  {
+    "infinitive": "speak",
+    "pastSimple": "spoke",
+    "participle": "spoken",
+    "translation": "hablar, comunicar"
+  },
+  {
+    "infinitive": "take",
+    "pastSimple": "took",
+    "participle": "taken",
+    "translation": "tomar, llevar"
+  },
+  {
+    "infinitive": "teach",
+    "pastSimple": "taught",
+    "participle": "taught",
+    "translation": "enseñar"
+  },
+  {
+    "infinitive": "tell",
+    "pastSimple": "told",
+    "participle": "told",
+    "translation": "decir, informar"
+  },
+  {
+    "infinitive": "think",
+    "pastSimple": "thought",
+    "participle": "thought",
+    "translation": "pensar, considerar"
+  },
+  {
+    "infinitive": "throw",
+    "pastSimple": "threw",
+    "participle": "thrown",
+    "translation": "arrojar, lanzar"
+  },
+  {
+    "infinitive": "understand",
+    "pastSimple": "understood",
+    "participle": "understood",
+    "translation": "entender"
+  },
+  {
+    "infinitive": "wear",
+    "pastSimple": "wore",
+    "participle": "worn",
+    "translation": "usar, llevar puesto"
+  },
+  {
+    "infinitive": "write",
+    "pastSimple": "wrote",
+    "participle": "written",
+    "translation": "escribir"
+  },
+  {
+    "infinitive": "split",
+    "pastSimple": "split",
+    "participle": "split",
+    "translation": "dividir, separar"
+  },
+  {
+    "infinitive": "bind",
+    "pastSimple": "bound",
+    "participle": "bound",
+    "translation": "unir, vincular"
+  },
+  {
+    "infinitive": "rise",
+    "pastSimple": "rose",
+    "participle": "risen",
+    "translation": "subir, aumentar"
+  }
+]

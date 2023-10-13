@@ -37,6 +37,7 @@ import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs
 import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.component';
 import { DevTipsComponent } from './dev-tips/dev-tips.component';
 import { LocalTodolistComponent } from './local-todolist/local-todolist.component';
+
 @NgModule({
   declarations: [
     CellComponent,

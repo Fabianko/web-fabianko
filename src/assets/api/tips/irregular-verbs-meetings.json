@@ -1,0 +1,333 @@
+[
+    {
+        "infinitive": "arise",
+        "pastSimple": "arose",
+        "participle": "arisen",
+        "translation": "surgir"
+    },
+    {
+        "infinitive": "awake",
+        "pastSimple": "awoke",
+        "participle": "awoken",
+        "translation": "despertar"
+    },
+    {
+        "infinitive": "bear",
+        "pastSimple": "bore",
+        "participle": "borne/born",
+        "translation": "soportar, dar a luz"
+    },
+    {
+        "infinitive": "bet",
+        "pastSimple": "bet",
+        "participle": "bet",
+        "translation": "apostar"
+    },
+    {
+        "infinitive": "bite",
+        "pastSimple": "bit",
+        "participle": "bitten",
+        "translation": "morder"
+    },
+    {
+        "infinitive": "bleed",
+        "pastSimple": "bled",
+        "participle": "bled",
+        "translation": "sangrar"
+    },
+    {
+        "infinitive": "blow",
+        "pastSimple": "blew",
+        "participle": "blown",
+        "translation": "soplar"
+    },
+    {
+        "infinitive": "choose",
+        "pastSimple": "chose",
+        "participle": "chosen",
+        "translation": "elegir"
+    },
+    {
+        "infinitive": "deal",
+        "pastSimple": "dealt",
+        "participle": "dealt",
+        "translation": "tratar, repartir"
+    },
+    {
+        "infinitive": "dig",
+        "pastSimple": "dug",
+        "participle": "dug",
+        "translation": "cavar"
+    },
+    {
+        "infinitive": "drink",
+        "pastSimple": "drank",
+        "participle": "drunk",
+        "translation": "beber"
+    },
+    {
+        "infinitive": "eat",
+        "pastSimple": "ate",
+        "participle": "eaten",
+        "translation": "comer"
+    },
+    {
+        "infinitive": "fall",
+        "pastSimple": "fell",
+        "participle": "fallen",
+        "translation": "caer"
+    },
+    {
+        "infinitive": "fight",
+        "pastSimple": "fought",
+        "participle": "fought",
+        "translation": "pelear, luchar"
+    },
+    {
+        "infinitive": "fly",
+        "pastSimple": "flew",
+        "participle": "flown",
+        "translation": "volar"
+    },
+    {
+        "infinitive": "forbid",
+        "pastSimple": "forbade",
+        "participle": "forbidden",
+        "translation": "prohibir"
+    },
+    {
+        "infinitive": "forget",
+        "pastSimple": "forgot",
+        "participle": "forgotten",
+        "translation": "olvidar"
+    },
+    {
+        "infinitive": "forgive",
+        "pastSimple": "forgave",
+        "participle": "forgiven",
+        "translation": "perdonar"
+    },
+    {
+        "infinitive": "freeze",
+        "pastSimple": "froze",
+        "participle": "frozen",
+        "translation": "congelar"
+    },
+    {
+        "infinitive": "grind",
+        "pastSimple": "ground",
+        "participle": "ground",
+        "translation": "moler"
+    },
+    {
+        "infinitive": "grow",
+        "pastSimple": "grew",
+        "participle": "grown",
+        "translation": "crecer"
+    },
+    {
+        "infinitive": "hang",
+        "pastSimple": "hung",
+        "participle": "hung",
+        "translation": "colgar"
+    },
+    {
+        "infinitive": "hide",
+        "pastSimple": "hid",
+        "participle": "hidden",
+        "translation": "esconder"
+    },
+    {
+        "infinitive": "hit",
+        "pastSimple": "hit",
+        "participle": "hit",
+        "translation": "golpear"
+    },
+    {
+        "infinitive": "hurt",
+        "pastSimple": "hurt",
+        "participle": "hurt",
+        "translation": "herir, doler"
+    },
+    {
+        "infinitive": "let",
+        "pastSimple": "let",
+        "participle": "let",
+        "translation": "permitir, dejar"
+    },
+    {
+        "infinitive": "lie",
+        "pastSimple": "lay",
+        "participle": "lain",
+        "translation": "yacer, tumbarse"
+    },
+    {
+        "infinitive": "light",
+        "pastSimple": "lit",
+        "participle": "lit",
+        "translation": "encender"
+    },
+    {
+        "infinitive": "lose",
+        "pastSimple": "lost",
+        "participle": "lost",
+        "translation": "perder"
+    },
+    {
+        "infinitive": "prove",
+        "pastSimple": "proved",
+        "participle": "proven/proved",
+        "translation": "probar, demostrar"
+    },
+    {
+        "infinitive": "ride",
+        "pastSimple": "rode",
+        "participle": "ridden",
+        "translation": "montar, cabalgar"
+    },
+    {
+        "infinitive": "ring",
+        "pastSimple": "rang",
+        "participle": "rung",
+        "translation": "sonar, llamar por teléfono"
+    },
+    {
+        "infinitive": "seek",
+        "pastSimple": "sought",
+        "participle": "sought",
+        "translation": "buscar, procurar"
+    },
+    {
+        "infinitive": "shake",
+        "pastSimple": "shook",
+        "participle": "shaken",
+        "translation": "sacudir, agitar"
+    },
+    {
+        "infinitive": "shine",
+        "pastSimple": "shone",
+        "participle": "shone",
+        "translation": "brillar"
+    },
+    {
+        "infinitive": "sing",
+        "pastSimple": "sang",
+        "participle": "sung",
+        "translation": "cantar"
+    },
+    {
+        "infinitive": "sink",
+        "pastSimple": "sank",
+        "participle": "sunk",
+        "translation": "hundir, sumergirse"
+    },
+    {
+        "infinitive": "sit",
+        "pastSimple": "sat",
+        "participle": "sat",
+        "translation": "sentarse"
+    },
+    {
+        "infinitive": "sleep",
+        "pastSimple": "slept",
+        "participle": "slept",
+        "translation": "dormir"
+    },
+    {
+        "infinitive": "slide",
+        "pastSimple": "slid",
+        "participle": "slid",
+        "translation": "deslizar"
+    },
+    {
+        "infinitive": "smell",
+        "pastSimple": "smelt/smelled",
+        "participle": "smelt/smelled",
+        "translation": "oler"
+    },
+    {
+        "infinitive": "spend",
+        "pastSimple": "spent",
+        "participle": "spent",
+        "translation": "gastar, pasar tiempo"
+    },
+    {
+        "infinitive": "spin",
+        "pastSimple": "spun",
+        "participle": "spun",
+        "translation": "girar, hilar"
+    },
+    {
+        "infinitive": "spread",
+        "pastSimple": "spread",
+        "participle": "spread",
+        "translation": "esparcir, difundir"
+    },
+    {
+        "infinitive": "stand",
+        "pastSimple": "stood",
+        "participle": "stood",
+        "translation": "estar de pie, pararse"
+    },
+    {
+        "infinitive": "steal",
+        "pastSimple": "stole",
+        "participle": "stolen",
+        "translation": "robar"
+    },
+    {
+        "infinitive": "stick",
+        "pastSimple": "stuck",
+        "participle": "stuck",
+        "translation": "pegar, atascarse"
+    },
+    {
+        "infinitive": "swim",
+        "pastSimple": "swam",
+        "participle": "swum",
+        "translation": "nadar"
+    },
+    {
+        "infinitive": "swear",
+        "pastSimple": "swore",
+        "participle": "sworn",
+        "translation": "jurar, prometer"
+    },
+    {
+        "infinitive": "sweep",
+        "pastSimple": "swept",
+        "participle": "swept",
+        "translation": "barrer"
+    },
+    {
+        "infinitive": "swell",
+        "pastSimple": "swelled",
+        "participle": "swollen",
+        "translation": "hincharse"
+    },
+    {
+        "infinitive": "tear",
+        "pastSimple": "tore",
+        "participle": "torn",
+        "translation": "rasgar"
+    },
+    {
+        "infinitive": "wake",
+        "pastSimple": "woke",
+        "participle": "woken",
+        "translation": "despertar"
+    },
+    {
+        "infinitive": "win",
+        "pastSimple": "won",
+        "participle": "won",
+        "translation": "ganar"
+    },
+    {
+        "infinitive": "wind",
+        "pastSimple": "wound",
+        "participle": "wound",
+        "translation": "enrollar"
+    }
+]
+

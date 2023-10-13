@@ -1,14 +1,15 @@
-<router-outlet></router-outlet>
-<div class="container py-5">
+
+<div class="container pt-2">
   <div class="row">
     <div class="col-12">
       <h1 class="text-center">Easy English</h1>
+      <hr />
     </div>
   </div>
-  <div class="row py-5">
-    <div class="col-lg-6 d-grid py-2" *ngFor="let option of options">
+  <div class="row">
+    <div class="col-md-2 d-grid py-2" *ngFor="let option of options">
       <button
-        class="btn btn-lg"
+        class="btn btn-sm"
         [ngStyle]="{'background-color': option.bgcolor, 'color': option.txtcolor}"
         [routerLink]="[ option.route ]"
       >
@@ -18,6 +19,7 @@
     </div>
   </div>
   <hr />
+  <!--
   <div class="row py-5">
     <div class="col-lg-6">
       <iframe
@@ -40,8 +42,9 @@
       ></iframe>
     </div>
   </div>
+  -->
 </div>
-
+<router-outlet></router-outlet>
 <button class="btn btn-info btn-back" routerLink="/helloworld">
   <i class="fa fa-backward"></i>
   BACK

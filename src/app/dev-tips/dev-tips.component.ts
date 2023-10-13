@@ -95,6 +95,13 @@ export class DevTipsComponent implements OnInit {
       type: 'VIDEO',
       url: 'https://www.youtube.com/embed/xTLbG3_Rs_w',
       creationDate: new Date('2023-09-25')
+    },
+    {
+      title: 'Clean code in js',
+      description: 'Código limpio en js',
+      type: 'VIDEO',
+      url: 'https://www.youtube.com/embed/-d-jrxy6YbE',
+      creationDate: new Date('2023-09-25')
     }
   ];
   constructor(public sanitizer: DomSanitizer) {}

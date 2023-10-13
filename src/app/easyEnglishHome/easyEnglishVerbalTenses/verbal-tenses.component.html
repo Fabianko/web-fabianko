@@ -1,5 +1,219 @@
-<div class="container p-2">
-  <img src="assets/img/TIEMPOSVERBALESENINGLES.png" alt="" />
+<div class="row text-center">
+  <h2>Verbal Tenses</h2>
+
+  <!-- Podrías agregar controles para cambiar el 'indice', por ejemplo: -->
+  <div class="row mt-4">
+    <div class="col-md-4 text-right">
+      <button
+        class="btn btn-primary"
+        (click)="indice = 0"
+        [disabled]="indice === 0"
+      >
+        Example regular
+      </button>
+    </div>
+    <div class="col-md-4 text-right">
+      <button
+        class="btn btn-primary"
+        (click)="indice = 1"
+        [disabled]="indice === 1"
+      >
+        Example irregular
+      </button>
+    </div>
+    <div class="col-md-4 text-left">
+      <button
+        class="btn btn-primary"
+        (click)="indice = 2"
+        [disabled]="indice === 2"
+      >
+        Example regular 2
+      </button>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="row text-center">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="alert alert-primary">Simple</div>
+    </div>
+    <div class="col-md-4">
+      <div class="alert alert-primary">Continuos</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alert alert-primary">Present (35% / 7%)</div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['present-simple-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['present-simple-en']"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['present-continuous-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['present-continuous-en']"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alert alert-primary">Past (25% / 4%)</div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['past-simple-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['past-simple-en']"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['past-continuous-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['past-continuous-en']"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alert alert-primary">Future (10% / 1%)</div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['future-simple-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['future-simple-en']"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-warning"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['future-continuous-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['future-continuous-en']"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alert alert-primary">Present Perfect (10% / 1%)</div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['present-perfect-simple-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['present-perfect-simple-en']"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-warning"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['present-perfect-continuous-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['present-perfect-continuous-en']"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alert alert-primary">Past Perfect (5% / <1%)</div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['past-perfect-simple-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['past-perfect-simple-en']"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-danger"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['past-perfect-continuous-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['past-perfect-continuous-en']"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alert alert-primary">Future Perfect (1% / <1%)</div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-warning"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['future-perfect-simple-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['future-perfect-simple-en']"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="alert alert-danger"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ examples[indice]['future-perfect-continuous-es'] }}"
+      >
+        <div [innerHTML]="examples[indice]['future-perfect-continuous-en']"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row text-center">
+  <div class="col-md-3">
+    <div class="alert alert-light"><span class="span-inf">infinitive</span></div>
+  </div>
+  <div class="col-md-3">
+    <div class="alert alert-light"><span class="span-past">past simple</span></div>
+  </div>
+  <div class="col-md-3">
+    <div class="alert alert-light"><span class="span-part">participle</span></div>
+  </div>
+  <div class="col-md-3">
+    <div class="alert alert-light"><span class="span-ing">continuous</span></div>
+  </div >
 </div>
 <div class="container p-2">
   <div class="row">
@@ -8,7 +222,7 @@
     <div class="col-lg-6">
       <iframe
         src="https://www.youtube.com/embed/IpZ_PWcm3Zc"
-        height="400"
+        height="200"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -18,7 +232,7 @@
     <div class="col-lg-6">
       <iframe
         src="https://www.youtube.com/embed/QAPTlvLxF2Y"
-        height="400"
+        height="200"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
