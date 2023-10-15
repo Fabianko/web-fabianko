@@ -37,6 +37,7 @@ import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs
 import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.component';
 import { DevTipsComponent } from './dev-tips/dev-tips.component';
 import { LocalTodolistComponent } from './local-todolist/local-todolist.component';
+import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregular-verbs.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { LocalTodolistComponent } from './local-todolist/local-todolist.componen
     ReadNewsComponent,
     DevTipsComponent,
     LocalTodolistComponent,
-    ItemComponent
+    ItemComponent,
+    irregularVerbsComponent
 
   ],
   imports: [

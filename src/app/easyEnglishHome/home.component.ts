@@ -42,6 +42,13 @@ export class EeHomeComponent implements OnInit {
       bgcolor: '#3f37c9',
       txtcolor: '#ffffff',
     },
+    {
+      name: 'Irregular verbs',
+      route: './irregularVerbs',
+      faicon: 'fa fa-sort-alpha-asc',
+      bgcolor: '#4361ee',
+      txtcolor: '#ffffff',
+    },
   ];
   constructor() {}
 

@@ -15,6 +15,7 @@ import { PhrasalVerbsComponent } from './easyEnglishHome/easyEnglishPhrasalVerbs
 import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.component';
 import { DevTipsComponent } from './dev-tips/dev-tips.component';
 import { LocalTodolistComponent } from './local-todolist/local-todolist.component';
+import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregular-verbs.component';
 
 const routes: Routes = [
   { path: '',
@@ -36,6 +37,7 @@ const routes: Routes = [
       { path: 'conditionalSentences', component: ConditionalSentencesComponent},
       { path: 'phrasalVerbs', component: PhrasalVerbsComponent},
       { path: 'readNews', component: ReadNewsComponent},
+      { path: 'irregularVerbs', component: irregularVerbsComponent},
 
     ]
   },

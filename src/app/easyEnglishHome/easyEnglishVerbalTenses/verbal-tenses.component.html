@@ -5,7 +5,7 @@
   <div class="row mt-4">
     <div class="col-md-4 text-right">
       <button
-        class="btn btn-primary"
+        class="btn btn-info"
         (click)="indice = 0"
         [disabled]="indice === 0"
       >
@@ -14,7 +14,7 @@
     </div>
     <div class="col-md-4 text-right">
       <button
-        class="btn btn-primary"
+        class="btn btn-info"
         (click)="indice = 1"
         [disabled]="indice === 1"
       >
@@ -23,7 +23,7 @@
     </div>
     <div class="col-md-4 text-left">
       <button
-        class="btn btn-primary"
+        class="btn btn-info"
         (click)="indice = 2"
         [disabled]="indice === 2"
       >
@@ -201,7 +201,7 @@
     </div>
   </div>
 </div>
-<div class="row text-center">
+<div class="row text-center" *ngIf="indice !==0">
   <div class="col-md-3">
     <div class="alert alert-light"><span class="span-inf">infinitive</span></div>
   </div>
