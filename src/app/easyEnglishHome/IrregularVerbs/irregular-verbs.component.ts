@@ -9,6 +9,7 @@ import * as meet from '../../../assets/api/tips/irregular-verbs-meetings.json';
 export class irregularVerbsComponent implements OnInit {
   verbs = [ ]
   index = 0
+  optionSelected = 'tech'
   
   constructor() {}
 
@@ -19,8 +20,10 @@ export class irregularVerbsComponent implements OnInit {
     this.verbs = []
     if (option == 'tech') {
       this.verbs = tech
+      this.optionSelected = 'tech'
     } else if (option == 'meet') {
       this.verbs = meet
+      this.optionSelected = 'meet'
     }
   }
   randomIndex() {

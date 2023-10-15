@@ -6,10 +6,10 @@
 <hr>
 <div class="row text-center">
   <div class="col-2">
-    <button class="btn btn-info btn-sm" (click)="select('tech')">in tech</button>
+    <button class="btn btn-info btn-sm" (click)="select('tech')" [disabled]="optionSelected == 'tech'">in tech</button>
   </div>
   <div class="col-2">
-    <button class="btn btn-info btn-sm" (click)="select('meet')">in meetings</button>
+    <button class="btn btn-info btn-sm" (click)="select('meet')" [disabled]="optionSelected == 'meet'">in meetings</button>
   </div>
 </div>
 <hr>
