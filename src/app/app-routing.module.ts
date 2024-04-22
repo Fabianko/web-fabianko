@@ -16,6 +16,7 @@ import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.componen
 import { DevTipsComponent } from './dev-tips/dev-tips.component';
 import { LocalTodolistComponent } from './local-todolist/local-todolist.component';
 import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregular-verbs.component';
+import { LinktreeComponent } from './linktree/linktree.component';
 
 const routes: Routes = [
   { path: '',
@@ -24,6 +25,7 @@ const routes: Routes = [
   },
   { path: 'web-bd', component: WebBdComponent},
   { path: 'helloworld', component: NewHomeComponent},
+  { path: 'linktree', component: LinktreeComponent},
   { path: 'news', component: HeaderComponent},
   { path: 'cv', component: CvEspComponent},
   { path: '2048', component: GameComponent},

@@ -38,6 +38,7 @@ import { ReadNewsComponent } from './easyEnglishHome/readNews/read-news.componen
 import { DevTipsComponent } from './dev-tips/dev-tips.component';
 import { LocalTodolistComponent } from './local-todolist/local-todolist.component';
 import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregular-verbs.component';
+import { LinktreeComponent } from './linktree/linktree.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregu
     DevTipsComponent,
     LocalTodolistComponent,
     ItemComponent,
-    irregularVerbsComponent
+    irregularVerbsComponent,
+    LinktreeComponent
 
   ],
   imports: [

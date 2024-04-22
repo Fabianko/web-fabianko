@@ -65,7 +65,7 @@
       class="card clickable-image bg-home-card"
       (click)="onImageClick(project.to_link)"
     >
-      <img [src]="project.imageUrl" class="card-img fadeIn" alt="hola" />
+      <img [src]="project.imageUrl" class="card-img fadeIn" alt="{{project.name}} image" />
       <div class="card-img-overlay">
         <h5 class="card-title">{{ project.name }}</h5>
       </div>
