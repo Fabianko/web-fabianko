@@ -4,7 +4,7 @@
   <div class="row mt-4">
     <div class="col-md-3 text-right" *ngFor="let item of list_subjects">
       <button
-        class="btn btn-success"
+        class="btn btn-success-2"
         (click)="changeExample(item)"
         [disabled]="indice_s === item"
       >
@@ -15,7 +15,7 @@
   <div class="row mt-4">
     <div class="col-md-1 text-right" *ngFor="let item of list_examples; let i = index">
       <button
-        class="btn btn-info"
+        class="btn btn-success-3"
         (click)="indice = i"
         [disabled]="indice === i"
       >

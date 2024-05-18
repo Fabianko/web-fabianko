@@ -932,6 +932,21 @@ export class VerbalTensesComponent implements OnInit {
       }
       ]
   };
+  options_question  = {
+    "I" : [
+
+    ],
+    "You" : [
+        
+      ],
+    "He/She/It" : [
+        
+      ],
+    "We/They" : [
+        
+      ]
+
+  };
   examples = [
     
   ];
