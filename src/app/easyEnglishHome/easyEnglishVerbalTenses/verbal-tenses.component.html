@@ -1,7 +1,17 @@
 <div class="row text-center">
   <h2>Verbal Tenses</h2>
 
-  <!-- Podrías agregar controles para cambiar el 'indice', por ejemplo: -->
+  <div class="row mt-4">
+    <div class="col-md-3 text-right" *ngFor="let item of list_subjects">
+      <button
+        class="btn btn-success"
+        (click)="changeExample(item)"
+        [disabled]="indice_s === item"
+      >
+        {{ item }}
+      </button>
+    </div>
+  </div>
   <div class="row mt-4">
     <div class="col-md-1 text-right" *ngFor="let item of list_examples; let i = index">
       <button
@@ -12,8 +22,8 @@
         {{ item }}
       </button>
     </div>
-    
   </div>
+  
 </div>
 
 <hr />
