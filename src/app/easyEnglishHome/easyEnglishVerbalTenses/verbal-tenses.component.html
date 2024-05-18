@@ -3,33 +3,16 @@
 
   <!-- Podrías agregar controles para cambiar el 'indice', por ejemplo: -->
   <div class="row mt-4">
-    <div class="col-md-4 text-right">
+    <div class="col-md-1 text-right" *ngFor="let item of list_examples; let i = index">
       <button
         class="btn btn-info"
-        (click)="indice = 0"
-        [disabled]="indice === 0"
+        (click)="indice = i"
+        [disabled]="indice === i"
       >
-        Example regular
+        {{ item }}
       </button>
     </div>
-    <div class="col-md-4 text-right">
-      <button
-        class="btn btn-info"
-        (click)="indice = 1"
-        [disabled]="indice === 1"
-      >
-        Example irregular
-      </button>
-    </div>
-    <div class="col-md-4 text-left">
-      <button
-        class="btn btn-info"
-        (click)="indice = 2"
-        [disabled]="indice === 2"
-      >
-        Example regular 2
-      </button>
-    </div>
+    
   </div>
 </div>
 
