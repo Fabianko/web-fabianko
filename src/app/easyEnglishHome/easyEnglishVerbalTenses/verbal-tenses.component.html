@@ -12,6 +12,19 @@
       </button>
     </div>
   </div>
+
+  <div class="row mt-4">
+    <div class="col-md-4 text-right" *ngFor="let item of list_form; let i = index">
+      <button
+        class="btn btn-success-2"
+        (click)="changeForm(item)"
+        [disabled]="indice_f === item"
+      >
+        {{ item }}
+      </button>
+    </div>
+  </div>
+
   <div class="row mt-4">
     <div class="col-md-1 text-right" *ngFor="let item of list_examples; let i = index">
       <button
@@ -23,6 +36,7 @@
       </button>
     </div>
   </div>
+  
   
 </div>
 
