@@ -44,7 +44,7 @@
       >
     </h2>
     <div class="text-center my-3" *ngFor="let item of on_game_left">
-      <button class="btn btn-primary" (click)="select_option(item, 'left')">
+      <button class="btn btn-primary animate__animated animate__backInDown" (click)="select_option(item, 'left')">
         {{ item.en }}
       </button>
     </div>
@@ -56,8 +56,8 @@
         >{{ temp_right.en }} - {{ temp_right.es }}</span
       >
     </h2>
-    <div class="text-center my-3" *ngFor="let item of on_game_right">
-      <button class="btn btn-info" (click)="select_option(item, 'right')" >
+    <div class="text-center my-3" *ngFor="let item of on_game_right" >
+      <button class="btn btn-info animate__animated animate__backInDown" (click)="select_option(item, 'right')">
         {{ item.en }}
       </button>
     </div>
