@@ -49,6 +49,13 @@ export class EeHomeComponent implements OnInit {
       bgcolor: '#4361ee',
       txtcolor: '#ffffff',
     },
+    {
+      name: 'Antonyms',
+      route: './antonyms',
+      faicon: 'fa fa-sort-alpha-asc',
+      bgcolor: '#4895ef',
+      txtcolor: '#ffffff',
+    }
   ];
   constructor() {}
 

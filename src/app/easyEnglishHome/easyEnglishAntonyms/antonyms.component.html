@@ -1,0 +1,65 @@
+<div class="col-12">
+  <div class="row">
+    <h1>Anonyms</h1>
+    <div class="col-6 text-end">
+      <h2>
+        <span class="badge bg-light text-dark" *ngIf="max_score != undefined">
+          Score:{{ max_score }}</span
+        >
+      </h2>
+    </div>
+    <div class="col-6">
+      <h2>
+        <span class="badge bg-light text-dark" *ngIf="max_score_ever">
+          Historical score:{{ max_score_ever }}</span
+        >
+      </h2>
+    </div>
+    <p *ngIf="!win">
+      <strong>Description:</strong>
+      Antonyms are words that have opposite meanings. For example, good and bad
+      are antonyms. In this section, you will find a list of antonyms for the
+      words that you have learned in the previous sections.
+    </p>
+    <p *ngIf="win">
+      <strong>Congratulations!</strong> You have completed the antonyms section.
+      You can go back to the home page or try the next section.
+      <button class="btn btn-success" (click)="reload()">reload</button>
+    </p>
+  </div>
+</div>
+
+<div class="row text-center mb-5" *ngIf="!win">
+  <h3>
+    <span class="badge bg-light text-dark" *ngIf="correct_last"
+      >✅{{ correct_last }}</span
+    >
+  </h3>
+
+  <div class="col-6">
+    <h2>
+      Select 1
+      <span class="badge bg-primary text-white" *ngIf="temp_left"
+        >{{ temp_left.en }} - {{ temp_left.es }}</span
+      >
+    </h2>
+    <div class="text-center my-3" *ngFor="let item of on_game_left">
+      <button class="btn btn-primary" (click)="select_option(item, 'left')">
+        {{ item.en }}
+      </button>
+    </div>
+  </div>
+  <div class="col-6">
+    <h2>
+      Select 2
+      <span class="badge bg-info text-dark" *ngIf="temp_right"
+        >{{ temp_right.en }} - {{ temp_right.es }}</span
+      >
+    </h2>
+    <div class="text-center my-3" *ngFor="let item of on_game_right">
+      <button class="btn btn-info" (click)="select_option(item, 'right')" >
+        {{ item.en }}
+      </button>
+    </div>
+  </div>
+</div>
