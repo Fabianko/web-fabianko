@@ -1,0 +1,39 @@
+<div class="col-12">
+  <h1>Modal Verbs</h1>
+  <p>
+    Modal verbs are auxiliary verbs that express necessity, possibility,
+    permission, or ability. They are used to help the main verb.
+  </p>
+</div>
+<div class="row">
+  <div class="col-xl-6 p-5" *ngFor="let item of modalVerbs">
+    <div class="card">
+      <div class="card-header text-center">
+        <h3 class="text-info"><strong>{{ item.type }} <span class="text-primary">({{ item.typeEs }})</span></strong></h3>
+      </div>
+
+      <div class="card-body">
+        <div class="row" *ngFor="let ex of item.options">
+          <div class="col-12">
+            <h3>
+              <strong> 👉 {{ ex.modal }} </strong>
+            </h3>
+            <h4 class="text-center">
+              <span
+                class="badge bg-info text-dark"
+              >
+                {{ ex.example }} 
+              </span>
+              <span
+                class="badge bg-primary text-white ms-2"
+              >
+                {{ ex.exampleEs }}
+              </span>
+            </h4>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

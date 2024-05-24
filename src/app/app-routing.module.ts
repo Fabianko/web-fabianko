@@ -18,6 +18,7 @@ import { LocalTodolistComponent } from './local-todolist/local-todolist.componen
 import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregular-verbs.component';
 import { LinktreeComponent } from './linktree/linktree.component';
 import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonyms.component';
+import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
 
 const routes: Routes = [
   { path: '',
@@ -41,7 +42,8 @@ const routes: Routes = [
       { path: 'phrasalVerbs', component: PhrasalVerbsComponent},
       { path: 'readNews', component: ReadNewsComponent},
       { path: 'irregularVerbs', component: irregularVerbsComponent},
-      { path: 'antonyms', component: AntonymsComponent}
+      { path: 'antonyms', component: AntonymsComponent},
+      { path: 'modalVerbs', component: ModalVerbsComponent}
 
     ]
   },

@@ -40,6 +40,7 @@ import { LocalTodolistComponent } from './local-todolist/local-todolist.componen
 import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregular-verbs.component';
 import { LinktreeComponent } from './linktree/linktree.component';
 import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonyms.component';
+import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonym
     ItemComponent,
     irregularVerbsComponent,
     LinktreeComponent,
-    AntonymsComponent
+    AntonymsComponent,
+    ModalVerbsComponent
 
   ],
   imports: [

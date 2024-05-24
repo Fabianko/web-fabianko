@@ -54,8 +54,15 @@ export class EeHomeComponent implements OnInit {
       route: './antonyms',
       faicon: 'fa fa-sort-alpha-asc',
       bgcolor: '#4895ef',
-      txtcolor: '#ffffff',
-    }
+      txtcolor: '#560bad',
+    },
+    {
+      name: 'Modal verbs',
+      route: './modalVerbs',
+      faicon: 'fa fa-sort-alpha-asc',
+      bgcolor: '#4cc9f0',
+      txtcolor: '#7209b7',
+    },
   ];
   constructor() {}
 
