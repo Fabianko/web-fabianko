@@ -29,7 +29,7 @@
         </th>
       </thead>
       <tbody>
-        <tr >
+        <tr>
           <td scope="col">
             <h5>Present simple</h5>
             <p>I have experience in web development.</p>
@@ -78,7 +78,9 @@
           </td>
           <td scope="col">
             <h5>Past perfect continuous</h5>
-            <p>She mentioned that she had been studying English for two years.</p>
+            <p>
+              She mentioned that she had been studying English for two years.
+            </p>
           </td>
         </tr>
         <tr>
@@ -132,6 +134,76 @@
             <h5>Had to</h5>
             <p>They told me that they had to finish that by tomorrow.</p>
           </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <h3 class="text-center">Questions</h3>
+    <table class="table table-dark text-center table-striped mb-5">
+      <thead>
+        <th scope="col">
+          <h4>Direct speech</h4>
+        </th>
+        <th scope="col">
+          <h4>⏩</h4>
+        </th>
+        <th scope="col">
+          <h4>Reported speech</h4>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="col">
+            <h5>Wh-questions</h5>
+            <p>Where are you going?</p>
+          </td>
+          <td scope="col">
+            <h4>⏩</h4>
+          </td>
+          <td scope="col">
+            <h5>Wh-questions</h5>
+            <p>She asked me where I was going.</p>
+          </td>
+        </tr>
+        <tr>
+          <td scope="col">
+            <h5>Yes/No questions</h5>
+            <p>Do you like pizza?</p>
+          </td>
+          <td scope="col">
+            <h4>⏩</h4>
+          </td>
+          <td scope="col">
+            <h5>Yes/No questions</h5>
+            <p>He asked me if I liked pizza.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <h3 class="text-center">Reporting verbs</h3>
+    <p>
+      When reporting speech, we often use verbs like say, tell, ask, and
+      explain. Here are some common reporting verbs:
+    </p>
+    <table class="table table-dark text-center table-striped mb-5">
+      <thead>
+        <th>Verb</th>
+        <th>Example</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of listReportingVerbs">
+          <td>{{item.verb}} ({{item.verbEs}})</td>
+          <td>
+            <p class="m-0 text-primary">{{item.example}}</p>
+            <p class="m-0 text-info">{{item.exampleEs}}</p>
+        </td>
         </tr>
       </tbody>
     </table>
