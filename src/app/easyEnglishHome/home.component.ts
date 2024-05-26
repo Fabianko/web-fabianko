@@ -70,6 +70,13 @@ export class EeHomeComponent implements OnInit {
       bgcolor: '#6fffe9',
       txtcolor: '#7209b7',
     },
+    {
+      name: 'Reported speech',
+      route: './reportedSpeech',
+      faicon: 'fa fa-quote-right',
+      bgcolor: '#83f9b8',
+      txtcolor: '#7209b7',
+    },
   ];
   constructor() {}
 

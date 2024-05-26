@@ -20,6 +20,7 @@ import { LinktreeComponent } from './linktree/linktree.component';
 import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonyms.component';
 import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
 import { QuestionsComponent } from './easyEnglishHome/questions/questions.component';
+import { ReportedSpeechComponent } from './easyEnglishHome/reportedSpeech/reported-speech.component';
 
 const routes: Routes = [
   { path: '',
@@ -46,6 +47,7 @@ const routes: Routes = [
       { path: 'antonyms', component: AntonymsComponent},
       { path: 'modalVerbs', component: ModalVerbsComponent},
       { path: 'questions', component: QuestionsComponent},
+      { path: 'reportedSpeech', component: ReportedSpeechComponent}
     ]
   },
   { path: 'dev-tips', component: DevTipsComponent },

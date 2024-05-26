@@ -42,6 +42,7 @@ import { LinktreeComponent } from './linktree/linktree.component';
 import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonyms.component';
 import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
 import { QuestionsComponent } from './easyEnglishHome/questions/questions.component';
+import { ReportedSpeechComponent } from './easyEnglishHome/reportedSpeech/reported-speech.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +83,8 @@ import { QuestionsComponent } from './easyEnglishHome/questions/questions.compon
     LinktreeComponent,
     AntonymsComponent,
     ModalVerbsComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    ReportedSpeechComponent
 
   ],
   imports: [
