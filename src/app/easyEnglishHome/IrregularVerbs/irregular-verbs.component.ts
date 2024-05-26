@@ -7,6 +7,7 @@ import * as meet from '../../../assets/api/tips/irregular-verbs-meetings.json';
   styleUrls: ['./irregular-verbs.component.less'],
 })
 export class irregularVerbsComponent implements OnInit {
+  learned = []
   verbs = [ ]
   index = 0
   optionSelected = 'tech'
@@ -15,6 +16,11 @@ export class irregularVerbsComponent implements OnInit {
 
   ngOnInit() {
     this.select('tech')
+    this.learned = localStorage.getItem('verbsLearned') ? JSON.parse(localStorage.getItem('verbsLearned')) : [];
+  }
+  addLearned() {
+    this.learned.push(this.verbs[this.index])
+    localStorage.setItem('verbsLearned', JSON.stringify(this.learned))
   }
   select(option: string) {
     this.verbs = []
@@ -28,6 +34,9 @@ export class irregularVerbsComponent implements OnInit {
   }
   randomIndex() {
     this.index = Math.floor(Math.random() * this.verbs.length)
+    if (this.learned.includes(this.verbs[this.index])) {
+      this.randomIndex()
+    }
   }
  
 }

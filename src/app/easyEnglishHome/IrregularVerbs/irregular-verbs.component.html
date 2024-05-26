@@ -13,24 +13,28 @@
   </div>
 </div>
 <hr>
-<div class="row" *ngIf="verbs.length !==0">
-  <div class="col-2 text-end">
-    <button class="btn btn-success" (click)="randomIndex()">random</button>
+<div class="row mb-5" *ngIf="verbs.length !==0">
+
+  <div class="col-6 text-end mb-2">
+    <button class="btn btn-primary" (click)="randomIndex()">Next ({{verbs.length}})</button>
   </div>
-  <div class="col-3 text-end">
+  <div class="col-6 text-start mb-2">
+    <button class="btn btn-info" (click)="addLearned()">Learned ({{learned.length}})</button>
+  </div>
+  <div class="col-6 text-end">
     <div class="alert alert-light span-inf">Infinitive</div>
     <div class="alert alert-light span-past">Past Simple</div>
     <div class="alert alert-light span-part">Participle</div>
     <div class="alert alert-light span">Español</div>
   </div>
-  <div class="col-3 text-start">
+  <div class="col-6 text-start">
     <div class="alert alert-light span-inf">{{verbs[index].infinitive}}</div>
     <div class="alert alert-light span-past">{{verbs[index].pastSimple}}</div>
     <div class="alert alert-light span-part">{{verbs[index].participle}}</div>
     <div class="alert alert-light span">{{verbs[index].translation}}</div>
     
   </div>
-  <div class="col-2 text-start">
-    <button class="btn btn-success" (click)="randomIndex()">random</button>
-  </div>
+</div>
+<div class="my-5">
+  <hr>
 </div>
