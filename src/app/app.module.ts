@@ -41,6 +41,7 @@ import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregu
 import { LinktreeComponent } from './linktree/linktree.component';
 import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonyms.component';
 import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
+import { QuestionsComponent } from './easyEnglishHome/questions/questions.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.co
     irregularVerbsComponent,
     LinktreeComponent,
     AntonymsComponent,
-    ModalVerbsComponent
+    ModalVerbsComponent,
+    QuestionsComponent
 
   ],
   imports: [

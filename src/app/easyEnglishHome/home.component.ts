@@ -63,6 +63,13 @@ export class EeHomeComponent implements OnInit {
       bgcolor: '#4cc9f0',
       txtcolor: '#7209b7',
     },
+    {
+      name: 'Questions',
+      route: './questions',
+      faicon: 'fa fa-question-circle',
+      bgcolor: '#6fffe9',
+      txtcolor: '#7209b7',
+    },
   ];
   constructor() {}
 

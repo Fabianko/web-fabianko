@@ -19,6 +19,7 @@ import { irregularVerbsComponent } from './easyEnglishHome/IrregularVerbs/irregu
 import { LinktreeComponent } from './linktree/linktree.component';
 import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonyms.component';
 import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
+import { QuestionsComponent } from './easyEnglishHome/questions/questions.component';
 
 const routes: Routes = [
   { path: '',
@@ -43,8 +44,8 @@ const routes: Routes = [
       { path: 'readNews', component: ReadNewsComponent},
       { path: 'irregularVerbs', component: irregularVerbsComponent},
       { path: 'antonyms', component: AntonymsComponent},
-      { path: 'modalVerbs', component: ModalVerbsComponent}
-
+      { path: 'modalVerbs', component: ModalVerbsComponent},
+      { path: 'questions', component: QuestionsComponent},
     ]
   },
   { path: 'dev-tips', component: DevTipsComponent },

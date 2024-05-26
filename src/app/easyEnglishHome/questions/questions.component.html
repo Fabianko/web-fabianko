@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-12">
+        <h2>Questions</h2>
+    </div>
+</div>
+<div class="row">
+    <h3 class="text-center">H-questions</h3>
+    <hr>
+    <div class="col-4" *ngFor="let question of kindsOfQuestionsH">
+        <div class="card p-3 m-2">
+            <div class="card-header text-center">
+                <h4>{{ question.type }}</h4>
+            </div>
+            <div class="card-body">
+                <p> {{ question.description }}</p>
+                <p class="text-primary">Question: {{ question.example }}</p>
+                <p class="text-info">Answer: {{question.answer}}</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h3 class="text-center">Wh-questions</h3>
+    <hr>
+    <div class="col-4"  *ngFor="let question of kindsOfQuestionsWh">
+        <div class="card p-3 m-2">
+            <div class="card-header text-center">
+                <h4>{{ question.type }}</h4>
+            </div>
+            <div class="card-body">
+                <p> {{ question.description }}</p>
+                <p class="text-primary">Question: {{ question.example }}</p>
+                <p class="text-info">Answer: {{question.answer}}</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h3 class="text-center">Wh-questions</h3>
+    <hr>
+    <div class="col-4"  *ngFor="let question of kindsOfQuestionsYesNo">
+        <div class="card p-3 m-2">
+            <div class="card-header text-center">
+                <h4>{{ question.type }}</h4>
+            </div>
+            <div class="card-body">
+                <p> {{ question.description }}</p>
+                <p class="text-primary">Question: {{ question.example }}</p>
+                <p class="text-info">Answer: {{question.answer}}</p>
+            </div>
+
+        </div>
+    </div>
+</div>
