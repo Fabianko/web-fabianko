@@ -35,7 +35,7 @@ export class irregularVerbsComponent implements OnInit {
     }
     this.verbs = this.verbs.filter((verb) => {
       return !this.learned.includes(verb)
-    }
+    })
       
   }
   randomIndex() {
