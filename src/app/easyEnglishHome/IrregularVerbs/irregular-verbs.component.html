@@ -15,23 +15,23 @@
 <hr>
 <div class="row mb-5" *ngIf="verbs.length !==0">
 
-  <div class="col-6 text-end mb-2">
-    <button class="btn btn-primary" (click)="randomIndex()">Next ({{verbs.length}})</button>
+  <div class="col-6 text-end d-grid">
+    <button class="btn btn-outline-primary m-1" (click)="randomIndex()">Next ({{verbs.length}})</button>
   </div>
-  <div class="col-6 text-start mb-2">
-    <button class="btn btn-info" (click)="addLearned()">Learned ({{learned.length}})</button>
+  <div class="col-6 text-start d-grid">
+    <button class="btn btn-outline-info m-1" (click)="addLearned()">Learned ({{learned.length}})</button>
   </div>
   <div class="col-6 text-end">
-    <div class="alert alert-light span-inf">Infinitive</div>
-    <div class="alert alert-light span-past">Past Simple</div>
-    <div class="alert alert-light span-part">Participle</div>
-    <div class="alert alert-light span">Español</div>
+    <div class="alert alert-light span-inf m-1 p-2">Infinitive</div>
+    <div class="alert alert-light span-past m-1 p-2">Past Simple</div>
+    <div class="alert alert-light span-part m-1 p-2">Participle</div>
+    <div class="alert alert-light span m-1 p-2">Español</div>
   </div>
   <div class="col-6 text-start">
-    <div class="alert alert-light span-inf">{{verbs[index].infinitive}}</div>
-    <div class="alert alert-light span-past">{{verbs[index].pastSimple}}</div>
-    <div class="alert alert-light span-part">{{verbs[index].participle}}</div>
-    <div class="alert alert-light span">{{verbs[index].translation}}</div>
+    <div class="alert alert-light span-inf m-1 p-2">{{verbs[index].infinitive}}</div>
+    <div class="alert alert-light span-past m-1 p-2">{{verbs[index].pastSimple}}</div>
+    <div class="alert alert-light span-part m-1 p-2">{{verbs[index].participle}}</div>
+    <div class="alert alert-light span m-1 p-2">{{verbs[index].translation}}</div>
     
   </div>
 </div>

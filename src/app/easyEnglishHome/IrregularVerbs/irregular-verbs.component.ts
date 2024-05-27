@@ -15,8 +15,10 @@ export class irregularVerbsComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
+    
     this.select('tech')
     this.learned = localStorage.getItem('verbsLearned') ? JSON.parse(localStorage.getItem('verbsLearned')) : [];
+    this.randomIndex()
   }
   addLearned() {
     this.learned.push(this.verbs[this.index])
