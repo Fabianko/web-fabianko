@@ -33,6 +33,10 @@ export class irregularVerbsComponent implements OnInit {
       this.verbs = meet
       this.optionSelected = 'meet'
     }
+    this.verbs = this.verbs.filter((verb) => {
+      return !this.learned.includes(verb)
+    }
+      
   }
   randomIndex() {
     this.index = Math.floor(Math.random() * this.verbs.length)
