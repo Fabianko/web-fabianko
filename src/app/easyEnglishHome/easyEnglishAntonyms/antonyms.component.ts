@@ -490,7 +490,27 @@ export class AntonymsComponent implements OnInit {
     [{"es":"Temporal","en":"Temporary"}, {"es":"Permanente","en":"Permanent"}],
     [{"es":"Transparente","en":"Transparent"}, {"es":"Opaco","en":"Opaque"}],
     [{"es":"Útil","en":"Useful"}, {"es":"Inútil","en":"Useless"}],
-   [{"es":"Visible","en":"Visible"}, {"es":"Invisible","en":"Invisible"}]
+   [{"es":"Visible","en":"Visible"}, {"es":"Invisible","en":"Invisible"}],
+   [{"es":"Volátil","en":"Volatile"}, {"es":"Estable","en":"Stable"}],
+   [{"es":"Web","en":"Web"}, {"es":"Escritorio","en":"Desktop"}],
+   [{"es":"Aclarar","en":"Clarify"}, {"es":"Confundir","en":"Confuse"}],
+   [{"es":"Amar","en":"Love"}, {"es":"Odiar","en":"Hate"}],
+   [{"es":"Amplio","en":"Broad"}, {"es":"Estrecho","en":"Narrow"}],
+   [{"es":"Ancho","en":"Wide"}, {"es":"Estrecho","en":"Narrow"}],
+   [{"es":"Aparecer","en":"Appear"}, {"es":"Desaparecer","en":"Disappear"}],
+   [{"es":"Apoyar","en":"Support"}, {"es":"Oponerse","en":"Oppose"}],
+   [{"es":"Aprobar","en":"Approve"}, {"es":"Desaprobar","en":"Disapprove"}],
+   [{"es":"Arriba","en":"Up"}, {"es":"Abajo","en":"Down"}],
+   [{"es":"Atacar","en":"Attack"}, {"es":"Defender","en":"Defend"}],
+   [{"es":"Aumentar","en":"Increase"}, {"es":"Disminuir","en":"Decrease"}],
+   [{"es":"Bajar","en":"Go down"}, {"es":"Subir","en":"Go up"}],
+   [{"es":"Bendecir","en":"Bless"}, {"es":"Maldecir","en":"Curse"}],
+   [{"es":"Borrar","en":"Erase"}, {"es":"Escribir","en":"Write"}],
+   [{"es":"Brillar","en":"Shine"}, {"es":"Ocultar","en":"Hide"}],
+   [{"es":"Cargar","en":"Load"}, {"es":"Descargar","en":"Unload"}],
+   [{"es":"Cauteloso","en":"Cautious"}, {"es":"Descuidado","en":"Careless"}],
+   [{"es":"Cerrar","en":"Close"}, {"es":"Abrir","en":"Open"}],
+   [{"es":"Citar","en":"Quote"}, {"es":"Omitir","en":"Omit"}]
 ];
 
 
