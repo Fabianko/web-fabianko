@@ -8,7 +8,7 @@ import * as meet from '../../../assets/api/tips/irregular-verbs-meetings.json';
 })
 export class irregularVerbsComponent implements OnInit {
   learned = []
-  verbs = [ ]
+  verbs:VerbDTO[]  = [ ]
   index = 0
   optionSelected = 'tech'
   
@@ -33,9 +33,15 @@ export class irregularVerbsComponent implements OnInit {
       this.verbs = meet
       this.optionSelected = 'meet'
     }
-    this.verbs = this.verbs.filter((verb) => {
-      return !this.learned.includes(verb)
-    })
+    for (let i = 0; i < this.learned.length; i++) {
+      for (let j = 0; j < this.verbs.length; j++) {
+        if (this.learned[i].infinitive == this.verbs[j].infinitive) {
+          this.verbs.splice(j, 1)
+        }
+      }
+    }
+    
+    this.randomIndex()
       
   }
   randomIndex() {
@@ -45,4 +51,10 @@ export class irregularVerbsComponent implements OnInit {
     }
   }
  
+}
+export class VerbDTO {
+  infinitive: string
+  participle: string
+  pastSimple: string
+  translation: string
 }
