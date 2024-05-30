@@ -21,6 +21,7 @@ import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonym
 import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
 import { QuestionsComponent } from './easyEnglishHome/questions/questions.component';
 import { ReportedSpeechComponent } from './easyEnglishHome/reportedSpeech/reported-speech.component';
+import { InterviewComponent } from './easyEnglishHome/interview/interview.component';
 
 const routes: Routes = [
   { path: '',
@@ -47,7 +48,8 @@ const routes: Routes = [
       { path: 'antonyms', component: AntonymsComponent},
       { path: 'modalVerbs', component: ModalVerbsComponent},
       { path: 'questions', component: QuestionsComponent},
-      { path: 'reportedSpeech', component: ReportedSpeechComponent}
+      { path: 'reportedSpeech', component: ReportedSpeechComponent},
+      { path: 'interview', component: InterviewComponent}
     ]
   },
   { path: 'dev-tips', component: DevTipsComponent },

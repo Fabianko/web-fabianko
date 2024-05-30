@@ -77,6 +77,13 @@ export class EeHomeComponent implements OnInit {
       bgcolor: '#83f9b8',
       txtcolor: '#7209b7',
     },
+    {
+      name: 'Interview',
+      route: './interview',
+      faicon: 'fa fa-quote-right',
+      bgcolor: '#b2f7ef',
+      txtcolor: '#7209b7',
+    },
   ];
   constructor() {}
 

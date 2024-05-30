@@ -43,6 +43,7 @@ import { AntonymsComponent } from './easyEnglishHome/easyEnglishAntonyms/antonym
 import { ModalVerbsComponent } from './easyEnglishHome/modalVerbs/modal-verbs.component';
 import { QuestionsComponent } from './easyEnglishHome/questions/questions.component';
 import { ReportedSpeechComponent } from './easyEnglishHome/reportedSpeech/reported-speech.component';
+import { InterviewComponent } from './easyEnglishHome/interview/interview.component';
 
 @NgModule({
   declarations: [
@@ -84,8 +85,8 @@ import { ReportedSpeechComponent } from './easyEnglishHome/reportedSpeech/report
     AntonymsComponent,
     ModalVerbsComponent,
     QuestionsComponent,
-    ReportedSpeechComponent
-
+    ReportedSpeechComponent,
+    InterviewComponent
   ],
   imports: [
     HttpClientModule,
